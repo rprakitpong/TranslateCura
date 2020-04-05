@@ -39,7 +39,7 @@ for ind in range(len(poFiles)):
     textsEN = [[]]
     currInd = 0
     currIndCharCount = 0
-    maxCharCount = 5000 # 15000 is limit, but we go a little under
+    maxCharCount = 12000 # 15000 is limit, but we go a little under
     print("Current EN text array: " + str(currInd))
     for entry in po:
         if currIndCharCount > maxCharCount:
