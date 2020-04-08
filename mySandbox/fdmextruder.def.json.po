@@ -1,0 +1,251 @@
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Uranium json setting files\n"
+"Report-Msgid-Bugs-To: r.dulek@ultimaker.com\n"
+"POT-Creation-Date: 2020-02-07 14:19+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: fdmextruder.def.json
+msgctxt "machine_settings label"
+msgid "Machine"
+msgstr "เครื่อง"
+
+#: fdmextruder.def.json
+msgctxt "machine_settings description"
+msgid "Machine specific settings"
+msgstr "การตั้งค่าเครื่องที่เฉพาะเจาะจง"
+
+#: fdmextruder.def.json
+msgctxt "extruder_nr label"
+msgid "Extruder"
+msgstr "extruder"
+
+#: fdmextruder.def.json
+msgctxt "extruder_nr description"
+msgid "The extruder train used for printing. This is used in multi-extrusion."
+msgstr "รถไฟอัดรีดใช้สำหรับการพิมพ์ นี้จะใช้ในหลายอัดขึ้นรูป"
+
+#: fdmextruder.def.json
+msgctxt "machine_nozzle_id label"
+msgid "Nozzle ID"
+msgstr "ID หัวฉีด"
+
+#: fdmextruder.def.json
+msgctxt "machine_nozzle_id description"
+msgid "The nozzle ID for an extruder train, such as \"AA 0.4\" and \"BB 0.8\"."
+msgstr "รหัสหัวฉีดสำหรับเครื่องอัดรีดรถไฟเช่น \"AA 0.4\" และ \"บีบี 0.8\""
+
+#: fdmextruder.def.json
+msgctxt "machine_nozzle_size label"
+msgid "Nozzle Diameter"
+msgstr "เส้นผ่านศูนย์กลางหัวฉีด"
+
+#: fdmextruder.def.json
+msgctxt "machine_nozzle_size description"
+msgid ""
+"The inner diameter of the nozzle. Change this setting when using a non-"
+"standard nozzle size."
+msgstr ""
+"เส้นผ่าศูนย์กลางด้านในของหัวฉีด "
+"เปลี่ยนการตั้งค่านี้เมื่อใช้ขนาดหัวฉีดที่ไม่ได้มาตรฐาน"
+
+#: fdmextruder.def.json
+msgctxt "machine_nozzle_offset_x label"
+msgid "Nozzle X Offset"
+msgstr "หัวฉีด X Offset"
+
+#: fdmextruder.def.json
+msgctxt "machine_nozzle_offset_x description"
+msgid "The x-coordinate of the offset of the nozzle."
+msgstr "พิกัด x ของ offset ของหัวฉีด"
+
+#: fdmextruder.def.json
+msgctxt "machine_nozzle_offset_y label"
+msgid "Nozzle Y Offset"
+msgstr "หัวฉีด Y Offset"
+
+#: fdmextruder.def.json
+msgctxt "machine_nozzle_offset_y description"
+msgid "The y-coordinate of the offset of the nozzle."
+msgstr "พิกัด y ของ offset ของหัวฉีด"
+
+#: fdmextruder.def.json
+msgctxt "machine_extruder_start_code label"
+msgid "Extruder Start G-Code"
+msgstr "Extruder เริ่มต้น G-Code"
+
+#: fdmextruder.def.json
+msgctxt "machine_extruder_start_code description"
+msgid "Start g-code to execute when switching to this extruder."
+msgstr "เริ่มต้นกรัมรหัสในการดำเนินการเมื่อเปลี่ยนเครื่องอัดรีดนี้"
+
+#: fdmextruder.def.json
+msgctxt "machine_extruder_start_pos_abs label"
+msgid "Extruder Start Position Absolute"
+msgstr "Extruder ตำแหน่งเริ่มต้นแอบโซลูท"
+
+#: fdmextruder.def.json
+msgctxt "machine_extruder_start_pos_abs description"
+msgid ""
+"Make the extruder starting position absolute rather than relative to the "
+"last-known location of the head."
+msgstr ""
+"ทำให้เครื่องอัดรีดตำแหน่งเริ่มต้นที่แน่นอนมากกว่าเมื่อเทียบกับตำแหน่งสุดท้ายที่รู้จักกันของหัว"
+
+#: fdmextruder.def.json
+msgctxt "machine_extruder_start_pos_x label"
+msgid "Extruder Start Position X"
+msgstr "Extruder ตำแหน่งเริ่มต้น X"
+
+#: fdmextruder.def.json
+msgctxt "machine_extruder_start_pos_x description"
+msgid ""
+"The x-coordinate of the starting position when turning the extruder on."
+msgstr "พิกัด x ของตำแหน่งเริ่มต้นเมื่อเปิดเครื่องอัดรีดบน"
+
+#: fdmextruder.def.json
+msgctxt "machine_extruder_start_pos_y label"
+msgid "Extruder Start Position Y"
+msgstr "Extruder ตำแหน่งเริ่มต้น Y"
+
+#: fdmextruder.def.json
+msgctxt "machine_extruder_start_pos_y description"
+msgid ""
+"The y-coordinate of the starting position when turning the extruder on."
+msgstr "พิกัด y ของตำแหน่งเริ่มต้นเมื่อเปิดเครื่องอัดรีดบน"
+
+#: fdmextruder.def.json
+msgctxt "machine_extruder_end_code label"
+msgid "Extruder End G-Code"
+msgstr "Extruder End G-Code"
+
+#: fdmextruder.def.json
+msgctxt "machine_extruder_end_code description"
+msgid "End g-code to execute when switching away from this extruder."
+msgstr "End กรัมรหัสที่จะดำเนินการเมื่อมีการสลับออกไปจากเครื่องอัดรีดนี้"
+
+#: fdmextruder.def.json
+msgctxt "machine_extruder_end_pos_abs label"
+msgid "Extruder End Position Absolute"
+msgstr "Extruder ตำแหน่ง End แอบโซลูท"
+
+#: fdmextruder.def.json
+msgctxt "machine_extruder_end_pos_abs description"
+msgid ""
+"Make the extruder ending position absolute rather than relative to the last-"
+"known location of the head."
+msgstr ""
+"ทำให้เครื่องอัดรีดสิ้นสุดตำแหน่งที่แน่นอนมากกว่าเมื่อเทียบกับตำแหน่งสุดท้ายที่รู้จักกันของหัว"
+
+#: fdmextruder.def.json
+msgctxt "machine_extruder_end_pos_x label"
+msgid "Extruder End Position X"
+msgstr "Extruder End ตำแหน่ง X"
+
+#: fdmextruder.def.json
+msgctxt "machine_extruder_end_pos_x description"
+msgid "The x-coordinate of the ending position when turning the extruder off."
+msgstr "พิกัด x ตำแหน่งสิ้นสุดเมื่อปิดเครื่องอัดรีด"
+
+#: fdmextruder.def.json
+msgctxt "machine_extruder_end_pos_y label"
+msgid "Extruder End Position Y"
+msgstr "Extruder End ตำแหน่ง Y"
+
+#: fdmextruder.def.json
+msgctxt "machine_extruder_end_pos_y description"
+msgid "The y-coordinate of the ending position when turning the extruder off."
+msgstr "พิกัด y ของตำแหน่งสิ้นสุดเมื่อปิดเครื่องอัดรีด"
+
+#: fdmextruder.def.json
+msgctxt "extruder_prime_pos_z label"
+msgid "Extruder Prime Z Position"
+msgstr "Extruder นายกรัฐมนตรี Z ตำแหน่ง"
+
+#: fdmextruder.def.json
+msgctxt "extruder_prime_pos_z description"
+msgid ""
+"The Z coordinate of the position where the nozzle primes at the start of "
+"printing."
+msgstr "ซีพิกัดของตำแหน่งที่หัวฉีดเฉพาะในช่วงเริ่มต้นของการพิมพ์"
+
+#: fdmextruder.def.json
+msgctxt "machine_extruder_cooling_fan_number label"
+msgid "Extruder Print Cooling Fan"
+msgstr "Extruder พิมพ์พัดลมระบายความร้อน"
+
+#: fdmextruder.def.json
+msgctxt "machine_extruder_cooling_fan_number description"
+msgid ""
+"The number of the print cooling fan associated with this extruder. Only "
+"change this from the default value of 0 when you have a different print "
+"cooling fan for each extruder."
+msgstr ""
+"จำนวนพิมพ์พัดลมระบายความร้อนที่เกี่ยวข้องกับเครื่องอัดรีดนี้ เพียง "
+"แต่เปลี่ยนจากค่าเริ่มต้นของ 0 "
+"เมื่อคุณมีการพิมพ์พัดลมระบายความร้อนที่แตกต่างกันสำหรับแต่ละเครื่องอัดรีด"
+
+#: fdmextruder.def.json
+msgctxt "platform_adhesion label"
+msgid "Build Plate Adhesion"
+msgstr "การยึดเกาะรูปร่างจาน"
+
+#: fdmextruder.def.json
+msgctxt "platform_adhesion description"
+msgid "Adhesion"
+msgstr "ความศรัทธา"
+
+#: fdmextruder.def.json
+msgctxt "extruder_prime_pos_x label"
+msgid "Extruder Prime X Position"
+msgstr "Extruder นายกรัฐมนตรี X ตำแหน่ง"
+
+#: fdmextruder.def.json
+msgctxt "extruder_prime_pos_x description"
+msgid ""
+"The X coordinate of the position where the nozzle primes at the start of "
+"printing."
+msgstr "เอ็กซ์พิกัดของตำแหน่งที่หัวฉีดเฉพาะในช่วงเริ่มต้นของการพิมพ์"
+
+#: fdmextruder.def.json
+msgctxt "extruder_prime_pos_y label"
+msgid "Extruder Prime Y Position"
+msgstr "Extruder นายกรัฐมนตรีตำแหน่ง Y"
+
+#: fdmextruder.def.json
+msgctxt "extruder_prime_pos_y description"
+msgid ""
+"The Y coordinate of the position where the nozzle primes at the start of "
+"printing."
+msgstr "พิกัด y ของตำแหน่งที่หัวฉีดเฉพาะในช่วงเริ่มต้นของการพิมพ์"
+
+#: fdmextruder.def.json
+msgctxt "material label"
+msgid "Material"
+msgstr "วัสดุ"
+
+#: fdmextruder.def.json
+msgctxt "material description"
+msgid "Material"
+msgstr "วัสดุ"
+
+#: fdmextruder.def.json
+msgctxt "material_diameter label"
+msgid "Diameter"
+msgstr "เส้นผ่าศูนย์กลาง"
+
+#: fdmextruder.def.json
+msgctxt "material_diameter description"
+msgid ""
+"Adjusts the diameter of the filament used. Match this value with the "
+"diameter of the used filament."
+msgstr ""
+"ปรับขนาดเส้นผ่าศูนย์กลางของเส้นใยที่ใช้ "
+"ตรงกับค่านี้มีขนาดเส้นผ่าศูนย์กลางของเส้นใยที่ใช้"
