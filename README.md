@@ -5,9 +5,9 @@ Contact rprakitpong@gmail.com for improvements or commments
 
 Please be nice :D
 
-# Getting Started
+## Getting Started
 
-## Tools required
+### Tools required
 * [Latest version of Python](https://www.python.org/downloads/)
   * Add it to PATH
 * [polib](https://pypi.org/project/polib/)
@@ -21,7 +21,7 @@ Please be nice :D
   * I recommend [Windscribe](https://windscribe.com) because it gives you multiple IPs for free
 * Optional: any modern IDE (VS Code is pretty good)
 
-## Steps
+### Steps
 1. Download translate.py and [the four files needed to be translated](https://github.com/Ultimaker/Cura/wiki/Translating-Cura):
   * Clone this repo to get translate.py and the 4 pot files (they're in cleanStarter)
   * Clone Cura and Uranium to get latest version of pot files
@@ -42,8 +42,7 @@ googletrans.LANGUAGES
 6. Repeat until everything is translated. Check po files periodically to check how far things are translated. You should verify and edit the translations as Google Translate isn't perfect.
 7. Submit your translations by pull request or emailing r.dulek@ultimaker.com. 
 
-# Limitations
+## Limitations
 * Will blindly translate XML tags (fixing manually is ok for now since there's only 29 of these in all 4 files)
 
-# TODO
-comment on code
+## TODO
