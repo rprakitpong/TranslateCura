@@ -19,7 +19,7 @@ Python script for automating Cura translation for free, using googletrans and po
 
 ## Steps
 Download translate.py and [the four files needed to be translated](https://github.com/Ultimaker/Cura/wiki/Translating-Cura):
-* Clone this repo to get translate.py and the 4 pot files
+* Clone this repo to get translate.py and the 4 pot files (they're in cleanStarter)
 * Clone Cura and Uranium to get latest version of pot files
 * Download [this](http://s000.tinyupload.com/index.php?file_id=46164836594148367166) if you don't want to use git
 
