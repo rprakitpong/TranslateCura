@@ -1,6 +1,8 @@
 # TranslateCura
 Python script for automating Cura translation for free, using googletrans and polib
+
 Contact rprakitpong@gmail.com for improvements or commments
+
 Please be nice :D
 
 # Getting Started
