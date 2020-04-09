@@ -23,7 +23,7 @@ for _file in files:
     else:
         if not os.path.exists(poFile):
             print(potFile + ' doesnt exist in directory. Please add it to the directory before continuing.')
-            input('Press any key to end.')
+            input('Press enter to end.')
             exit()
         else:
             print(poFile + ' already exist in directory.')
@@ -56,13 +56,14 @@ for _file in files:
 
     # create array of texts from po file, to do bulk translation
     textsEN = [[]]
-    maxLen = 50 
-        # i got maxLen from trial and error, so far I've tried:
+    maxLen = 40
+        # i got maxLen from trial and error, so far i've tried:
         # maxLen, # of arrays, total
         # 20, 15, 300 
         # 30, 11, 330
         # 40, 9, 360
-        # you can probably go higher and not get kicked
+        # 50, 7, 350
+        # 40 seems to be a good amount
     for entry in po:
         # if text is not already translated
         if entry.msgid not in enToDestLang:
@@ -87,14 +88,14 @@ for _file in files:
         print('Error with googletrans. Probably exceeded translation limit. Try again in a few days.')
         if len(enToDestLang) == 0:
             # nothing got translated, so just end program
-            input('Press any key to end.')
+            input('Press enter to end.')
             exit()
     except:
         # this is for some other error
         print('Some error with googletrans. Check internet?')
         if len(enToDestLang) == 0:
             # nothing got translated, so just end program
-            input('Press any key to end.')
+            input('Press enter to end.')
             exit()
     
     # save all translations so far
@@ -114,4 +115,4 @@ for _file in files:
     print('Saved as mo file.')
 
 # everything is translated. yay :D
-input('Press any key to end.')
+input('Press enter to end.')
