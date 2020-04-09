@@ -4,17 +4,17 @@ Python script for automating Cura translation for free, using googletrans and po
 # How to get started
 
 ## Tools required
-*[Latest version of Python](https://www.python.org/downloads/)
-* * Add it to PATH
+* [Latest version of Python](https://www.python.org/downloads/)
+  * Add it to PATH
 *[polib](https://pypi.org/project/polib/)
-* * You need to get Python before this
+  * You need to get Python before this
 *[googletrans](https://pypi.org/project/googletrans/)
-* * You need to get Python before this
+  * You need to get Python before this
 * po file editor of choice
 * git bash or Github Desktop
-* * If you don't want to use git, you can also get all starter files [here](http://s000.tinyupload.com/index.php?file_id=46164836594148367166) (last updated 2020/04/08)
+  * If you don't want to use git, you can also get all starter files [here](http://s000.tinyupload.com/index.php?file_id=46164836594148367166) (last updated 2020/04/08)
 * VPN
-* * I recommend [Windscribe](https://windscribe.com) because it gives you multiple IPs for free
+  * I recommend [Windscribe](https://windscribe.com) because it gives you multiple IPs for free
 * Optional: any modern IDE (VS Code is pretty good)
 
 ## Steps
