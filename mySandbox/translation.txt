@@ -18,3 +18,12 @@ machine manager,ผู้จัดการเครื่อง
 interface,อินเตอร์เฟซ
 engine,เอ็นจีน
 meta data,ข้อมูลเมตา
+infill,โครงใน
+Support Interface,ผิวนั่งร้านรอง
+profile,โปรไฟล์ 
+override,เขียนแทนเอง
+platform,แพลตฟอร์ม
+quality type,ประเภทคุณภาพ
+hot end,หัวร้อน
+heated bed,ฐานสร้างอุ่น
+orthographic,ออโธกราฟฟิค

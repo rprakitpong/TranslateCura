@@ -930,13 +930,14 @@ msgstr ""
 msgctxt "@info:backup_failed"
 msgid ""
 "Tried to restore a Cura backup that is higher than the current version."
-msgstr "พยายามที่จะเรียกคืนการสำรองข้อมูล Cura ที่สูงกว่ารุ่นปัจจุบัน"
+msgstr ""
+"ข้อมูล Cura สำรองที่พยายามที่จะเรียกคืนสูงกว่ารุ่นปัจจุบัน"
 
 #: /home/ruben/Projects/Cura/cura/UI/ObjectsModel.py:62
 #, python-brace-format
 msgctxt "@label"
 msgid "Group #{group_nr}"
-msgstr "กลุ่ม # {} group_nr"
+msgstr "กลุ่ม # {group_nr}"
 
 #: /home/ruben/Projects/Cura/cura/UI/AddPrinterPagesModel.py:17
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/MachinesPage.qml:48
@@ -988,22 +989,22 @@ msgstr "ผิว"
 #: /home/ruben/Projects/Cura/cura/UI/PrintInformation.py:84
 msgctxt "@tooltip"
 msgid "Infill"
-msgstr "infill"
+msgstr "โครง"
 
 #: /home/ruben/Projects/Cura/cura/UI/PrintInformation.py:85
 msgctxt "@tooltip"
 msgid "Support Infill"
-msgstr "สนับสนุน Infill"
+msgstr "นั่งร้านโครง"
 
 #: /home/ruben/Projects/Cura/cura/UI/PrintInformation.py:86
 msgctxt "@tooltip"
 msgid "Support Interface"
-msgstr "อินเตอร์เฟซการสนับสนุน"
+msgstr "ผิวนั่งร้านรอง"
 
 #: /home/ruben/Projects/Cura/cura/UI/PrintInformation.py:87
 msgctxt "@tooltip"
 msgid "Support"
-msgstr "สนับสนุน"
+msgstr "นั่งร้าน"
 
 #: /home/ruben/Projects/Cura/cura/UI/PrintInformation.py:88
 msgctxt "@tooltip"
@@ -1013,12 +1014,12 @@ msgstr "กระโปรง"
 #: /home/ruben/Projects/Cura/cura/UI/PrintInformation.py:89
 msgctxt "@tooltip"
 msgid "Prime Tower"
-msgstr "นายกรัฐมนตรีทาวเวอร์"
+msgstr "หอเตรียมหัวฉีด"
 
 #: /home/ruben/Projects/Cura/cura/UI/PrintInformation.py:90
 msgctxt "@tooltip"
 msgid "Travel"
-msgstr "การท่องเที่ยว"
+msgstr "การเดินทาง"
 
 #: /home/ruben/Projects/Cura/cura/UI/PrintInformation.py:91
 msgctxt "@tooltip"
@@ -1038,24 +1039,24 @@ msgstr "ต่อไป"
 #: /home/ruben/Projects/Cura/cura/MultiplyObjectsJob.py:29
 msgctxt "@info:status"
 msgid "Multiplying and placing objects"
-msgstr "การขยายตัวและการวางวัตถุ"
+msgstr "วางโมเดลเพิ่ม"
 
 #: /home/ruben/Projects/Cura/cura/MultiplyObjectsJob.py:30
 msgctxt "@info:title"
 msgid "Placing Objects"
-msgstr "วางวัตถุ"
+msgstr "วางโมเดล"
 
 #: /home/ruben/Projects/Cura/cura/MultiplyObjectsJob.py:108
 #: /home/ruben/Projects/Cura/cura/Arranging/ArrangeObjectsJob.py:103
 #: /home/ruben/Projects/Cura/cura/Arranging/ArrangeObjectsAllBuildPlatesJob.py:149
 msgctxt "@info:status"
 msgid "Unable to find a location within the build volume for all objects"
-msgstr "ไม่สามารถที่จะหาสถานที่สร้างสำหรับปริมาณวัตถุทั้งหมด"
+msgstr "ไม่สามารถที่จะหาปริมาณการสร้างพอสำหรับปริมาณโมเดลทั้งหมด"
 
 #: /home/ruben/Projects/Cura/cura/MultiplyObjectsJob.py:108
 msgctxt "@info:title"
 msgid "Placing Object"
-msgstr "วางวัตถุ"
+msgstr "วางโมเดล"
 
 #: /home/ruben/Projects/Cura/cura/Machines/Models/IntentTranslations.py:11
 #: /home/ruben/Projects/Cura/cura/Machines/Models/IntentCategoryModel.py:41
@@ -1068,7 +1069,7 @@ msgstr "ค่าเริ่มต้น"
 #: /home/ruben/Projects/Cura/cura/Machines/Models/IntentCategoryModel.py:44
 msgctxt "@label"
 msgid "Visual"
-msgstr "ภาพ"
+msgstr "ภาพงาม"
 
 #: /home/ruben/Projects/Cura/cura/Machines/Models/IntentTranslations.py:15
 #: /home/ruben/Projects/Cura/cura/Machines/Models/IntentCategoryModel.py:45
@@ -1077,7 +1078,7 @@ msgid ""
 "The visual profile is designed to print visual prototypes and models with "
 "the intent of high visual and surface quality."
 msgstr ""
-"รายละเอียดภาพถูกออกแบบมาเพื่อการพิมพ์ภาพและต้นแบบรุ่นที่มีความตั้งใจที่คุณภาพของภาพและพื้นผิวสูง"
+"โปรไฟล์ภาพงามถูกออกแบบมาเพื่อพิมพ์ต้นแบบออกมาดูสวยงาม ให้ผิวต้นแบบมีคุณภาพสูง"
 
 #: /home/ruben/Projects/Cura/cura/Machines/Models/IntentTranslations.py:18
 #: /home/ruben/Projects/Cura/cura/Machines/Models/IntentCategoryModel.py:48
@@ -1092,13 +1093,13 @@ msgid ""
 "The engineering profile is designed to print functional prototypes and end-"
 "use parts with the intent of better accuracy and for closer tolerances."
 msgstr ""
-"รายละเอียดทางวิศวกรรมถูกออกแบบมาเพื่อการพิมพ์ต้นแบบการทำงานและชิ้นส่วนสิ้นการใช้งานด้วยความตั้งใจที่ถูกต้องดีกว่าและความคลาดเคลื่อนใกล้ชิด"
+"โปรไฟล์วิศวกรรมถูกออกแบบมาเพื่อการพิมพ์ต้นแบบเพื่อการใช้งาน ให้ค่าความเบี่ยงเบนพื้นฐานของพิกัดความเผื่อน้อยที่สุด"
 
 #: /home/ruben/Projects/Cura/cura/Machines/Models/IntentTranslations.py:22
 #: /home/ruben/Projects/Cura/cura/Machines/Models/IntentCategoryModel.py:52
 msgctxt "@label"
 msgid "Draft"
-msgstr "ร่าง"
+msgstr "แบบร่าง"
 
 #: /home/ruben/Projects/Cura/cura/Machines/Models/IntentTranslations.py:23
 #: /home/ruben/Projects/Cura/cura/Machines/Models/IntentCategoryModel.py:53
@@ -1107,7 +1108,7 @@ msgid ""
 "The draft profile is designed to print initial prototypes and concept "
 "validation with the intent of significant print time reduction."
 msgstr ""
-"รายละเอียดร่างถูกออกแบบมาเพื่อการพิมพ์ต้นแบบเริ่มต้นและการตรวจสอบแนวความคิดที่มีความตั้งใจที่จะลดเวลาการพิมพ์อย่างมีนัยสำคัญ"
+"โปรไฟล์แบบร่างถูกออกแบบมาเพื่อการพิมพ์ต้นแบบเริ่มต้นและการตรวจสอบแนวความคิด ให้ลดเวลาการพิมพ์ลงให้มากที่สุด"
 
 #: /home/ruben/Projects/Cura/cura/Machines/Models/DiscoveredPrintersModel.py:85
 #: /home/ruben/Projects/Cura/cura/Machines/Models/IntentCategoryModel.py:104
@@ -1124,7 +1125,7 @@ msgctxt "@label"
 msgid ""
 "The printer(s) below cannot be connected because they are part of a group"
 msgstr ""
-"เครื่องพิมพ์ (s) ด้านล่างไม่สามารถเชื่อมต่อเพราะพวกเขาเป็นส่วนหนึ่งของกลุ่ม"
+"เครื่องพิมพ์ไม่สามารถเชื่อมต่อเพราะเครื่องพิมพ์เป็นส่วนหนึ่งของกลุ่ม"
 
 #: /home/ruben/Projects/Cura/cura/Machines/Models/DiscoveredPrintersModel.py:117
 msgctxt "@label"
@@ -1134,7 +1135,7 @@ msgstr "เครื่องพิมพ์เครือข่ายที่
 #: /home/ruben/Projects/Cura/cura/Machines/Models/ExtrudersModel.py:208
 msgctxt "@menuitem"
 msgid "Not overridden"
-msgstr "ไม่ได้แทนที่"
+msgstr "ไม่ได้เขียนแทนเอง"
 
 #: /home/ruben/Projects/Cura/cura/Machines/Models/MaterialManagementModel.py:213
 msgctxt "@label"
@@ -1166,7 +1167,7 @@ msgstr "เอกสารทั้งหมด (*)"
 #: /home/ruben/Projects/Cura/cura/CrashHandler.py:90
 msgctxt "@title:window"
 msgid "Cura can't start"
-msgstr "Cura ไม่สามารถเริ่มต้น"
+msgstr "Cura ไม่สามารถเริ่ม"
 
 #: /home/ruben/Projects/Cura/cura/CrashHandler.py:96
 msgctxt "@label crash message"
@@ -1177,20 +1178,20 @@ msgid ""
 "                    <p>Please send us this Crash Report to fix the problem.</p>\n"
 "                "
 msgstr ""
-"<p> <b> โอ๊ะ Ultimaker Cura พบสิ่งที่ดูเหมือนจะไม่ถูกต้อง. </ p> </ b>\n"
-"                    <p> เราพบข้อผิดพลาดที่ไม่สามารถกู้ในช่วงเริ่มต้นขึ้น มันก็อาจจะเกิดจากไฟล์การกำหนดค่าบางอย่างที่ไม่ถูกต้อง เราขอแนะนำให้สำรองข้อมูลและการรีเซ็ตการตั้งค่าของคุณ. </ p>\n"
-"                    <p> การสำรองข้อมูลที่สามารถพบได้ในโฟลเดอร์การกำหนดค่า. </ p>\n"
-"                    <p> กรุณาส่งรายงานนี้ความผิดพลาดในการแก้ไขปัญหา. </ p>"
+"<p> <b> Ultimaker Cura พบสิ่งที่ดูเหมือนจะไม่ถูกต้อง </ p> </b>\n"
+"                    <p> เราพบข้อผิดพลาดที่ไม่สามารถกู้ในช่วงเริ่มต้นขึ้น อาจจะเกิดจากไฟล์การกำหนดค่าบางอย่างที่ไม่ถูกต้อง เราขอแนะนำให้สำรองข้อมูลและรีเซ็ตการตั้งค่าของคุณ </ p>\n"
+"                    <p> สามารถข้อมูลสำรองพบได้ในโฟลเดอร์การกำหนดค่า </ p>\n"
+"                    <p> กรุณารายงานความผิดพลาดนี้เพื่อการแก้ไขปัญหาในอนาคต </ p>"
 
 #: /home/ruben/Projects/Cura/cura/CrashHandler.py:105
 msgctxt "@action:button"
 msgid "Send crash report to Ultimaker"
-msgstr "ส่งรายงานความผิดพลาดที่จะ Ultimaker"
+msgstr "ส่งรายงานความผิดพลาดให้ Ultimaker"
 
 #: /home/ruben/Projects/Cura/cura/CrashHandler.py:108
 msgctxt "@action:button"
 msgid "Show detailed crash report"
-msgstr "แสดงรายละเอียดรายงานความผิดพลาด"
+msgstr "แสดงรายละเอียดของรายงานความผิดพลาด"
 
 #: /home/ruben/Projects/Cura/cura/CrashHandler.py:112
 msgctxt "@action:button"
@@ -1200,7 +1201,7 @@ msgstr "แสดงโฟลเดอร์การกำหนดค่า"
 #: /home/ruben/Projects/Cura/cura/CrashHandler.py:123
 msgctxt "@action:button"
 msgid "Backup and Reset Configuration"
-msgstr "การกำหนดค่าการสำรองข้อมูลและการตั้งค่า"
+msgstr "สำรองข้อมูลและตั้งค่าค่ากำหนดใหม่"
 
 #: /home/ruben/Projects/Cura/cura/CrashHandler.py:152
 msgctxt "@title:window"
@@ -1214,8 +1215,8 @@ msgid ""
 "            <p>Please use the \"Send report\" button to post a bug report automatically to our servers</p>\n"
 "        "
 msgstr ""
-"<p> <b> ข้อผิดพลาดร้ายแรงที่เกิดขึ้นใน Cura กรุณาส่งรายงานนี้ความผิดพลาดในการแก้ไขปัญหา </ p> </ b>\n"
-"            <p> โปรดใช้ปุ่ม \"รายงานส่ง\" เพื่อโพสต์รายงานข้อผิดพลาดโดยอัตโนมัติไปยังเซิร์ฟเวอร์ของเรา </ p>"
+"<p> <b> ข้อผิดพลาดร้ายแรงที่เกิดขึ้นใน Cura กรุณาส่งรายงานนี้ความผิดพลาดเพื่อการแก้ไขปัญหา </ p> </ b>\n"
+"            <p> โปรดใช้ปุ่ม \"ส่งรายงาน\" เพื่อโพสต์รายงานข้อผิดพลาดไปยังเซิร์ฟเวอร์ของเราโดยอัตโนมัติ </ p>"
 
 #: /home/ruben/Projects/Cura/cura/CrashHandler.py:180
 msgctxt "@title:groupbox"
@@ -1230,22 +1231,22 @@ msgstr "ไม่ทราบ"
 #: /home/ruben/Projects/Cura/cura/CrashHandler.py:200
 msgctxt "@label Cura version number"
 msgid "Cura version"
-msgstr "รุ่นการดูแล"
+msgstr "รุ่น Cura"
 
 #: /home/ruben/Projects/Cura/cura/CrashHandler.py:201
 msgctxt "@label"
 msgid "Cura language"
-msgstr "ภาษาเขียน"
+msgstr "ภาษา Cura"
 
 #: /home/ruben/Projects/Cura/cura/CrashHandler.py:202
 msgctxt "@label"
 msgid "OS language"
-msgstr "ระบบปฏิบัติการภาษา"
+msgstr "ภาษาระบบปฏิบัติการ"
 
 #: /home/ruben/Projects/Cura/cura/CrashHandler.py:203
 msgctxt "@label Type of platform"
 msgid "Platform"
-msgstr "เวที"
+msgstr "แพลตฟอร์ม"
 
 #: /home/ruben/Projects/Cura/cura/CrashHandler.py:204
 msgctxt "@label"
@@ -1265,35 +1266,35 @@ msgstr "OpenGL"
 #: /home/ruben/Projects/Cura/cura/CrashHandler.py:231
 msgctxt "@label"
 msgid "Not yet initialized<br/>"
-msgstr "ยังไม่ได้เริ่มต้น <br/>"
+msgstr "ยังไม่ได้เริ่ม <br/>"
 
 #: /home/ruben/Projects/Cura/cura/CrashHandler.py:234
 #, python-brace-format
 msgctxt "@label OpenGL version"
 msgid "<li>OpenGL Version: {version}</li>"
-msgstr "<li> OpenGL เวอร์ชัน: {} รุ่น </ li>"
+msgstr "<li> เวอร์ชัน OpenGL: {version}</li>"
 
 #: /home/ruben/Projects/Cura/cura/CrashHandler.py:235
 #, python-brace-format
 msgctxt "@label OpenGL vendor"
 msgid "<li>OpenGL Vendor: {vendor}</li>"
-msgstr "<> OpenGL ผู้ให้บริการ: {ผู้ขาย} </ li>"
+msgstr "<li> ผู้ให้บริการ OpenGL: {vendor}</li>"
 
 #: /home/ruben/Projects/Cura/cura/CrashHandler.py:236
 #, python-brace-format
 msgctxt "@label OpenGL renderer"
 msgid "<li>OpenGL Renderer: {renderer}</li>"
-msgstr "<li> OpenGL Renderer: {renderer} </ li>"
+msgstr "<li> เครื่องแสดงภาพ OpenGL: {renderer} </ li>"
 
 #: /home/ruben/Projects/Cura/cura/CrashHandler.py:270
 msgctxt "@title:groupbox"
 msgid "Error traceback"
-msgstr "traceback ข้อผิดพลาด"
+msgstr "บันทึกข้อผิดพลาด"
 
 #: /home/ruben/Projects/Cura/cura/CrashHandler.py:356
 msgctxt "@title:groupbox"
 msgid "Logs"
-msgstr "ท่อน"
+msgstr "บันทึก"
 
 #: /home/ruben/Projects/Cura/cura/CrashHandler.py:379
 msgctxt "@title:groupbox"
@@ -1301,8 +1302,8 @@ msgid ""
 "User description (Note: Developers may not speak your language, please use "
 "English if possible)"
 msgstr ""
-"คำอธิบายของผู้ใช้ (หมายเหตุ: "
-"นักพัฒนาอาจจะไม่พูดภาษาของคุณกรุณาใช้ภาษาอังกฤษถ้าเป็นไปได้)"
+"คำอธิบายของผู้ใช้ "
+"(หมายเหตุ: คนเขียนซอฟต์แวร์อาจจะไม่พูดภาษาของคุณ กรุณาใช้ภาษาอังกฤษถ้าเป็นไปได้)"
 
 #: /home/ruben/Projects/Cura/cura/CrashHandler.py:399
 msgctxt "@action:button"
@@ -1313,7 +1314,7 @@ msgstr "ส่งรายงาน"
 #: /home/ruben/Projects/Cura/cura/Settings/CuraContainerRegistry.py:124
 msgctxt "@title:window"
 msgid "File Already Exists"
-msgstr "ไฟล์อยู่แล้ว"
+msgstr "มีไฟล์อยู่แล้ว"
 
 #: /home/ruben/Projects/Cura/cura/Settings/ContainerManager.py:197
 #: /home/ruben/Projects/Cura/cura/Settings/CuraContainerRegistry.py:125
@@ -1323,8 +1324,8 @@ msgid ""
 "The file <filename>{0}</filename> already exists. Are you sure you want to "
 "overwrite it?"
 msgstr ""
-"แฟ้ม <ชื่อไฟล์> {0} </ filename> มีอยู่แล้ว "
-"คุณแน่ใจหรือว่าต้องการจะเขียนทับมันได้หรือไม่"
+"แฟ้มมีไฟล์ <filename>{0}</filename> อยู่แล้ว "
+"คุณแน่ใจหรือว่าต้องการจะเขียนทับมัน"
 
 #: /home/ruben/Projects/Cura/cura/Settings/ContainerManager.py:430
 #: /home/ruben/Projects/Cura/cura/Settings/ContainerManager.py:433
@@ -1335,7 +1336,7 @@ msgstr "URL ของไฟล์ไม่ถูกต้อง:"
 #: /home/ruben/Projects/Cura/cura/Settings/cura_empty_instance_containers.py:36
 msgctxt "@info:not supported profile"
 msgid "Not supported"
-msgstr "ได้รับการสนับสนุน"
+msgstr "ไม่สนับสนุน"
 
 #: /home/ruben/Projects/Cura/cura/Settings/cura_empty_instance_containers.py:55
 msgctxt "@info:No intent profile selected"
@@ -1348,8 +1349,7 @@ msgctxt "@info:status Don't translate the XML tags <filename> or <message>!"
 msgid ""
 "Failed to export profile to <filename>{0}</filename>: <message>{1}</message>"
 msgstr ""
-"ล้มเหลวในการส่งออกไปยังรายละเอียด <ชื่อไฟล์> {0} </ filename> <ข้อความ> {1} "
-"</ ข้อความ>"
+"การส่งโปรไฟล์ออกไปยัง <filename>{0}</filename> ล้มเหลว: <message>{1}</message>"
 
 #: /home/ruben/Projects/Cura/cura/Settings/CuraContainerRegistry.py:143
 #, python-brace-format
@@ -1358,25 +1358,25 @@ msgid ""
 "Failed to export profile to <filename>{0}</filename>: Writer plugin reported"
 " failure."
 msgstr ""
-"ล้มเหลวในการส่งออกไปยังรายละเอียด <ชื่อไฟล์> {0} </ filename>: "
-"ปลั๊กอินเขียนรายงานความล้มเหลว"
+"การส่งโปรไฟล์ออกไปยัง <filename>{0}</filename> ล้มเหลว: "
+"ปลั๊กอินเขียนรายงานล้มเหลว"
 
 #: /home/ruben/Projects/Cura/cura/Settings/CuraContainerRegistry.py:148
 #, python-brace-format
 msgctxt "@info:status Don't translate the XML tag <filename>!"
 msgid "Exported profile to <filename>{0}</filename>"
-msgstr "รายละเอียดการส่งออกไปยัง <ชื่อไฟล์> {0} </ filename>"
+msgstr "ส่งโปรไฟล์ออกไปยัง <filename>{0}</filename>"
 
 #: /home/ruben/Projects/Cura/cura/Settings/CuraContainerRegistry.py:149
 msgctxt "@info:title"
 msgid "Export succeeded"
-msgstr "ส่งออกประสบความสำเร็จ"
+msgstr "ส่งโปรไฟล์สำเร็จ"
 
 #: /home/ruben/Projects/Cura/cura/Settings/CuraContainerRegistry.py:176
 #, python-brace-format
 msgctxt "@info:status Don't translate the XML tags <filename>!"
 msgid "Failed to import profile from <filename>{0}</filename>: {1}"
-msgstr "ล้มเหลวในการรายละเอียดที่นำเข้าจาก <ชื่อไฟล์> {0} </ filename>: {1}"
+msgstr "นำเข้าโปรไฟล์จาก <filename>{0}</filename>ล้มเหลว: {1}"
 
 #: /home/ruben/Projects/Cura/cura/Settings/CuraContainerRegistry.py:180
 #, python-brace-format
@@ -1385,7 +1385,7 @@ msgid ""
 "Can't import profile from <filename>{0}</filename> before a printer is "
 "added."
 msgstr ""
-"ไม่สามารถนำรายละเอียดจาก <ชื่อไฟล์> {0} </ filename> "
+"ไม่สามารถนำโปรไฟล์เข้าจาก  <filename>{0}</filename>"
 "ก่อนที่จะมีการเพิ่มเครื่องพิมพ์"
 
 #: /home/ruben/Projects/Cura/cura/Settings/CuraContainerRegistry.py:197
@@ -1393,13 +1393,13 @@ msgstr ""
 msgctxt "@info:status Don't translate the XML tags <filename>!"
 msgid "No custom profile to import in file <filename>{0}</filename>"
 msgstr ""
-"ไม่มีรายละเอียดที่กำหนดเองที่จะนำเข้าในแฟ้ม <ชื่อไฟล์> {0} </ filename>"
+"ไม่มีโปรไฟล์กำหนดเองที่จะนำเข้าในแฟ้ม <filename>{0}</filename>"
 
 #: /home/ruben/Projects/Cura/cura/Settings/CuraContainerRegistry.py:201
 #, python-brace-format
 msgctxt "@info:status Don't translate the XML tags <filename>!"
 msgid "Failed to import profile from <filename>{0}</filename>:"
-msgstr "ล้มเหลวในการรายละเอียดที่นำเข้าจาก <ชื่อไฟล์> {0} </ filename>:"
+msgstr "นำเข้าโปรไฟล์จาก <filename>{0}</filename>ล้มเหลว:"
 
 #: /home/ruben/Projects/Cura/cura/Settings/CuraContainerRegistry.py:225
 #: /home/ruben/Projects/Cura/cura/Settings/CuraContainerRegistry.py:235
@@ -1409,31 +1409,31 @@ msgid ""
 "This profile <filename>{0}</filename> contains incorrect data, could not "
 "import it."
 msgstr ""
-"โปรไฟล์นี้ <ชื่อไฟล์> {0} </ filename> มีข้อมูลที่ไม่ถูกต้องไม่สามารถนำเข้า"
+"โปรไฟล์ <filename>{0}</filename> มีข้อมูลที่ไม่ถูกต้อง ไม่สามารถนำเข้า"
 
 #: /home/ruben/Projects/Cura/cura/Settings/CuraContainerRegistry.py:324
 #, python-brace-format
 msgctxt "@info:status Don't translate the XML tag <filename>!"
 msgid "Failed to import profile from <filename>{0}</filename>:"
-msgstr "ล้มเหลวในการรายละเอียดที่นำเข้าจาก <ชื่อไฟล์> {0} </ filename>:"
+msgstr "นำเข้าโปรไฟล์จาก <filename>{0}</filename>ล้มเหลว:"
 
 #: /home/ruben/Projects/Cura/cura/Settings/CuraContainerRegistry.py:327
 #, python-brace-format
 msgctxt "@info:status"
 msgid "Successfully imported profile {0}"
-msgstr "รายละเอียดนำเข้าสำเร็จ {0}"
+msgstr "นำเข้าโปรไฟล์ {0} สำเร็จ"
 
 #: /home/ruben/Projects/Cura/cura/Settings/CuraContainerRegistry.py:330
 #, python-brace-format
 msgctxt "@info:status"
 msgid "File {0} does not contain any valid profile."
-msgstr "ไฟล์ {0} ไม่ได้มีรายละเอียดที่ถูกต้อง"
+msgstr "ไฟล์ {0} ไม่ได้มีโปรไฟล์ที่ถูกต้อง"
 
 #: /home/ruben/Projects/Cura/cura/Settings/CuraContainerRegistry.py:333
 #, python-brace-format
 msgctxt "@info:status"
 msgid "Profile {0} has an unknown file type or is corrupted."
-msgstr "รายละเอียด {0} มีประเภทของไฟล์ที่ไม่รู้จักหรือได้รับความเสียหาย"
+msgstr "โปรไฟล์ {0} เป็นประเภทของไฟล์ที่ไม่รู้จักหรือได้รับความเสียหาย"
 
 #: /home/ruben/Projects/Cura/cura/Settings/CuraContainerRegistry.py:368
 msgctxt "@label"
@@ -1443,36 +1443,36 @@ msgstr "โปรไฟล์ที่กำหนดเอง"
 #: /home/ruben/Projects/Cura/cura/Settings/CuraContainerRegistry.py:384
 msgctxt "@info:status"
 msgid "Profile is missing a quality type."
-msgstr "ข้อมูลส่วนตัวจะหายไปชนิดที่มีคุณภาพ"
+msgstr "โปรไฟล์ไม่มีประเภทคุณภาพ"
 
 #: /home/ruben/Projects/Cura/cura/Settings/CuraContainerRegistry.py:398
 #, python-brace-format
 msgctxt "@info:status"
 msgid "Could not find a quality type {0} for the current configuration."
-msgstr "ไม่สามารถหาประเภทที่มีคุณภาพ {0} สำหรับการกำหนดค่าปัจจุบัน"
+msgstr "ไม่สามารถหาประเภทคุณภาพ {0} สำหรับการกำหนดค่าปัจจุบัน"
 
 #: /home/ruben/Projects/Cura/cura/Settings/MachineManager.py:780
 msgctxt "@info:message Followed by a list of settings."
 msgid ""
 "Settings have been changed to match the current availability of extruders:"
 msgstr ""
-"การตั้งค่ามีการเปลี่ยนแปลงเพื่อให้ตรงกับความพร้อมในปัจจุบันของ extruders:"
+"การตั้งค่ามีการเปลี่ยนแปลงเพื่อให้ตรงกับความพร้อมเครื่องอัดรีดในปัจจุบัน:"
 
 #: /home/ruben/Projects/Cura/cura/Settings/MachineManager.py:782
 msgctxt "@info:title"
 msgid "Settings updated"
-msgstr "การตั้งค่าการปรับปรุง"
+msgstr "ปรับปรุงการตั้งค่าสำเร็จ"
 
 #: /home/ruben/Projects/Cura/cura/Settings/MachineManager.py:1351
 msgctxt "@info:title"
 msgid "Extruder(s) Disabled"
-msgstr "เครื่องอัดรีด (s) สำหรับผู้พิการ"
+msgstr "เครื่องอัดรีดถูกปิด"
 
 #: /home/ruben/Projects/Cura/cura/Arranging/ArrangeObjectsJob.py:30
 #: /home/ruben/Projects/Cura/cura/Arranging/ArrangeObjectsAllBuildPlatesJob.py:66
 msgctxt "@info:status"
 msgid "Finding new location for objects"
-msgstr "หาสถานที่ใหม่สำหรับวัตถุ"
+msgstr "หาสถานที่ใหม่สำหรับโมเดล"
 
 #: /home/ruben/Projects/Cura/cura/Arranging/ArrangeObjectsJob.py:34
 #: /home/ruben/Projects/Cura/cura/Arranging/ArrangeObjectsAllBuildPlatesJob.py:70
@@ -1489,19 +1489,19 @@ msgstr "ไม่สามารถหาสถานที่ตั้ง"
 #: /home/ruben/Projects/Cura/cura/OAuth2/AuthorizationRequestHandler.py:68
 msgctxt "@message"
 msgid "The provided state is not correct."
-msgstr "รัฐให้ไว้ไม่ถูกต้อง"
+msgstr "สถานะที่ให้ไว้ไม่ถูกต้อง"
 
 #: /home/ruben/Projects/Cura/cura/OAuth2/AuthorizationRequestHandler.py:79
 msgctxt "@message"
 msgid ""
 "Please give the required permissions when authorizing this application."
-msgstr "โปรดให้สิทธิ์ที่จำเป็นเมื่ออนุญาตให้โปรแกรมนี้"
+msgstr "โปรดให้สิทธิ์ที่จำเป็นเมื่อให้อนุญาตโปรแกรมนี้"
 
 #: /home/ruben/Projects/Cura/cura/OAuth2/AuthorizationRequestHandler.py:86
 msgctxt "@message"
 msgid "Something unexpected happened when trying to log in, please try again."
 msgstr ""
-"บางสิ่งบางอย่างที่ไม่คาดคิดเกิดขึ้นเมื่อพยายามที่จะเข้าสู่ระบบโปรดลองอีกครั้ง"
+"บางสิ่งบางอย่างที่ไม่คาดคิดเกิดขึ้นเมื่อพยายามที่จะเข้าสู่ระบบ โปรดลองอีกครั้ง"
 
 #: /home/ruben/Projects/Cura/cura/OAuth2/AuthorizationService.py:201
 msgctxt "@info"
@@ -1531,7 +1531,7 @@ msgstr "ในการบำรุงรักษา กรุณาตรว�
 #: /home/ruben/Projects/Cura/resources/qml/MonitorButton.qml:144
 msgctxt "@label:MonitorStatus"
 msgid "Lost connection with the printer"
-msgstr "การเชื่อมต่อที่หายไปพร้อมกับเครื่องพิมพ์"
+msgstr "การเชื่อมต่อกับเครื่องพิมพ์หายไป"
 
 #: /home/ruben/Projects/Cura/resources/qml/MonitorButton.qml:146
 msgctxt "@label:MonitorStatus"
@@ -1546,36 +1546,36 @@ msgstr "หยุดชั่วคราว"
 #: /home/ruben/Projects/Cura/resources/qml/MonitorButton.qml:152
 msgctxt "@label:MonitorStatus"
 msgid "Preparing..."
-msgstr "การเตรียม..."
+msgstr "เตรียม..."
 
 #: /home/ruben/Projects/Cura/resources/qml/MonitorButton.qml:154
 msgctxt "@label:MonitorStatus"
 msgid "Please remove the print"
-msgstr "โปรดลบพิมพ์"
+msgstr "โปรดเอาแบบพิมพ์ที่เสร็จแล้วออก"
 
 #: /home/ruben/Projects/Cura/resources/qml/MonitorButton.qml:284
 #: /home/ruben/Projects/Cura/resources/qml/MonitorButton.qml:293
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/resources/qml/MonitorContextMenu.qml:106
 msgctxt "@label"
 msgid "Pause"
-msgstr "หยุด"
+msgstr "หยุดชั่วคราว"
 
 #: /home/ruben/Projects/Cura/resources/qml/MonitorButton.qml:289
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/resources/qml/MonitorContextMenu.qml:100
 msgctxt "@label"
 msgid "Resume"
-msgstr "ประวัติย่อ"
+msgstr "ทำต่อ"
 
 #: /home/ruben/Projects/Cura/resources/qml/MonitorButton.qml:325
 msgctxt "@label"
 msgid "Abort Print"
-msgstr "การทำแท้งพิมพ์"
+msgstr "ยกเลิกการพิมพ์"
 
 #: /home/ruben/Projects/Cura/resources/qml/MonitorButton.qml:335
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/resources/qml/MonitorContextMenu.qml:164
 msgctxt "@window:title"
 msgid "Abort print"
-msgstr "พิมพ์ทำแท้ง"
+msgstr "ยกเลิกการพิมพ์"
 
 #: /home/ruben/Projects/Cura/resources/qml/MonitorButton.qml:337
 msgctxt "@label"
@@ -1585,7 +1585,7 @@ msgstr "คุณแน่ใจว่าคุณต้องการที่
 #: /home/ruben/Projects/Cura/resources/qml/PrinterOutput/ExtruderBox.qml:41
 msgctxt "@label"
 msgid "Extruder"
-msgstr "extruder"
+msgstr "เครื่องอัดรีด"
 
 #: /home/ruben/Projects/Cura/resources/qml/PrinterOutput/ExtruderBox.qml:71
 msgctxt "@tooltip"
@@ -1593,18 +1593,18 @@ msgid ""
 "The target temperature of the hotend. The hotend will heat up or cool down "
 "towards this temperature. If this is 0, the hotend heating is turned off."
 msgstr ""
-"อุณหภูมิเป้าหมายของ hotend hotend จะร้อนขึ้นหรือเย็นลงต่ออุณหภูมินี้ "
-"ในกรณีนี้คือ 0, ร้อน hotend ถูกปิด"
+"อุณหภูมิเป้าหมายของหัวร้อน หัวร้อนจะร้อนขึ้นหรือเย็นลงต่ออุณหภูมินี้ "
+"ในกรณีที่อุณหภูมิเป็น 0, หัวร้อนจะถูกปิด"
 
 #: /home/ruben/Projects/Cura/resources/qml/PrinterOutput/ExtruderBox.qml:103
 msgctxt "@tooltip"
 msgid "The current temperature of this hotend."
-msgstr "อุณหภูมิปัจจุบันของ hotend นี้"
+msgstr "อุณหภูมิปัจจุบันของหัวร้อนนี้"
 
 #: /home/ruben/Projects/Cura/resources/qml/PrinterOutput/ExtruderBox.qml:177
 msgctxt "@tooltip of temperature input"
 msgid "The temperature to pre-heat the hotend to."
-msgstr "อุณหภูมิก่อนความร้อน hotend ไป"
+msgstr "อุณหภูมิเป้าหมายของหัวร้อน"
 
 #: /home/ruben/Projects/Cura/resources/qml/PrinterOutput/ExtruderBox.qml:341
 #: /home/ruben/Projects/Cura/resources/qml/PrinterOutput/HeatedBedBox.qml:332
@@ -1616,7 +1616,7 @@ msgstr "ยกเลิก"
 #: /home/ruben/Projects/Cura/resources/qml/PrinterOutput/HeatedBedBox.qml:335
 msgctxt "@button"
 msgid "Pre-heat"
-msgstr "Pre-ความร้อน"
+msgstr "เร่งความร้อน"
 
 #: /home/ruben/Projects/Cura/resources/qml/PrinterOutput/ExtruderBox.qml:370
 msgctxt "@tooltip of pre-heat"
@@ -1625,9 +1625,9 @@ msgid ""
 "print while it is heating, and you won't have to wait for the hotend to heat"
 " up when you're ready to print."
 msgstr ""
-"ความร้อน hotend ล่วงหน้าก่อนที่จะพิมพ์ "
-"คุณยังคงสามารถปรับการพิมพ์ของคุณในขณะที่มันเป็นความร้อน, "
-"และคุณจะไม่ต้องรอให้ hotend ร้อนขึ้นเมื่อคุณพร้อมที่จะพิมพ์"
+"โปรดเร่งความร้อนหัวร้อนล่วงหน้าก่อนที่จะพิมพ์ "
+"คุณยังคงสามารถปรับการพิมพ์ของคุณในขณะที่เร่งความร้อน"
+"และคุณจะไม่ต้องรอให้หัวร้อนร้อนขึ้นเมื่อคุณพร้อมที่จะพิมพ์"
 
 #: /home/ruben/Projects/Cura/resources/qml/PrinterOutput/ExtruderBox.qml:406
 msgctxt "@tooltip"
@@ -1642,17 +1642,17 @@ msgstr "วัสดุที่ใช้ในเครื่องอัดร
 #: /home/ruben/Projects/Cura/resources/qml/PrinterOutput/ExtruderBox.qml:470
 msgctxt "@tooltip"
 msgid "The nozzle inserted in this extruder."
-msgstr "หัวฉีดที่แทรกอยู่ในเครื่องอัดรีดนี้"
+msgstr "หัวรีดที่อยู่ในเครื่องอัดรีดนี้"
 
 #: /home/ruben/Projects/Cura/resources/qml/PrinterOutput/OutputDeviceHeader.qml:55
 msgctxt "@info:status"
 msgid "The printer is not connected."
-msgstr "เครื่องพิมพ์ไม่ได้เชื่อมต่อ"
+msgstr "ไม่ได้เชื่อมต่อกับเครื่องพิมพ์"
 
 #: /home/ruben/Projects/Cura/resources/qml/PrinterOutput/HeatedBedBox.qml:26
 msgctxt "@label"
 msgid "Build plate"
-msgstr "แผ่นรูปร่าง"
+msgstr "แผ่นสร้าง"
 
 #: /home/ruben/Projects/Cura/resources/qml/PrinterOutput/HeatedBedBox.qml:56
 msgctxt "@tooltip"
@@ -1660,18 +1660,18 @@ msgid ""
 "The target temperature of the heated bed. The bed will heat up or cool down "
 "towards this temperature. If this is 0, the bed heating is turned off."
 msgstr ""
-"อุณหภูมิเป้าหมายของเตียงอุ่น เตียงจะร้อนขึ้นหรือเย็นลงต่ออุณหภูมินี้ "
-"ถ้านี้เป็น 0 ความร้อนเตียงถูกปิด"
+"อุณหภูมิเป้าหมายของฐานสร้างอุ่น ฐานจะร้อนขึ้นหรือเย็นลงต่ออุณหภูมินี้ "
+"ถ้านี้เป็น 0 ฐานจะถูกปิด"
 
 #: /home/ruben/Projects/Cura/resources/qml/PrinterOutput/HeatedBedBox.qml:88
 msgctxt "@tooltip"
 msgid "The current temperature of the heated bed."
-msgstr "อุณหภูมิปัจจุบันของเตียงอุ่น"
+msgstr "อุณหภูมิปัจจุบันของฐานสร้างอุ่น"
 
 #: /home/ruben/Projects/Cura/resources/qml/PrinterOutput/HeatedBedBox.qml:161
 msgctxt "@tooltip of temperature input"
 msgid "The temperature to pre-heat the bed to."
-msgstr "อุณหภูมิก่อนความร้อนเตียงเพื่อ"
+msgstr "เร่งอุณหภูมิฐานสร้างอุ่นไปที่"
 
 #: /home/ruben/Projects/Cura/resources/qml/PrinterOutput/HeatedBedBox.qml:361
 msgctxt "@tooltip of pre-heat"
@@ -1680,39 +1680,39 @@ msgid ""
 "print while it is heating, and you won't have to wait for the bed to heat up"
 " when you're ready to print."
 msgstr ""
-"ความร้อนเตียงล่วงหน้าก่อนที่จะพิมพ์ "
-"คุณยังคงสามารถปรับการพิมพ์ของคุณในขณะที่มันเป็นความร้อน, "
-"และคุณจะไม่ต้องรอให้เตียงร้อนขึ้นเมื่อคุณพร้อมที่จะพิมพ์"
+"โปรดเร่งความร้อนฐานสร้างล่วงหน้าก่อนที่จะพิมพ์ "
+"คุณยังคงสามารถปรับการพิมพ์ของคุณในขณะที่เร่งความร้อน"
+"และคุณจะไม่ต้องรอให้ฐานสร้างร้อนขึ้นเมื่อคุณพร้อมที่จะพิมพ์"
 
 #: /home/ruben/Projects/Cura/resources/qml/PrinterOutput/ManualPrinterControl.qml:52
 msgctxt "@label"
 msgid "Printer control"
-msgstr "ควบคุมเครื่องพิมพ์"
+msgstr "ศูนย์ควบคุมเครื่องพิมพ์"
 
 #: /home/ruben/Projects/Cura/resources/qml/PrinterOutput/ManualPrinterControl.qml:67
 msgctxt "@label"
 msgid "Jog Position"
-msgstr "Jog ตำแหน่ง"
+msgstr "ตำแหน่งขยับ"
 
 #: /home/ruben/Projects/Cura/resources/qml/PrinterOutput/ManualPrinterControl.qml:85
 msgctxt "@label"
 msgid "X/Y"
-msgstr "X / Y"
+msgstr "X/Y"
 
 #: /home/ruben/Projects/Cura/resources/qml/PrinterOutput/ManualPrinterControl.qml:192
 msgctxt "@label"
 msgid "Z"
-msgstr "กับ"
+msgstr "Z"
 
 #: /home/ruben/Projects/Cura/resources/qml/PrinterOutput/ManualPrinterControl.qml:257
 msgctxt "@label"
 msgid "Jog Distance"
-msgstr "Jog ระยะทาง"
+msgstr "ระยะทางขยับ"
 
 #: /home/ruben/Projects/Cura/resources/qml/PrinterOutput/ManualPrinterControl.qml:301
 msgctxt "@label"
 msgid "Send G-code"
-msgstr "ส่ง G-รหัส"
+msgstr "ส่ง G-code"
 
 #: /home/ruben/Projects/Cura/resources/qml/PrinterOutput/ManualPrinterControl.qml:365
 msgctxt "@tooltip of G-code command input"
@@ -1720,8 +1720,8 @@ msgid ""
 "Send a custom G-code command to the connected printer. Press 'enter' to send"
 " the command."
 msgstr ""
-"ส่งคำสั่งที่กำหนดเอง G-รหัสไปยังเครื่องพิมพ์ที่เชื่อมต่อ กด 'Enter' "
-"เพื่อส่งคำสั่ง"
+"ส่ง G-code ที่กำหนดเองไปยังเครื่องพิมพ์ที่เชื่อมต่อ กด 'ตกลง' "
+"เพื่อส่ง G-code"
 
 #: /home/ruben/Projects/Cura/resources/qml/Cura.qml:242
 msgctxt "@label"
@@ -1774,7 +1774,7 @@ msgstr "คุณแน่ใจหรือว่าต้องการออ
 #: /home/ruben/Projects/Cura/resources/qml/Dialogs/OpenFilesIncludingProjectsDialog.qml:19
 msgctxt "@title:window"
 msgid "Open file(s)"
-msgstr "เปิดไฟล์ (s)"
+msgstr "เปิดไฟล์"
 
 #: /home/ruben/Projects/Cura/resources/qml/Cura.qml:720
 msgctxt "@window:title"
@@ -1784,7 +1784,7 @@ msgstr "ติดตั้งแพคเกจ"
 #: /home/ruben/Projects/Cura/resources/qml/Cura.qml:728
 msgctxt "@title:window"
 msgid "Open File(s)"
-msgstr "เปิดแฟ้ม (s)"
+msgstr "เปิดไฟล์"
 
 #: /home/ruben/Projects/Cura/resources/qml/Cura.qml:731
 msgctxt "@text:window"
@@ -1793,8 +1793,8 @@ msgid ""
 "You can only open one G-Code file at a time. If you want to open a G-Code "
 "file, please just select only one."
 msgstr ""
-"เราพบมากกว่าหนึ่งไฟล์ G-Code ภายในไฟล์ที่คุณเลือก คุณสามารถยื่นเพียงเปิด "
-"G-Code ได้ตลอดเวลา หากคุณต้องการที่จะเปิดไฟล์ G-Code โปรดเลือกเพียงหนึ่ง"
+"เราพบ G-Code มากกว่าหนึ่งไฟล์ภายในไฟล์ที่คุณเลือก คุณสามารถเปิด "
+"G-Code ได้แค่ที่ละไฟล์ หากคุณต้องการที่จะเปิดไฟล์ G-Code โปรดเลือกไฟล์เพียงไฟล์เดียว"
 
 #: /home/ruben/Projects/Cura/resources/qml/Cura.qml:834
 msgctxt "@title:window"
@@ -1824,7 +1824,7 @@ msgstr "ชื่องาน"
 #: /home/ruben/Projects/Cura/resources/qml/PrintMonitor.qml:156
 msgctxt "@label"
 msgid "Printing Time"
-msgstr "เวลาพิมพ์"
+msgstr "ระยะเวลาพิมพ์"
 
 #: /home/ruben/Projects/Cura/resources/qml/PrintMonitor.qml:164
 msgctxt "@label"
@@ -1834,27 +1834,27 @@ msgstr "ประมาณเวลาที่เหลือ"
 #: /home/ruben/Projects/Cura/resources/qml/ActionPanel/SliceProcessWidget.qml:55
 msgctxt "@label:PrintjobStatus"
 msgid "Slicing..."
-msgstr "หั่น ..."
+msgstr "ซอย ..."
 
 #: /home/ruben/Projects/Cura/resources/qml/ActionPanel/SliceProcessWidget.qml:67
 msgctxt "@label:PrintjobStatus"
 msgid "Unable to slice"
-msgstr "ไม่สามารถชิ้น"
+msgstr "ไม่สามารถซอยโมเดล"
 
 #: /home/ruben/Projects/Cura/resources/qml/ActionPanel/SliceProcessWidget.qml:103
 msgctxt "@button"
 msgid "Processing"
-msgstr "การประมวลผล"
+msgstr "ประมวลผล"
 
 #: /home/ruben/Projects/Cura/resources/qml/ActionPanel/SliceProcessWidget.qml:103
 msgctxt "@button"
 msgid "Slice"
-msgstr "ชิ้น"
+msgstr "ซอย"
 
 #: /home/ruben/Projects/Cura/resources/qml/ActionPanel/SliceProcessWidget.qml:104
 msgctxt "@label"
 msgid "Start the slicing process"
-msgstr "เริ่มต้นกระบวนการหั่น"
+msgstr "เริ่มต้นกระบวนการซอยโมเดล"
 
 #: /home/ruben/Projects/Cura/resources/qml/ActionPanel/SliceProcessWidget.qml:118
 msgctxt "@button"
@@ -1864,32 +1864,32 @@ msgstr "ยกเลิก"
 #: /home/ruben/Projects/Cura/resources/qml/ActionPanel/PrintJobInformation.qml:31
 msgctxt "@label"
 msgid "Time estimation"
-msgstr "ประมาณเวลา"
+msgstr "เวลาโดยประมาณ"
 
 #: /home/ruben/Projects/Cura/resources/qml/ActionPanel/PrintJobInformation.qml:114
 msgctxt "@label"
 msgid "Material estimation"
-msgstr "การประมาณค่าวัสดุ"
+msgstr "ค่าวัสดุโดยประมาณ"
 
 #: /home/ruben/Projects/Cura/resources/qml/ActionPanel/PrintJobInformation.qml:164
 msgctxt "@label m for meter"
 msgid "%1m"
-msgstr "1m%"
+msgstr "%1ม"
 
 #: /home/ruben/Projects/Cura/resources/qml/ActionPanel/PrintJobInformation.qml:165
 msgctxt "@label g for grams"
 msgid "%1g"
-msgstr "% 1g"
+msgstr "%1ก"
 
 #: /home/ruben/Projects/Cura/resources/qml/ActionPanel/OutputProcessWidget.qml:59
 msgctxt "@label"
 msgid "No time estimation available"
-msgstr "ไม่มีการประมาณเวลาที่มีอยู่"
+msgstr "ไม่มีเวลาโดยประมาณ"
 
 #: /home/ruben/Projects/Cura/resources/qml/ActionPanel/OutputProcessWidget.qml:77
 msgctxt "@label"
 msgid "No cost estimation available"
-msgstr "ไม่มีประมาณค่าใช้จ่ายที่มีอยู่"
+msgstr "ไม่มีค่าวัสดุโดยประมาณ"
 
 #: /home/ruben/Projects/Cura/resources/qml/ActionPanel/OutputProcessWidget.qml:127
 msgctxt "@button"
@@ -1900,20 +1900,20 @@ msgstr "ดูตัวอย่าง"
 msgctxt "@label"
 msgid "Print Selected Model With:"
 msgid_plural "Print Selected Models With:"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "พิมพ์โมเดลด้วย:"
+msgstr[1] "พิมพ์โมเดลด้วย:"
 
 #: /home/ruben/Projects/Cura/resources/qml/Menus/ContextMenu.qml:116
 msgctxt "@title:window"
 msgid "Multiply Selected Model"
 msgid_plural "Multiply Selected Models"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "เพิ่มพิมพ์โมเดล"
+msgstr[1] "เพิ่มพิมพ์โมเดล"
 
 #: /home/ruben/Projects/Cura/resources/qml/Menus/ContextMenu.qml:141
 msgctxt "@label"
 msgid "Number of Copies"
-msgstr "จำนวนสำเนา"
+msgstr "จำนวนที่เพิ่ม"
 
 #: /home/ruben/Projects/Cura/resources/qml/Menus/FileMenu.qml:13
 #: /home/ruben/Projects/Cura/resources/qml/MainWindow/ApplicationMenu.qml:27
@@ -1924,7 +1924,7 @@ msgstr "&ไฟล์"
 #: /home/ruben/Projects/Cura/resources/qml/Menus/FileMenu.qml:33
 msgctxt "@title:menu menubar:file"
 msgid "&Save..."
-msgstr "และบันทึก ..."
+msgstr "&บันทึก ..."
 
 #: /home/ruben/Projects/Cura/resources/qml/Menus/FileMenu.qml:54
 msgctxt "@title:menu menubar:file"
@@ -1934,22 +1934,22 @@ msgstr "&ส่งออก..."
 #: /home/ruben/Projects/Cura/resources/qml/Menus/FileMenu.qml:65
 msgctxt "@action:inmenu menubar:file"
 msgid "Export Selection..."
-msgstr "เลือกส่งออก ..."
+msgstr "&เลือกส่งออก ..."
 
 #: /home/ruben/Projects/Cura/resources/qml/Menus/RecentFilesMenu.qml:15
 msgctxt "@title:menu menubar:file"
 msgid "Open &Recent"
-msgstr "เปิด & ล่าสุด"
+msgstr "เปิด และล่าสุด"
 
 #: /home/ruben/Projects/Cura/resources/qml/Menus/PrinterMenu.qml:25
 msgctxt "@label:category menu label"
 msgid "Network enabled printers"
-msgstr "เครือข่ายเปิดการใช้งานเครื่องพิมพ์"
+msgstr "เปิดเครือข่ายการใช้งานเครื่องพิมพ์"
 
 #: /home/ruben/Projects/Cura/resources/qml/Menus/PrinterMenu.qml:42
 msgctxt "@label:category menu label"
 msgid "Local printers"
-msgstr "เครื่องพิมพ์ท้องถิ่น"
+msgstr "เครื่องพิมพ์แบบท้องถิ่น"
 
 #: /home/ruben/Projects/Cura/resources/qml/Menus/ConfigurationMenu/AutoConfiguration.qml:18
 msgctxt "@header"
@@ -1979,18 +1979,18 @@ msgstr "วัสดุ"
 #: /home/ruben/Projects/Cura/resources/qml/Menus/ConfigurationMenu/CustomConfiguration.qml:378
 msgctxt "@label"
 msgid "Use glue for better adhesion with this material combination."
-msgstr "ใช้กาวสำหรับยึดเกาะที่ดีขึ้นด้วยการผสมผสานวัสดุนี้"
+msgstr "ใช้กาวสำหรับการยึดเกาะที่ดีขึ้นของวัสดุนี้"
 
 #: /home/ruben/Projects/Cura/resources/qml/Menus/ConfigurationMenu/ConfigurationListView.qml:57
 msgctxt "@label"
 msgid "Loading available configurations from the printer..."
-msgstr "โหลดการกำหนดค่าที่มีอยู่จากเครื่องพิมพ์ ..."
+msgstr "โหลดการกำหนดค่าที่มีอยู่ในเครื่องพิมพ์ ..."
 
 #: /home/ruben/Projects/Cura/resources/qml/Menus/ConfigurationMenu/ConfigurationListView.qml:58
 msgctxt "@label"
 msgid ""
 "The configurations are not available because the printer is disconnected."
-msgstr "การกำหนดค่าที่ไม่สามารถใช้ได้เพราะเครื่องพิมพ์จะมีการตัดการเชื่อมต่อ"
+msgstr "การกำหนดค่าที่ไม่สามารถใช้ได้เพราะเครื่องพิมพ์ถูกตัดการเชื่อมต่อ"
 
 #: /home/ruben/Projects/Cura/resources/qml/Menus/ConfigurationMenu/ConfigurationMenu.qml:112
 msgctxt "@label"
@@ -2008,7 +2008,7 @@ msgid ""
 "This configuration is not available because %1 is not recognized. Please "
 "visit %2 to download the correct material profile."
 msgstr ""
-"การกำหนดค่านี้ไม่สามารถใช้ได้เนื่องจาก% 1 ไม่เป็นที่รู้จัก กรุณาเยี่ยมชม% 2 "
+"การกำหนดค่านี้ไม่สามารถใช้ได้เนื่องจาก %1 ไม่เป็นที่รู้จัก กรุณาเยี่ยมชม %2 "
 "เพื่อดาวน์โหลดรายละเอียดวัสดุที่ถูกต้อง"
 
 #: /home/ruben/Projects/Cura/resources/qml/Menus/ConfigurationMenu/ConfigurationItem.qml:129
@@ -2020,7 +2020,7 @@ msgstr "ตลาด"
 #: /home/ruben/Projects/Cura/resources/qml/MainWindow/ApplicationMenu.qml:50
 msgctxt "@title:menu menubar:toplevel"
 msgid "&Settings"
-msgstr "และการตั้งค่า"
+msgstr "&การตั้งค่า"
 
 #: /home/ruben/Projects/Cura/resources/qml/Menus/SettingsMenu.qml:15
 msgctxt "@title:menu menubar:settings"
@@ -2035,17 +2035,17 @@ msgstr "&วัสดุ"
 #: /home/ruben/Projects/Cura/resources/qml/Menus/SettingsMenu.qml:36
 msgctxt "@action:inmenu"
 msgid "Set as Active Extruder"
-msgstr "ตั้งเป็นที่ใช้งาน Extruder"
+msgstr "ตั้งเครื่องอัดรีดเป็นที่ใช้งาน"
 
 #: /home/ruben/Projects/Cura/resources/qml/Menus/SettingsMenu.qml:42
 msgctxt "@action:inmenu"
 msgid "Enable Extruder"
-msgstr "เปิดใช้งาน Extruder"
+msgstr "เปิดใช้งานเครื่องอัดรีด"
 
 #: /home/ruben/Projects/Cura/resources/qml/Menus/SettingsMenu.qml:49
 msgctxt "@action:inmenu"
 msgid "Disable Extruder"
-msgstr "ปิดการใช้งาน Extruder"
+msgstr "ปิดใช้งานเครื่องอัดรีด"
 
 #: /home/ruben/Projects/Cura/resources/qml/Menus/MaterialMenu.qml:13
 msgctxt "@label:category menu label"
@@ -2071,7 +2071,7 @@ msgstr "&ดู"
 #: /home/ruben/Projects/Cura/resources/qml/Menus/ViewMenu.qml:19
 msgctxt "@action:inmenu menubar:view"
 msgid "&Camera position"
-msgstr "และตำแหน่งกล้อง"
+msgstr "&ตำแหน่งกล้อง"
 
 #: /home/ruben/Projects/Cura/resources/qml/Menus/ViewMenu.qml:44
 msgctxt "@action:inmenu menubar:view"
@@ -2086,12 +2086,12 @@ msgstr "มุมมอง"
 #: /home/ruben/Projects/Cura/resources/qml/Menus/ViewMenu.qml:59
 msgctxt "@action:inmenu menubar:view"
 msgid "Orthographic"
-msgstr "orthographic"
+msgstr "ออโธกราฟฟิค"
 
 #: /home/ruben/Projects/Cura/resources/qml/Menus/ViewMenu.qml:80
 msgctxt "@action:inmenu menubar:view"
 msgid "&Build plate"
-msgstr "และแผ่นรูปร่าง"
+msgstr "&แผ่นสร้าง"
 
 #: /home/ruben/Projects/Cura/resources/qml/Menus/SettingVisibilityPresetsMenu.qml:13
 msgctxt "@action:inmenu"
@@ -2106,12 +2106,12 @@ msgstr "ยุบทุกหมวดหมู่"
 #: /home/ruben/Projects/Cura/resources/qml/Menus/SettingVisibilityPresetsMenu.qml:51
 msgctxt "@action:inmenu"
 msgid "Manage Setting Visibility..."
-msgstr "จัดการการตั้งค่าการมองเห็น ..."
+msgstr "จัดการการมองเห็นการตั้งค่า ..."
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/ProfileTab.qml:61
 msgctxt "@info:status"
 msgid "Calculated"
-msgstr "จากการคำนวณ"
+msgstr "การคำนวณ"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/ProfileTab.qml:75
 msgctxt "@title:column"
@@ -2121,7 +2121,7 @@ msgstr "การตั้งค่า"
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/ProfileTab.qml:82
 msgctxt "@title:column"
 msgid "Profile"
-msgstr "ข้อมูลส่วนตัว"
+msgstr "โปรไฟล์ "
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/ProfileTab.qml:89
 msgctxt "@title:column"
@@ -2136,7 +2136,7 @@ msgstr "หน่วย"
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/SettingVisibilityPage.qml:14
 msgctxt "@title:tab"
 msgid "Setting Visibility"
-msgstr "การตั้งค่าการมองเห็น"
+msgstr "การมองเห็นการตั้งค่า"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/SettingVisibilityPage.qml:46
 msgctxt "@label:textbox"
@@ -2165,8 +2165,8 @@ msgid ""
 "The new filament diameter is set to %1 mm, which is not compatible with the "
 "current extruder. Do you wish to continue?"
 msgstr ""
-"เส้นผ่าศูนย์กลางเส้นใยใหม่ถูกตั้งค่าให้% 1 "
-"มิลลิเมตรซึ่งไม่เข้ากันได้กับเครื่องอัดรีดปัจจุบัน คุณต้องการดำเนินการต่อ"
+"เส้นผ่าศูนย์กลางใหม่ถูกตั้งค่าให้ %1 มิลลิเมตร"
+" ซึ่งไม่เข้ากับเครื่องอัดรีดปัจจุบัน คุณต้องการดำเนินการต่อหรือไม่"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/Materials/MaterialsView.qml:128
 msgctxt "@label"
@@ -2206,27 +2206,27 @@ msgstr "เส้นผ่าศูนย์กลาง"
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/Materials/MaterialsView.qml:259
 msgctxt "@label"
 msgid "Filament Cost"
-msgstr "ต้นทุนเส้นใย"
+msgstr "ต้นทุนเส้น"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/Materials/MaterialsView.qml:276
 msgctxt "@label"
 msgid "Filament weight"
-msgstr "น้ำหนักเส้นใย"
+msgstr "น้ำหนักเส้น"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/Materials/MaterialsView.qml:294
 msgctxt "@label"
 msgid "Filament length"
-msgstr "ความยาวเส้นใย"
+msgstr "ความยาวเส้น"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/Materials/MaterialsView.qml:303
 msgctxt "@label"
 msgid "Cost per Meter"
-msgstr "ค่าใช้จ่ายต่อ Meter"
+msgstr "ค่าใช้จ่ายต่อเมตร"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/Materials/MaterialsView.qml:317
 msgctxt "@label"
 msgid "This material is linked to %1 and shares some of its properties."
-msgstr "วัสดุนี้จะเชื่อมโยงกับ% 1 และหุ้นบางส่วนของคุณสมบัติของมัน"
+msgstr "วัสดุนี้จะเชื่อมโยงกับ %1 และแบ่งคุณสมบัติบางส่วนของมัน"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/Materials/MaterialsView.qml:324
 msgctxt "@label"
@@ -2259,7 +2259,7 @@ msgstr "เปิดใช้งาน"
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/Materials/MaterialsPage.qml:126
 msgctxt "@action:button"
 msgid "Create"
-msgstr "สร้าง"
+msgstr "เพิ่ม"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/Materials/MaterialsPage.qml:141
 msgctxt "@action:button"
@@ -2301,7 +2301,7 @@ msgstr "ยืนยันการลบ"
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/ProfilesPage.qml:275
 msgctxt "@label (%1 is object name)"
 msgid "Are you sure you wish to remove %1? This cannot be undone!"
-msgstr "คุณแน่ใจหรือว่าต้องการลบ% 1? นี้ไม่สามารถยกเลิกได้!"
+msgstr "คุณแน่ใจหรือว่าต้องการลบ %1? คำสั่งนี้ไม่สามารถยกเลิกได้!"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/Materials/MaterialsPage.qml:315
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/Materials/MaterialsPage.qml:323
@@ -2314,31 +2314,30 @@ msgctxt "@info:status Don't translate the XML tags <filename> or <message>!"
 msgid ""
 "Could not import material <filename>%1</filename>: <message>%2</message>"
 msgstr ""
-"ไม่สามารถนำเข้าวัสดุ <ชื่อไฟล์>% 1 </ filename> <ข้อความ>% 2 </ ข้อความ>"
+"ไม่สามารถนำวัสดุ <filename>%1</filename>เข้า: <message>%2</message>"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/Materials/MaterialsPage.qml:328
 msgctxt "@info:status Don't translate the XML tag <filename>!"
 msgid "Successfully imported material <filename>%1</filename>"
-msgstr "นำเข้าสำเร็จวัสดุ <ชื่อไฟล์>% 1 </ filename>"
+msgstr "นำวัสดุ <filename>%1</filename> เข้าสำเร็จ"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/Materials/MaterialsPage.qml:346
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/Materials/MaterialsPage.qml:354
 msgctxt "@title:window"
 msgid "Export Material"
-msgstr "วัสดุการส่งออก"
+msgstr "ส่งออกวัสดุ"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/Materials/MaterialsPage.qml:358
 msgctxt "@info:status Don't translate the XML tags <filename> and <message>!"
 msgid ""
 "Failed to export material to <filename>%1</filename>: <message>%2</message>"
 msgstr ""
-"ล้มเหลวในการส่งออกไปยังวัสดุ <ชื่อไฟล์>% 1 </ filename> <ข้อความ>% 2 </ "
-"ข้อความ>"
+"การส่งออกวัสดุไปยัง <filename>%1</filename>ล้มเหลว: <message>%2</message>"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/Materials/MaterialsPage.qml:364
 msgctxt "@info:status Don't translate the XML tag <filename>!"
 msgid "Successfully exported material to <filename>%1</filename>"
-msgstr "ประสบความสำเร็จในการส่งออกวัสดุ <ชื่อไฟล์>% 1 </ filename>"
+msgstr "การส่งออกวัสดุไปยัง <filename>%1</filename> สำเร็จ"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/ProfilesPage.qml:104
 msgctxt "@label"
@@ -2348,7 +2347,7 @@ msgstr "สร้าง"
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/ProfilesPage.qml:121
 msgctxt "@label"
 msgid "Duplicate"
-msgstr "ซ้ำ"
+msgstr "เพิ่ม"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/ProfilesPage.qml:152
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/MachinesPage.qml:63
@@ -2369,7 +2368,7 @@ msgstr "โปรดระบุชื่อสำหรับโปรไฟล
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/ProfilesPage.qml:260
 msgctxt "@title:window"
 msgid "Duplicate Profile"
-msgstr "ซ้ำข้อมูลส่วนตัว"
+msgstr "เพิ่มโปรไฟล์ซ้ำ"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/ProfilesPage.qml:291
 msgctxt "@title:window"
@@ -2379,28 +2378,28 @@ msgstr "เปลี่ยนชื่อโปรไฟล์"
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/ProfilesPage.qml:304
 msgctxt "@title:window"
 msgid "Import Profile"
-msgstr "รายละเอียดนำเข้า"
+msgstr "นำโปรไฟล์เข้า"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/ProfilesPage.qml:333
 msgctxt "@title:window"
 msgid "Export Profile"
-msgstr "รายละเอียดการส่งออก"
+msgstr "ส่งโปรไฟล์ออก"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/ProfilesPage.qml:396
 msgctxt "@label %1 is printer name"
 msgid "Printer: %1"
-msgstr "เครื่องพิมพ์:% 1"
+msgstr "เครื่องพิมพ์: %1"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/ProfilesPage.qml:554
 msgctxt "@action:button"
 msgid "Update profile with current settings/overrides"
-msgstr "รายละเอียดการปรับปรุงด้วยการตั้งค่าปัจจุบัน / แทนที่"
+msgstr "ปรับปรุงโปรไฟล์ด้วยการค่าปัจจุบัน"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/ProfilesPage.qml:561
 #: /home/ruben/Projects/Cura/resources/qml/PrintSetupSelector/Custom/QualitiesWithIntentMenu.qml:258
 msgctxt "@action:button"
 msgid "Discard current changes"
-msgstr "เปลี่ยนแปลงในปัจจุบันยกเลิก"
+msgstr "ยกเลิกการเปลี่ยนแปลงค่า"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/ProfilesPage.qml:580
 msgctxt "@action:label"
