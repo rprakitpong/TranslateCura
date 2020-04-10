@@ -1,0 +1,6 @@
+cura
+927
+fdmextruder
+fdmprinter
+uranium
+

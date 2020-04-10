@@ -1,0 +1,20 @@
+build plate,แผ่นสร้าง
+nozzle,หัวรีด
+model,โมเดล
+support,นั่งร้าน
+slice,ซอยโมเดล
+prime tower,หอเตรียมหัวฉีด
+extruder,เครื่องอัดรีด
+layer,เลเยอร์
+triangle mesh,โมเดลตาข่ายสามเหลี่ยม
+wire printing,การพิมพ์แบบสาย
+compressed,แบบบีบอัด
+material configuration,ค่าวัสดุ
+update,อัปเดต
+firmware,เฟิร์มแวร์
+feature,ฟีเจอร์
+build volume,ปริมาณการสร้าง
+machine manager,ผู้จัดการเครื่อง
+interface,อินเตอร์เฟซ
+engine,เอ็นจีน
+meta data,ข้อมูลเมตา
