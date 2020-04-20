@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Ratthamnoon Prakitpong rprakitpong@gmail.com, 2020.
 #
 #, fuzzy
 msgid ""
@@ -584,7 +584,7 @@ msgctxt "@info:status"
 msgid ""
 "Unable to slice because the prime tower or prime position(s) are invalid."
 msgstr ""
-"ไม่สามารถซอยโมเดลเพราะหอเตรียมหัวฉีดหรือตำแหน่งของหอเตรียมหัวฉีดไม่ถูกต้อง"
+"ไม่สามารถซอยโมเดลเพราะหอเตรียมหัวรีดหรือตำแหน่งของหอเตรียมหัวรีดไม่ถูกต้อง"
 
 #: /home/ruben/Projects/Cura/plugins/CuraEngineBackend/CuraEngineBackend.py:403
 #, python-format
@@ -1014,7 +1014,7 @@ msgstr "กระโปรง"
 #: /home/ruben/Projects/Cura/cura/UI/PrintInformation.py:89
 msgctxt "@tooltip"
 msgid "Prime Tower"
-msgstr "หอเตรียมหัวฉีด"
+msgstr "หอเตรียมหัวรีด"
 
 #: /home/ruben/Projects/Cura/cura/UI/PrintInformation.py:90
 msgctxt "@tooltip"
@@ -2407,13 +2407,13 @@ msgid ""
 "This profile uses the defaults specified by the printer, so it has no "
 "settings/overrides in the list below."
 msgstr ""
-"รายละเอียดนี้จะใช้ค่าเริ่มต้นที่ระบุโดยเครื่องพิมพ์จึงมีไม่มีการตั้งค่า / "
-"แทนที่ในรายการด้านล่าง"
+"โปรไฟล์ใช้ค่าเริ่มต้นที่ระบุโดยเครื่องพิมพ์ "
+"จึงมีไม่มีการตั้งค่าโดยผู้ใช้ในรายการด้านล่าง"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/ProfilesPage.qml:588
 msgctxt "@action:label"
 msgid "Your current settings match the selected profile."
-msgstr "การตั้งค่าปัจจุบันของคุณตรงกับรูปแบบที่เลือก"
+msgstr "การตั้งค่าปัจจุบันของคุณตรงกับโปรไฟล์ที่เลือก"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/ProfilesPage.qml:606
 msgctxt "@title:tab"
@@ -2445,22 +2445,22 @@ msgctxt "@label"
 msgid ""
 "You will need to restart the application for these changes to have effect."
 msgstr ""
-"คุณจะต้องเริ่มต้นการประยุกต์ใช้สำหรับการเปลี่ยนแปลงเหล่านี้จะมีผลกระทบ"
+"คุณจะต้องเริ่มต้นซอฟต์แวร์นี้ใหม่เพื่อให้การเปลี่ยนแปลงเหล่านี้มีผล"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:296
 msgctxt "@info:tooltip"
 msgid "Slice automatically when changing settings."
-msgstr "Slice โดยอัตโนมัติเมื่อมีการเปลี่ยนแปลงการตั้งค่า"
+msgstr "ซอยโมเดลโดยอัตโนมัติเมื่อมีการเปลี่ยนแปลงการตั้งค่า"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:304
 msgctxt "@option:check"
 msgid "Slice automatically"
-msgstr "Slice โดยอัตโนมัติ"
+msgstr "ซอยโมเดลโดยอัตโนมัติ"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:318
 msgctxt "@label"
 msgid "Viewport behavior"
-msgstr "พฤติกรรม viewport"
+msgstr "พฤติกรรมวิวพอร์ต"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:326
 msgctxt "@info:tooltip"
@@ -2468,30 +2468,31 @@ msgid ""
 "Highlight unsupported areas of the model in red. Without support these areas"
 " will not print properly."
 msgstr ""
-"เน้นพื้นที่ที่ไม่สนับสนุนรูปแบบสีแดง "
-"โดยการสนับสนุนพื้นที่เหล่านี้จะไม่พิมพ์อย่างถูกต้อง"
+"พื้นที่สีแดงเป็นที่ที่ไม่มีนั่งร้าน"
+"พื้นที่เหล่านี้จะไม่พิมพ์อย่างถูกต้องถ้าไม่มีนั่งร้าน"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:335
 msgctxt "@option:check"
 msgid "Display overhang"
-msgstr "จอแสดงผลที่แขวนอยู่"
+msgstr "แสดงส่วนลอย"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:343
 msgctxt "@info:tooltip"
 msgid ""
 "Moves the camera so the model is in the center of the view when a model is "
 "selected"
-msgstr "ย้ายกล้องเพื่อรูปแบบคือในใจกลางของมุมมองเมื่อรูปแบบที่ถูกเลือก"
+msgstr ""
+"ย้ายกล้องเพื่อให้โมเดลอยู่กลางมุมกล้องเมื่อโมเดลถูกเลือก"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:348
 msgctxt "@action:button"
 msgid "Center camera when item is selected"
-msgstr "กล้องศูนย์เมื่อมีการเลือกรายการ"
+msgstr "ย้ายกล้องเพื่อให้โมเดลอยู่กลางมุมกล้องเมื่อโมเดลถูกเลือก"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:358
 msgctxt "@info:tooltip"
 msgid "Should the default zoom behavior of cura be inverted?"
-msgstr "ควรพฤติกรรมการซูมเริ่มต้นของ Cura จะกลับ?"
+msgstr "ควรเปลี่ยนพฤติกรรมการซูมกลับเป็นพฤติกรรมเริ่มต้นของ Cura หรือไม่?"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:363
 msgctxt "@action:button"
@@ -2501,13 +2502,13 @@ msgstr "สลับทิศทางของการซูมกล้อง
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:379
 msgctxt "@info:tooltip"
 msgid "Should zooming move in the direction of the mouse?"
-msgstr "ควรซูมย้ายในทิศทางของเมาส์หรือไม่"
+msgstr "ควรซูมย้ายตามทิศทางของเมาส์หรือไม่"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:379
 msgctxt "@info:tooltip"
 msgid ""
 "Zooming towards the mouse is not supported in the orthographic perspective."
-msgstr "ซูมต่อเมาส์ที่ไม่ได้รับการสนับสนุนในมุมมองของ orthographic"
+msgstr "ซูมต่อเมาส์ที่ไม่ได้รับการสนับสนุนในมุมมองของออโธกราฟฟิค"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:384
 msgctxt "@action:button"
@@ -2518,47 +2519,47 @@ msgstr "ซูมต่อทิศทางเมาส์"
 msgctxt "@info:tooltip"
 msgid ""
 "Should models on the platform be moved so that they no longer intersect?"
-msgstr "รุ่นบนแพลตฟอร์มควรจะย้ายเพื่อให้พวกเขาไม่ตัด?"
+msgstr "ควรจะย้ายโมเดลบนแพลตฟอร์มเพื่อให้พวกเขาไม่ตัดกันหรือไม่?"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:415
 msgctxt "@option:check"
 msgid "Ensure models are kept apart"
-msgstr "ตรวจสอบให้แน่ใจรุ่นจะถูกเก็บไว้ออกจากกัน"
+msgstr "ตรวจสอบให้แน่ใจว่าโมเดลถูกเก็บไว้ออกจากกัน"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:424
 msgctxt "@info:tooltip"
 msgid "Should models on the platform be moved down to touch the build plate?"
-msgstr "รุ่นบนแพลตฟอร์มที่ควรจะเดินลงไปสัมผัสสร้างแผ่น?"
+msgstr "โมเดลบนแพลตฟอร์มควรลงไปสัมผัสแผ่นสร้างหรือไม่?"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:429
 msgctxt "@option:check"
 msgid "Automatically drop models to the build plate"
-msgstr "โดยอัตโนมัติวางรูปแบบการสร้างแผ่น"
+msgstr "วางโมเดลบนแผ่นสร้างโดยอัตโนมัติ"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:441
 msgctxt "@info:tooltip"
 msgid "Show caution message in g-code reader."
-msgstr "ข้อความแสดงความระมัดระวังในการอ่านรหัส G-"
+msgstr "แสดงข้อความเตือนในเครื่องอ่านรหัส G-code"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:450
 msgctxt "@option:check"
 msgid "Caution message in g-code reader"
-msgstr "ข้อความข้อควรระวังในการอ่านรหัส G-"
+msgstr "ข้อความเตือนในเครื่องอ่านรหัส G-code"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:458
 msgctxt "@info:tooltip"
 msgid "Should layer be forced into compatibility mode?"
-msgstr "ควรชั้นถูกบังคับให้เข้าสู่โหมดความเข้ากันได้?"
+msgstr "เลเยอร์ควรถูกบังคับให้เข้าสู่โหมดคอมแพทติบิลิตีหรือไม่?"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:463
 msgctxt "@option:check"
 msgid "Force layer view compatibility mode (restart required)"
-msgstr "กองทัพโหมดมุมมองชั้นความเข้ากันได้ (เริ่มต้นใหม่ที่จำเป็น)"
+msgstr "มุมมองเลเยอร์ควรถูกบังคับให้เข้าสู่โหมดคอมแพทติบิลิตีหรือไม่? (ต้องเริ่มซอฟต์แวร์ใหม่)"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:473
 msgctxt "@info:tooltip"
 msgid "Should Cura open at the location it was closed?"
-msgstr "ควร Cura เปิดที่สถานที่ที่มันจะถูกปิด?"
+msgstr "ควรเปิด Cura ที่ที่ที่มันถูกปิด?"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:478
 msgctxt "@option:check"
@@ -2568,7 +2569,7 @@ msgstr "เรียกคืนตำแหน่งหน้าต่างใ
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:488
 msgctxt "@info:tooltip"
 msgid "What type of camera rendering should be used?"
-msgstr "สิ่งที่ประเภทของการแสดงผลของกล้องควรใช้?"
+msgstr "ควรใช้การแสดงผลของกล้องประเภทไหน?"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:495
 msgctxt "@window:text"
@@ -2581,7 +2582,7 @@ msgstr "มุมมอง"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:507
 msgid "Orthographic"
-msgstr "orthographic"
+msgstr "ออโธกราฟฟิค"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:538
 msgctxt "@label"
@@ -2591,12 +2592,12 @@ msgstr "เปิดและบันทึกไฟล์"
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:545
 msgctxt "@info:tooltip"
 msgid "Should models be scaled to the build volume if they are too large?"
-msgstr "รุ่นควรจะปรับให้มีการสร้างปริมาณถ้าพวกเขามีขนาดใหญ่เกินไป?"
+msgstr "ควรจะปรับโมเดลให้ใหญ่เท่ามีปริมาณการสร้างถ้าโมเดลมีขนาดใหญ่เกินไปหรือไม่?"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:550
 msgctxt "@option:check"
 msgid "Scale large models"
-msgstr "Scale Models ขนาดใหญ่"
+msgstr "โมเดลขนาดใหญ่"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:560
 msgctxt "@info:tooltip"
@@ -2604,23 +2605,23 @@ msgid ""
 "An model may appear extremely small if its unit is for example in meters "
 "rather than millimeters. Should these models be scaled up?"
 msgstr ""
-"รูปแบบอาจปรากฏมีขนาดเล็กมากถ้าหน่วยเป็นเช่นในเมตรมากกว่ามิลลิเมตร "
-"รูปแบบเหล่านี้ควรได้รับการปรับขนาดขึ้น?"
+"โมเดลอาจปรากฏมีขนาดเล็กมากถ้าหน่วยในโมเดลเป็นเมตร แทนที่จะเป็นมิลลิเมตร "
+"โมเดลเหล่านี้ควรได้รับการปรับขนาดขึ้นหรือไม่?"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:565
 msgctxt "@option:check"
 msgid "Scale extremely small models"
-msgstr "Scale Models มีขนาดเล็กมาก"
+msgstr "โมเดลขนาดเล็กมาก"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:575
 msgctxt "@info:tooltip"
 msgid "Should models be selected after they are loaded?"
-msgstr "รุ่นควรจะเลือกหลังจากที่พวกเขาจะเต็มไป?"
+msgstr "โมเดลควรจะถูกเลือกหลังจากที่ถูกโหลดหรือไม่?"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:580
 msgctxt "@option:check"
 msgid "Select models when loaded"
-msgstr "เลือกรุ่นเมื่อโหลด"
+msgstr "เลือกโมเดลเมื่อถูกโหลด"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:590
 msgctxt "@info:tooltip"
@@ -2628,47 +2629,47 @@ msgid ""
 "Should a prefix based on the printer name be added to the print job name "
 "automatically?"
 msgstr ""
-"ควรอยู่บนพื้นฐานของคำนำหน้าชื่อเครื่องพิมพ์ถูกเพิ่มเข้าไปในชื่องานพิมพ์โดยอัตโนมัติ?"
+"ควรนำชื่อเครื่องพิมพ์เพิ่มเข้าไปในหน้าชื่องานพิมพ์โดยอัตโนมัติหรือไม่?"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:595
 msgctxt "@option:check"
 msgid "Add machine prefix to job name"
-msgstr "เพิ่มคำนำหน้าเครื่องชื่องาน"
+msgstr "เพิ่มชื่อเครื่องพิมพ์ในหน้าชื่องานพิมพ์"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:605
 msgctxt "@info:tooltip"
 msgid "Should a summary be shown when saving a project file?"
-msgstr "ควรสรุปจะแสดงเมื่อมีการบันทึกแฟ้มโครงการหรือไม่?"
+msgstr "ควรแสดงสรุปเมื่อมีการบันทึกงานหรือไม่?"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:609
 msgctxt "@option:check"
 msgid "Show summary dialog when saving project"
-msgstr "แสดงโต้ตอบสรุปเมื่อมีการบันทึกโครงการ"
+msgstr "แสดงสรุปเมื่อมีการบันทึกงาน"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:619
 msgctxt "@info:tooltip"
 msgid "Default behavior when opening a project file"
-msgstr "พฤติกรรมเริ่มต้นเมื่อเปิดไฟล์โครงการ"
+msgstr "พฤติกรรมเริ่มต้นเมื่อเปิดไฟล์งาน"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:627
 msgctxt "@window:text"
 msgid "Default behavior when opening a project file: "
-msgstr "เริ่มต้นพฤติกรรมเมื่อเปิดไฟล์โครงการ:"
+msgstr "พฤติกรรมเริ่มต้นเมื่อเปิดไฟล์งาน:"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:641
 msgctxt "@option:openProject"
 msgid "Always ask me this"
-msgstr "มักจะถามฉันนี้"
+msgstr "ถามฉันเสมอ"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:642
 msgctxt "@option:openProject"
 msgid "Always open as a project"
-msgstr "เปิดเสมอเป็นโครงการ"
+msgstr "เปิดเป็นโครงการเสมอ"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:643
 msgctxt "@option:openProject"
 msgid "Always import models"
-msgstr "รุ่นนำเข้าเสมอ"
+msgstr "นำเข้าโมเดลเสมอ"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:679
 msgctxt "@info:tooltip"
@@ -2677,7 +2678,9 @@ msgid ""
 "dialog will be shown asking whether you want to keep your modifications or "
 "not, or you can choose a default behaviour and never show that dialog again."
 msgstr ""
-"เมื่อคุณได้ทำการเปลี่ยนแปลงรายละเอียดและเปลี่ยนไปที่แตกต่างกันหนึ่งโต้ตอบจะแสดงถามว่าคุณต้องการที่จะให้มีการปรับเปลี่ยนของคุณหรือไม่หรือคุณสามารถเลือกการทำงานเริ่มต้นและไม่เคยแสดงโต้ตอบที่อีกครั้ง"
+"เมื่อคุณได้ทำการเปลี่ยนแปลงโปรไฟล์และเปลี่ยนไปใช้โปรไฟล์อื่น"
+"จะมีคำเตือนจะแสดงถามว่าคุณต้องการที่จะให้มีการปรับเปลี่ยนของคุณหรือไม่"
+"หรือคุณสามารถเลือกพฤติกรรมเริ่มต้น จะทำให้ไม่มีคำเตือนอีก"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:688
 #: /home/ruben/Projects/Cura/resources/qml/PrintSetupSelector/Recommended/RecommendedQualityProfileSelector.qml:52
@@ -2691,23 +2694,23 @@ msgid ""
 "Default behavior for changed setting values when switching to a different "
 "profile: "
 msgstr ""
-"พฤติกรรมเริ่มต้นสำหรับค่าการตั้งค่าการเปลี่ยนแปลงเมื่อเปลี่ยนรายละเอียดที่แตกต่างกัน:"
+"พฤติกรรมเริ่มต้นสำหรับการตั้งค่าที่ถูกเปลี่ยนแปลงเมื่อเปลี่ยนไปใช้โปรไฟล์อื่น:"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:707
 #: /home/ruben/Projects/Cura/resources/qml/Dialogs/DiscardOrKeepProfileChangesDialog.qml:156
 msgctxt "@option:discardOrKeep"
 msgid "Always ask me this"
-msgstr "มักจะถามฉันนี้"
+msgstr "ถามฉันเสมอ"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:708
 msgctxt "@option:discardOrKeep"
 msgid "Always discard changed settings"
-msgstr "การตั้งค่าการเปลี่ยนแปลงเสมอทิ้ง"
+msgstr "ทิ้งค่าที่ถูกเปลี่ยนแปลงเสมอ"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:709
 msgctxt "@option:discardOrKeep"
 msgid "Always transfer changed settings to new profile"
-msgstr "เสมอโอนการตั้งค่าการเปลี่ยนแปลงไปยังโปรไฟล์ใหม่"
+msgstr "โอนการตั้งค่าที่ถูกเปลี่ยนแปลงไปยังโปรไฟล์ใหม่เสมอ"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:743
 msgctxt "@label"
@@ -2717,12 +2720,12 @@ msgstr "ความเป็นส่วนตัว"
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:750
 msgctxt "@info:tooltip"
 msgid "Should Cura check for updates when the program is started?"
-msgstr "ควร Cura ตรวจสอบการปรับปรุงเมื่อโปรแกรมเริ่มต้น?"
+msgstr "ควร Cura ตรวจสอบการปรับปรุงเมื่อโปรแกรมเริ่มต้นหรือไม่?"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:755
 msgctxt "@option:check"
 msgid "Check for updates on start"
-msgstr "ตรวจหาการปรับปรุงในการเริ่มต้น"
+msgstr "ตรวจหาการปรับปรุงตอนเริ่มต้นโปรแกรม"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:765
 msgctxt "@info:tooltip"
@@ -2731,33 +2734,33 @@ msgid ""
 "models, IP addresses or other personally identifiable information is sent or"
 " stored."
 msgstr ""
-"ข้อมูลที่ควรระบุชื่อเกี่ยวกับการพิมพ์ของคุณถูกส่งไปยัง Ultimaker? "
-"หมายเหตุไม่มีรูปแบบที่อยู่ IP หรือข้อมูลส่วนบุคคลอื่น ๆ จะถูกส่งหรือเก็บไว้"
+"ควรส่งข้อมูลการพิมพ์ของคุณไปยัง Ultimakerหรือไม่?"
+"หมายเหตุ: ข้อมูลไม่ระบุชื่อ ไม่มีโมเดล ไม่มีที่อยู่ IP ไม่มีข้อมูลส่วนบุคคลอื่น ๆ"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:770
 msgctxt "@option:check"
 msgid "Send (anonymous) print information"
-msgstr "ส่ง (ไม่ระบุชื่อ) พิมพ์ข้อมูล"
+msgstr "ส่งข้อมูลการพิมพ์แบบไม่ระบุชื่อ"
 
 #: /home/ruben/Projects/Cura/resources/qml/Preferences/GeneralPage.qml:779
 msgctxt "@action:button"
 msgid "More information"
-msgstr "ข้อมูลมากกว่านี้"
+msgstr "ข้อมูลเพิ่ม"
 
 #: /home/ruben/Projects/Cura/resources/qml/ViewsSelector.qml:50
 msgctxt "@label"
 msgid "View type"
-msgstr "ดูประเภท"
+msgstr "ประเภทมุมมอง"
 
 #: /home/ruben/Projects/Cura/resources/qml/ObjectSelector.qml:59
 msgctxt "@label"
 msgid "Object list"
-msgstr "รายการวัตถุ"
+msgstr "รายการโมเดล"
 
 #: /home/ruben/Projects/Cura/resources/qml/WelcomePages/AddNetworkPrinterScrollView.qml:42
 msgctxt "@label"
 msgid "There is no printer found over your network."
-msgstr "มีเครื่องพิมพ์ไม่พบผ่านเครือข่ายของคุณ"
+msgstr "ไม่พบเครื่องพิมพ์ผ่านเครือข่ายของคุณ"
 
 #: /home/ruben/Projects/Cura/resources/qml/WelcomePages/AddNetworkPrinterScrollView.qml:180
 msgctxt "@label"
@@ -2777,12 +2780,12 @@ msgstr "การแก้ไขปัญหา"
 #: /home/ruben/Projects/Cura/resources/qml/WelcomePages/CloudContent.qml:36
 msgctxt "@label"
 msgid "Ultimaker Cloud"
-msgstr "Ultimaker เมฆ"
+msgstr "Ultimaker Cloud"
 
 #: /home/ruben/Projects/Cura/resources/qml/WelcomePages/CloudContent.qml:77
 msgctxt "@text"
 msgid "The next generation 3D printing workflow"
-msgstr "รุ่นต่อไปเวิร์กโฟลว์การพิมพ์ 3 มิติ"
+msgstr "เวิร์กโฟลว์การพิมพ์ 3 มิติรุ่นใหม่"
 
 #: /home/ruben/Projects/Cura/resources/qml/WelcomePages/CloudContent.qml:94
 msgctxt "@text"
@@ -2792,12 +2795,12 @@ msgstr "- งานส่งพิมพ์ไปยังเครื่อง�
 #: /home/ruben/Projects/Cura/resources/qml/WelcomePages/CloudContent.qml:97
 msgctxt "@text"
 msgid "- Store your Ultimaker Cura settings in the cloud for use anywhere"
-msgstr "- เก็บการตั้งค่า Ultimaker Cura คุณในเมฆสำหรับการใช้งานได้ทุกที่"
+msgstr "- เก็บการตั้งค่า Ultimaker Cura คุณใน Cloud สำหรับการใช้งานได้ทุกที่"
 
 #: /home/ruben/Projects/Cura/resources/qml/WelcomePages/CloudContent.qml:100
 msgctxt "@text"
 msgid "- Get exclusive access to print profiles from leading brands"
-msgstr "- รับสิทธิ์พิเศษในการพิมพ์โปรไฟล์จากแบรนด์ชั้นนำ"
+msgstr "- รับสิทธิ์ใช้โปรไฟล์การพิมพ์จากแบรนด์ชั้นนำ"
 
 #: /home/ruben/Projects/Cura/resources/qml/WelcomePages/CloudContent.qml:119
 msgctxt "@button"
@@ -2826,12 +2829,12 @@ msgstr "เพิ่มเครื่องพิมพ์ตามที่อ
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/resources/qml/DiscoverUM3Action.qml:331
 msgctxt "@label"
 msgid "Enter the IP address of your printer on the network."
-msgstr "ใส่ที่อยู่ IP ของเครื่องพิมพ์ของคุณบนเครือข่าย"
+msgstr "ใส่ที่อยู่ IP บนเครือข่ายของเครื่องพิมพ์ของคุณ"
 
 #: /home/ruben/Projects/Cura/resources/qml/WelcomePages/AddPrinterByIpContent.qml:133
 msgctxt "@text"
 msgid "Place enter your printer's IP address."
-msgstr "สถานที่ป้อนที่อยู่ IP ของเครื่องพิมพ์"
+msgstr "โปรดป้อนที่อยู่ IP ของเครื่องพิมพ์"
 
 #: /home/ruben/Projects/Cura/resources/qml/WelcomePages/AddPrinterByIpContent.qml:146
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/resources/qml/DiscoverUM3Action.qml:297
@@ -2852,7 +2855,7 @@ msgstr "ไม่สามารถเชื่อมต่อกับอุป
 #: /home/ruben/Projects/Cura/resources/qml/WelcomePages/AddPrinterByIpContent.qml:208
 msgctxt "@label"
 msgid "The printer at this address has not responded yet."
-msgstr "เครื่องพิมพ์ที่อยู่นี้ไม่ได้ตอบสนองเลย"
+msgstr "เครื่องพิมพ์ที่ที่อยู่นี้ยังไม่ตอบสนอง"
 
 #: /home/ruben/Projects/Cura/resources/qml/WelcomePages/AddPrinterByIpContent.qml:240
 msgctxt "@label"
@@ -2860,7 +2863,7 @@ msgid ""
 "This printer cannot be added because it's an unknown printer or it's not the"
 " host of a group."
 msgstr ""
-"เครื่องพิมพ์นี้ไม่สามารถเพิ่มเพราะมันเป็นเครื่องพิมพ์ที่ไม่รู้จักหรือไม่โฮสต์ของกลุ่ม"
+"ไม่สามารถเพิ่มเครื่องพิมพ์เครื่องนี้เพราะมันเป็นเครื่องพิมพ์ที่เราไม่รู้จัก หรือไม่ใช่โฮสต์ของกลุ่ม"
 
 #: /home/ruben/Projects/Cura/resources/qml/WelcomePages/AddPrinterByIpContent.qml:258
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/resources/qml/DiscoverUM3Action.qml:205
@@ -2900,7 +2903,7 @@ msgstr "ต่อไป"
 #: /home/ruben/Projects/Cura/resources/qml/WelcomePages/DataCollectionsContent.qml:24
 msgctxt "@label"
 msgid "Help us to improve Ultimaker Cura"
-msgstr "ช่วยให้เราสามารถปรับปรุง Ultimaker Cura"
+msgstr "ช่วยเราปรับปรุง Ultimaker Cura"
 
 #: /home/ruben/Projects/Cura/resources/qml/WelcomePages/DataCollectionsContent.qml:57
 msgctxt "@text"
@@ -2908,8 +2911,8 @@ msgid ""
 "Ultimaker Cura collects anonymous data to improve print quality and user "
 "experience, including:"
 msgstr ""
-"Ultimaker Cura "
-"เก็บรวบรวมข้อมูลที่ไม่ระบุชื่อในการปรับปรุงคุณภาพการพิมพ์และประสบการณ์ของผู้ใช้รวมไปถึง:"
+"Ultimaker Cura เก็บรวบรวมข้อมูลที่ไม่ระบุชื่อ"
+"เพื่อการปรับปรุงคุณภาพการพิมพ์และประสบการณ์ของผู้ใช้:"
 
 #: /home/ruben/Projects/Cura/resources/qml/WelcomePages/DataCollectionsContent.qml:71
 msgctxt "@text"
@@ -2924,12 +2927,12 @@ msgstr "การใช้วัสดุ"
 #: /home/ruben/Projects/Cura/resources/qml/WelcomePages/DataCollectionsContent.qml:83
 msgctxt "@text"
 msgid "Number of slices"
-msgstr "จำนวนชิ้น"
+msgstr "จำนวนการซอยโมเดล"
 
 #: /home/ruben/Projects/Cura/resources/qml/WelcomePages/DataCollectionsContent.qml:89
 msgctxt "@text"
 msgid "Print settings"
-msgstr "ตั้งค่าการพิมพ์"
+msgstr "ค่าการพิมพ์"
 
 #: /home/ruben/Projects/Cura/resources/qml/WelcomePages/DataCollectionsContent.qml:102
 msgctxt "@text"
@@ -2950,12 +2953,12 @@ msgstr "เพิ่มเครื่องพิมพ์"
 #: /home/ruben/Projects/Cura/resources/qml/WelcomePages/AddNetworkOrLocalPrinterContent.qml:39
 msgctxt "@label"
 msgid "Add a networked printer"
-msgstr "เพิ่มเครื่องพิมพ์เครือข่าย"
+msgstr "เพิ่มเครื่องพิมพ์ผ่านเครือข่าย"
 
 #: /home/ruben/Projects/Cura/resources/qml/WelcomePages/AddNetworkOrLocalPrinterContent.qml:81
 msgctxt "@label"
 msgid "Add a non-networked printer"
-msgstr "เพิ่มเครื่องพิมพ์ที่ไม่ใช่เครือข่าย"
+msgstr "เพิ่มเครื่องพิมพ์ไม่ผ่านเครือข่าย"
 
 #: /home/ruben/Projects/Cura/resources/qml/WelcomePages/UserAgreementContent.qml:23
 msgctxt "@label"
@@ -2965,7 +2968,7 @@ msgstr "ข้อตกลงการใช้"
 #: /home/ruben/Projects/Cura/resources/qml/WelcomePages/UserAgreementContent.qml:70
 msgctxt "@button"
 msgid "Decline and close"
-msgstr "ลดลงและใกล้"
+msgstr "ลดลงและปิด"
 
 #: /home/ruben/Projects/Cura/resources/qml/WelcomePages/AddLocalPrinterScrollView.qml:212
 msgctxt "@label"
@@ -2998,8 +3001,8 @@ msgid ""
 "Please follow these steps to set up\n"
 "Ultimaker Cura. This will only take a few moments."
 msgstr ""
-"โปรดปฏิบัติตามขั้นตอนเหล่านี้ในการตั้งค่า\n"
-"Ultimaker Cura นี้จะใช้เวลาสักครู่"
+"โปรดใช้เวลาสักครู่ ปฏิบัติตามขั้นตอนเหล่านี้ในการตั้งค่า\n"
+"Ultimaker Cura"
 
 #: /home/ruben/Projects/Cura/resources/qml/WelcomePages/WelcomeContent.qml:58
 msgctxt "@button"
@@ -3024,14 +3027,14 @@ msgstr "เครื่องพิมพ์ที่เชื่อมต่อ
 #: /home/ruben/Projects/Cura/resources/qml/PrinterSelector/MachineSelectorList.qml:19
 msgctxt "@label"
 msgid "Preset printers"
-msgstr "เครื่องพิมพ์ที่ตั้งไว้ล่วงหน้า"
+msgstr "ตั้งเครื่องพิมพ์ไว้ล่วงหน้า"
 
 #: /home/ruben/Projects/Cura/resources/qml/ExtruderButton.qml:16
 msgctxt "@label %1 is filled in with the name of an extruder"
 msgid "Print Selected Model with %1"
 msgid_plural "Print Selected Models with %1"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "พิมพ์โมเดลด้วย %1"
+msgstr[1] "พิมพ์โมเดลด้วย %1"
 
 #: /home/ruben/Projects/Cura/resources/qml/ViewOrientationControls.qml:27
 msgctxt "@info:tooltip"
@@ -3056,7 +3059,7 @@ msgstr "มุมมองซ้าย"
 #: /home/ruben/Projects/Cura/resources/qml/ViewOrientationControls.qml:79
 msgctxt "@info:tooltip"
 msgid "Right View"
-msgstr "ขวาดู"
+msgstr "มุมมองขวา"
 
 #: /home/ruben/Projects/Cura/resources/qml/PrintSetupSelector/Custom/QualitiesWithIntentMenu.qml:160
 msgctxt "@label:header"
@@ -3066,7 +3069,7 @@ msgstr "โปรไฟล์ที่กำหนดเอง"
 #: /home/ruben/Projects/Cura/resources/qml/PrintSetupSelector/Custom/CustomPrintSetup.qml:47
 msgctxt "@label"
 msgid "Profile"
-msgstr "ข้อมูลส่วนตัว"
+msgstr "โปรไฟล์"
 
 #: /home/ruben/Projects/Cura/resources/qml/PrintSetupSelector/Custom/CustomPrintSetup.qml:172
 msgctxt "@tooltip"
@@ -3075,14 +3078,14 @@ msgid ""
 "\n"
 "Click to open the profile manager."
 msgstr ""
-"บางคนตั้งค่า / ค่าแทนที่จะแตกต่างจากค่าที่เก็บไว้ในรายละเอียด\n"
+"ค่าบางค่าแตกต่างจากค่าที่เก็บไว้ในโปรไฟล์\n"
 "\n"
-"คลิ๊กเพื่อเปิดตัวจัดการรายละเอียด"
+"คลิ๊กเพื่อเปิดตัวจัดการโปรไฟล์"
 
 #: /home/ruben/Projects/Cura/resources/qml/PrintSetupSelector/PrintSetupSelectorHeader.qml:13
 msgctxt "@label:Should be short"
 msgid "On"
-msgstr "บน"
+msgstr "เปิด"
 
 #: /home/ruben/Projects/Cura/resources/qml/PrintSetupSelector/PrintSetupSelectorHeader.qml:14
 msgctxt "@label:Should be short"
@@ -3092,7 +3095,7 @@ msgstr "ปิด"
 #: /home/ruben/Projects/Cura/resources/qml/PrintSetupSelector/PrintSetupSelectorHeader.qml:33
 msgctxt "@label"
 msgid "Experimental"
-msgstr "การทดลอง"
+msgstr "ทดลอง"
 
 #: /home/ruben/Projects/Cura/resources/qml/PrintSetupSelector/NoIntentIcon.qml:31
 msgctxt ""
@@ -3104,13 +3107,13 @@ msgid ""
 msgid_plural ""
 "There is no %1 profile for the configurations in extruders %2. The default "
 "intent will be used instead"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "ไม่มีโปรไฟล์ %1 สำหรับเครื่องอัดรีด %2 ใช้ค่าเริ่มต้นแทน"
+msgstr[1] "ไม่มีโปรไฟล์ %1 สำหรับเครื่องอัดรีด %2 ใช้ค่าเริ่มต้นแทน"
 
 #: /home/ruben/Projects/Cura/resources/qml/PrintSetupSelector/Recommended/RecommendedSupportSelector.qml:30
 msgctxt "@label"
 msgid "Support"
-msgstr "สนับสนุน"
+msgstr "นั่งร้าน"
 
 #: /home/ruben/Projects/Cura/resources/qml/PrintSetupSelector/Recommended/RecommendedSupportSelector.qml:71
 msgctxt "@label"
@@ -3118,25 +3121,25 @@ msgid ""
 "Generate structures to support parts of the model which have overhangs. "
 "Without these structures, such parts would collapse during printing."
 msgstr ""
-"สร้างโครงสร้างเพื่อสนับสนุนชิ้นส่วนของรูปแบบที่มีการยื่น "
-"โดยไม่ต้องโครงสร้างเหล่านี้ชิ้นส่วนดังกล่าวจะยุบในระหว่างการพิมพ์"
+"สร้างนั่งร้านเพื่อสนับสนุนส่วนลอยโมเดล "
+"ถ้าไม่มีนั่งร้าน ชิ้นส่วนดังกล่าวจะยุบในระหว่างการพิมพ์"
 
 #: /home/ruben/Projects/Cura/resources/qml/PrintSetupSelector/Recommended/RecommendedInfillDensitySelector.qml:65
 #: /home/ruben/Projects/Cura/plugins/SimulationView/SimulationViewMenuComponent.qml:248
 msgctxt "@label"
 msgid "Infill"
-msgstr "infill"
+msgstr "โครงใน"
 
 #: /home/ruben/Projects/Cura/resources/qml/PrintSetupSelector/Recommended/RecommendedInfillDensitySelector.qml:193
 msgctxt "@label"
 msgid "Gradual infill"
-msgstr "infill ค่อยเป็นค่อยไป"
+msgstr "โครงในแบบค่อยค่อย"
 
 #: /home/ruben/Projects/Cura/resources/qml/PrintSetupSelector/Recommended/RecommendedInfillDensitySelector.qml:232
 msgctxt "@label"
 msgid ""
 "Gradual infill will gradually increase the amount of infill towards the top."
-msgstr "infill ค่อยเป็นค่อยไปจะค่อยๆเพิ่มปริมาณของ infill ที่มีต่อด้านบน"
+msgstr "โครงในแบบค่อยค่อยจะค่อยๆเพิ่มปริมาณของโครงในด้านบน"
 
 #: /home/ruben/Projects/Cura/resources/qml/PrintSetupSelector/Recommended/RecommendedQualityProfileSelector.qml:81
 msgctxt "@tooltip"
@@ -3144,13 +3147,13 @@ msgid ""
 "You have modified some profile settings. If you want to change these go to "
 "custom mode."
 msgstr ""
-"คุณได้แก้ไขการตั้งค่าโปรไฟล์บาง "
-"หากคุณต้องการที่จะเปลี่ยนไปเหล่านี้ไปยังโหมดที่กำหนดเอง"
+"คุณได้แก้ไขค่าโปรไฟล์บางค่า "
+"หากคุณต้องการที่จะเปลี่ยนค่า โปรดไปยังโหมดที่กำหนดเอง"
 
 #: /home/ruben/Projects/Cura/resources/qml/PrintSetupSelector/Recommended/RecommendedAdhesionSelector.qml:29
 msgctxt "@label"
 msgid "Adhesion"
-msgstr "ความศรัทธา"
+msgstr "ความเหนียวแน่น"
 
 #: /home/ruben/Projects/Cura/resources/qml/PrintSetupSelector/Recommended/RecommendedAdhesionSelector.qml:74
 msgctxt "@label"
@@ -3158,8 +3161,8 @@ msgid ""
 "Enable printing a brim or raft. This will add a flat area around or under "
 "your object which is easy to cut off afterwards."
 msgstr ""
-"เปิดใช้งานการพิมพ์ปีกหรือแพ นี้จะเพิ่มพื้นที่ราบไปรอบ ๆ "
-"หรือภายใต้วัตถุของคุณซึ่งเป็นเรื่องง่ายที่จะตัดหลังจากนั้น"
+"เปิดใช้งานการพิมพ์ปีกหรือแพ จะเพิ่มพื้นที่ราบรอบ ๆ "
+"หรือภายใต้โมเดลของคุณ ซึ่งเป็นเรื่องง่ายที่จะตัดหลังพิมพ์"
 
 #: /home/ruben/Projects/Cura/resources/qml/PrintSetupSelector/PrintSetupSelectorContents.qml:144
 msgctxt "@button"
@@ -3174,7 +3177,7 @@ msgstr "กำหนดเอง"
 #: /home/ruben/Projects/Cura/resources/qml/PrintSetupSelector/PrintSetupSelector.qml:21
 msgctxt "@label shown when we load a Gcode file"
 msgid "Print setup disabled. G-code file can not be modified."
-msgstr "การตั้งค่าปิดการใช้งานพิมพ์ ไฟล์ G-รหัสไม่สามารถแก้ไขได้"
+msgstr "ปิดการใช้งานการตั้งค่าพิมพ์ ไม่สามารถแก้ไขไฟล์ G-code ได้"
 
 #: /home/ruben/Projects/Cura/resources/qml/Settings/SettingCategory.qml:234
 msgctxt "@label"
@@ -3183,24 +3186,24 @@ msgid ""
 "\n"
 "Click to make these settings visible."
 msgstr ""
-"การตั้งค่าซ่อนบางคนใช้ค่าที่แตกต่างจากค่าที่คำนวณได้ตามปกติ\n"
+"การตั้งค่าซ่อนบางค่าใช้ค่าที่แตกต่างจากค่าที่คำนวณได้ตามปกติ\n"
 "\n"
-"คลิ๊กเพื่อทำการตั้งค่าเหล่านี้สามารถมองเห็นได้"
+"คลิ๊กเพื่อมองการตั้งค่าเหล่านี้"
 
 #: /home/ruben/Projects/Cura/resources/qml/Settings/SettingView.qml:68
 msgctxt "@label:textbox"
 msgid "Search settings"
-msgstr "ตั้งค่าการค้นหา"
+msgstr "ค้นหาค่า"
 
 #: /home/ruben/Projects/Cura/resources/qml/Settings/SettingView.qml:463
 msgctxt "@action:menu"
 msgid "Copy value to all extruders"
-msgstr "ค่าคัดลอกไป extruders ทั้งหมด"
+msgstr "คัดลอกค่าไปเครื่องอัดรีดทั้งหมด"
 
 #: /home/ruben/Projects/Cura/resources/qml/Settings/SettingView.qml:472
 msgctxt "@action:menu"
 msgid "Copy all changed values to all extruders"
-msgstr "คัดลอกค่าการเปลี่ยนแปลงทั้งหมดที่จะ extruders ทั้งหมด"
+msgstr "คัดลอกค่าการเปลี่ยนแปลงทั้งหมดไปเครื่องอัดรีดทั้งหมด"
 
 #: /home/ruben/Projects/Cura/resources/qml/Settings/SettingView.qml:509
 msgctxt "@action:menu"
@@ -3215,13 +3218,13 @@ msgstr "ไม่ต้องแสดงการตั้งค่านี้
 #: /home/ruben/Projects/Cura/resources/qml/Settings/SettingView.qml:526
 msgctxt "@action:menu"
 msgid "Keep this setting visible"
-msgstr "เก็บการตั้งค่านี้สามารถมองเห็นได้"
+msgstr "เก็บการตั้งค่าที่เห็นนี้"
 
 #: /home/ruben/Projects/Cura/resources/qml/Settings/SettingView.qml:545
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:441
 msgctxt "@action:menu"
 msgid "Configure setting visibility..."
-msgstr "การกำหนดค่าการแสดงผลการตั้งค่า ..."
+msgstr "กำหนดการแสดงผลการตั้งค่า ..."
 
 #: /home/ruben/Projects/Cura/resources/qml/Settings/SettingItem.qml:81
 msgctxt "@label"
@@ -3229,7 +3232,7 @@ msgid ""
 "This setting is not used because all the settings that it influences are "
 "overridden."
 msgstr ""
-"การตั้งค่านี้จะไม่ได้ใช้เพราะการตั้งค่าทั้งหมดที่มีอิทธิพลนั้นจะถูกแทนที่"
+"ไม่ได้ใช้การตั้งค่านี้เพราะการตั้งค่าทั้งหมดที่การตั้งค่านี้มีอิทธิพลถึงถูกแทนที่"
 
 #: /home/ruben/Projects/Cura/resources/qml/Settings/SettingItem.qml:86
 msgctxt "@label Header for list of settings."
@@ -3247,13 +3250,13 @@ msgid ""
 "This setting is always shared between all extruders. Changing it here will "
 "change the value for all extruders."
 msgstr ""
-"การตั้งค่านี้เสมอกันระหว่าง extruders ทั้งหมด "
-"เปลี่ยนได้ที่นี่จะมีการเปลี่ยนแปลงค่าสำหรับ extruders ทั้งหมด"
+"การตั้งค่านี้ต้องเสมอกันระหว่างเครื่องอัดรีดทั้งหมด "
+"เปลี่ยนค่าที่นี่จะมีการเปลี่ยนแปลงค่าสำหรับเครื่องอัดรีดทั้งหมด"
 
 #: /home/ruben/Projects/Cura/resources/qml/Settings/SettingItem.qml:191
 msgctxt "@label"
 msgid "The value is resolved from per-extruder values "
-msgstr "ค่าที่ได้รับการแก้ไขจากค่าต่อการอัดรีด"
+msgstr "ได้รับการแก้ไขค่าจากค่าของเครื่องอัดรีด"
 
 #: /home/ruben/Projects/Cura/resources/qml/Settings/SettingItem.qml:230
 msgctxt "@label"
@@ -3262,9 +3265,9 @@ msgid ""
 "\n"
 "Click to restore the value of the profile."
 msgstr ""
-"การตั้งค่านี้มีค่าที่แตกต่างจากรายละเอียดที่\n"
+"การตั้งค่านี้มีค่าที่แตกต่างจากโปรไฟล์ \n"
 "\n"
-"คลิ๊กเพื่อเรียกคืนค่าของรายละเอียดที่"
+"คลิ๊กเพื่อเรียกคืนค่าของโปรไฟล์ "
 
 #: /home/ruben/Projects/Cura/resources/qml/Settings/SettingItem.qml:329
 msgctxt "@label"
@@ -3273,14 +3276,14 @@ msgid ""
 "\n"
 "Click to restore the calculated value."
 msgstr ""
-"การตั้งค่านี้จะคำนวณได้ตามปกติ แต่ขณะนี้มีชุดค่าสัมบูรณ์\n"
+"การตั้งค่านี้ได้มาจากการคำนวณตามปกติ แต่ขณะนี้มีชุดค่าสัมบูรณ์\n"
 "\n"
 "คลิ๊กเพื่อเรียกคืนค่าการคำนวณ"
 
 #: /home/ruben/Projects/Cura/resources/qml/Account/GeneralOperations.qml:40
 msgctxt "@label"
 msgid "The next generation 3D printing workflow"
-msgstr "รุ่นต่อไปเวิร์กโฟลว์การพิมพ์ 3 มิติ"
+msgstr "เวิร์กโฟลว์การพิมพ์ 3 มิติรุ่นต่อไป"
 
 #: /home/ruben/Projects/Cura/resources/qml/Account/GeneralOperations.qml:51
 msgctxt "@text"
@@ -3290,8 +3293,8 @@ msgid ""
 "- Get exclusive access to print profiles from leading brands"
 msgstr ""
 "- งานส่งพิมพ์ไปยังเครื่องพิมพ์ Ultimaker นอกเครือข่ายท้องถิ่นของคุณ\n"
-"- เก็บการตั้งค่า Ultimaker Cura คุณในเมฆสำหรับการใช้งานได้ทุกที่\n"
-"- รับสิทธิ์พิเศษในการพิมพ์โปรไฟล์จากแบรนด์ชั้นนำ"
+"- เก็บการตั้งค่า Ultimaker Cura คุณใน Cloud สำหรับการใช้งานได้ทุกที่\n"
+"- รับโปรไฟล์การพิมพ์จากแบรนด์ชั้นนำ"
 
 #: /home/ruben/Projects/Cura/resources/qml/Account/GeneralOperations.qml:78
 msgctxt "@button"
@@ -3301,7 +3304,7 @@ msgstr "สร้างบัญชี"
 #: /home/ruben/Projects/Cura/resources/qml/Account/UserOperations.qml:22
 msgctxt "@label The argument is a username."
 msgid "Hi %1"
-msgstr "สวัสดี% 1"
+msgstr "สวัสดี %1"
 
 #: /home/ruben/Projects/Cura/resources/qml/Account/UserOperations.qml:33
 msgctxt "@button"
@@ -3326,12 +3329,12 @@ msgstr "เกี่ยวกับ"
 #: /home/ruben/Projects/Cura/resources/qml/Dialogs/AboutDialog.qml:57
 msgctxt "@label"
 msgid "version: %1"
-msgstr "รุ่น:% 1"
+msgstr "รุ่น: %1"
 
 #: /home/ruben/Projects/Cura/resources/qml/Dialogs/AboutDialog.qml:72
 msgctxt "@label"
 msgid "End-to-end solution for fused filament 3D printing."
-msgstr "โซลูชั่นแบบ end-to-end สำหรับผสมใยพิมพ์ 3 มิติ"
+msgstr "โซลูชั่นแบบเอนด์ทูเอนด์สำหรับการพิมพ์ 3 มิติแบบใช้เส้นพลาสติก"
 
 #: /home/ruben/Projects/Cura/resources/qml/Dialogs/AboutDialog.qml:85
 msgctxt "@info:credit"
@@ -3339,8 +3342,8 @@ msgid ""
 "Cura is developed by Ultimaker B.V. in cooperation with the community.\n"
 "Cura proudly uses the following open source projects:"
 msgstr ""
-"Cura จะถูกพัฒนาโดย Ultimaker B.V. ในความร่วมมือกับชุมชน\n"
-"Cura ภูมิใจใช้มาเปิดโครงการต่อไปนี้:"
+"Cura ถูกพัฒนาโดย Ultimaker B.V. พร้อมความร่วมมือกับชุมชน\n"
+"Cura ภูมิใจใช้โครงการโอเพนซอร์สต่อไปนี้:"
 
 #: /home/ruben/Projects/Cura/resources/qml/Dialogs/AboutDialog.qml:135
 msgctxt "@label"
@@ -3350,12 +3353,12 @@ msgstr "อินเตอร์เฟซผู้ใช้แบบกราฟ
 #: /home/ruben/Projects/Cura/resources/qml/Dialogs/AboutDialog.qml:136
 msgctxt "@label"
 msgid "Application framework"
-msgstr "การประยุกต์ใช้กรอบ"
+msgstr "เฟรมเวิร์กแอพพลิเคชัน"
 
 #: /home/ruben/Projects/Cura/resources/qml/Dialogs/AboutDialog.qml:137
 msgctxt "@label"
 msgid "G-code generator"
-msgstr "G-รหัสเครื่องกำเนิดไฟฟ้า"
+msgstr "เครื่องสร้าง G-code"
 
 #: /home/ruben/Projects/Cura/resources/qml/Dialogs/AboutDialog.qml:138
 msgctxt "@label"
@@ -3365,22 +3368,22 @@ msgstr "ห้องสมุดการสื่อสาร"
 #: /home/ruben/Projects/Cura/resources/qml/Dialogs/AboutDialog.qml:140
 msgctxt "@label"
 msgid "Programming language"
-msgstr "การเขียนโปรแกรมภาษา"
+msgstr "ภาษาเขียนโปรแกรม"
 
 #: /home/ruben/Projects/Cura/resources/qml/Dialogs/AboutDialog.qml:141
 msgctxt "@label"
 msgid "GUI framework"
-msgstr "กรอบ GUI"
+msgstr "เฟรมเวิร์ก GUI"
 
 #: /home/ruben/Projects/Cura/resources/qml/Dialogs/AboutDialog.qml:142
 msgctxt "@label"
 msgid "GUI framework bindings"
-msgstr "GUI ผูกกรอบ"
+msgstr "คำผูกเฟรมเวิร์ก GUI"
 
 #: /home/ruben/Projects/Cura/resources/qml/Dialogs/AboutDialog.qml:143
 msgctxt "@label"
 msgid "C/C++ Binding library"
-msgstr "C / C ++ ห้องสมุดเข้าเล่ม"
+msgstr "คำผูกห้องสมุด C / C ++"
 
 #: /home/ruben/Projects/Cura/resources/qml/Dialogs/AboutDialog.qml:144
 msgctxt "@label"
@@ -3390,12 +3393,12 @@ msgstr "รูปแบบการแลกเปลี่ยนข้อมู
 #: /home/ruben/Projects/Cura/resources/qml/Dialogs/AboutDialog.qml:145
 msgctxt "@label"
 msgid "Support library for scientific computing"
-msgstr "ห้องสมุดการสนับสนุนสำหรับการคำนวณทางวิทยาศาสตร์"
+msgstr "ห้องสมุดสนับสนุนสำหรับการคำนวณทางวิทยาศาสตร์"
 
 #: /home/ruben/Projects/Cura/resources/qml/Dialogs/AboutDialog.qml:146
 msgctxt "@label"
 msgid "Support library for faster math"
-msgstr "ห้องสมุดการสนับสนุนสำหรับคณิตศาสตร์ได้เร็วขึ้น"
+msgstr "ห้องสมุดการสนับสนุนสำหรับการเพิ่มความเร็วการคำนวณ"
 
 #: /home/ruben/Projects/Cura/resources/qml/Dialogs/AboutDialog.qml:147
 msgctxt "@label"
@@ -3415,7 +3418,7 @@ msgstr "ห้องสมุดการสนับสนุนสำหรั
 #: /home/ruben/Projects/Cura/resources/qml/Dialogs/AboutDialog.qml:150
 msgctxt "@label"
 msgid "Support library for analysis of complex networks"
-msgstr "ห้องสมุดการสนับสนุนสำหรับการวิเคราะห์เครือข่ายที่ซับซ้อน"
+msgstr "ห้องสมุดการสนับสนุนสำหรับการวิเคราะห์เครือข่ายซับซ้อน"
 
 #: /home/ruben/Projects/Cura/resources/qml/Dialogs/AboutDialog.qml:151
 msgctxt "@label"
@@ -3445,12 +3448,12 @@ msgstr "ห้องสมุดตัดรูปหลายเหลี่ย
 #: /home/ruben/Projects/Cura/resources/qml/Dialogs/AboutDialog.qml:156
 msgctxt "@Label"
 msgid "Python HTTP library"
-msgstr "ห้องสมุดหลาม HTTP"
+msgstr "ห้องสมุด HTTP"
 
 #: /home/ruben/Projects/Cura/resources/qml/Dialogs/AboutDialog.qml:158
 msgctxt "@label"
 msgid "Font"
-msgstr "ตัวอักษร"
+msgstr "ฟอนต์"
 
 #: /home/ruben/Projects/Cura/resources/qml/Dialogs/AboutDialog.qml:159
 msgctxt "@label"
@@ -3460,7 +3463,7 @@ msgstr "ไอคอน SVG"
 #: /home/ruben/Projects/Cura/resources/qml/Dialogs/AboutDialog.qml:160
 msgctxt "@label"
 msgid "Linux cross-distribution application deployment"
-msgstr "ลินุกซ์ใช้งานโปรแกรมข้ามกระจาย"
+msgstr "โปรแกรมลินุกซ์ใช้กระจายงาน"
 
 #: /home/ruben/Projects/Cura/resources/qml/Dialogs/DiscardOrKeepProfileChangesDialog.qml:15
 msgctxt "@title:window"
@@ -3473,7 +3476,7 @@ msgid ""
 "You have customized some profile settings.\n"
 "Would you like to keep or discard those settings?"
 msgstr ""
-"คุณมีการปรับแต่งการตั้งค่าโปรไฟล์บาง\n"
+"คุณมีการปรับแต่งโปรไฟล์บางค่า\n"
 "คุณต้องการที่จะเก็บหรือทิ้งการตั้งค่าเหล่านั้นหรือไม่"
 
 #: /home/ruben/Projects/Cura/resources/qml/Dialogs/DiscardOrKeepProfileChangesDialog.qml:109
@@ -3494,12 +3497,12 @@ msgstr "ที่กำหนดเอง"
 #: /home/ruben/Projects/Cura/resources/qml/Dialogs/DiscardOrKeepProfileChangesDialog.qml:157
 msgctxt "@option:discardOrKeep"
 msgid "Discard and never ask again"
-msgstr "ยกเลิกและไม่เคยถามอีก"
+msgstr "ยกเลิกและไม่ถามอีก"
 
 #: /home/ruben/Projects/Cura/resources/qml/Dialogs/DiscardOrKeepProfileChangesDialog.qml:158
 msgctxt "@option:discardOrKeep"
 msgid "Keep and never ask again"
-msgstr "เก็บและไม่เคยถามอีก"
+msgstr "เก็บและไม่ถามอีก"
 
 #: /home/ruben/Projects/Cura/resources/qml/Dialogs/DiscardOrKeepProfileChangesDialog.qml:195
 msgctxt "@action:button"
@@ -3523,19 +3526,19 @@ msgid ""
 "selected. You can open only one project file at a time. We suggest to only "
 "import models from those files. Would you like to proceed?"
 msgstr ""
-"เราพบหนึ่งหรือแฟ้มโครงการมากขึ้น (s) ภายในไฟล์ที่คุณเลือก "
-"คุณสามารถเปิดไฟล์เพียงหนึ่งโครงการในเวลา "
-"เราขอแนะนำให้กับรุ่นนำเข้าจากไฟล์เหล่านั้น คุณต้องการที่จะดำเนินการอย่างไร"
+"เราพบไฟล์งานไฟล์หนึ่งหรือมากกว่า ภายในไฟล์ที่คุณเลือก "
+"คุณสามารถเปิดไฟล์งานได้แค่ทีละไฟล์ "
+"เราขอแนะนำให้นำเข้าโมเดลจากไฟล์นั้นเท่านั้น คุณต้องการที่จะดำเนินต่อหรือไม่"
 
 #: /home/ruben/Projects/Cura/resources/qml/Dialogs/OpenFilesIncludingProjectsDialog.qml:99
 msgctxt "@action:button"
 msgid "Import all as models"
-msgstr "นำเข้าทุกรุ่น"
+msgstr "นำเข้าทุกอย่างเป็นโมเดล"
 
 #: /home/ruben/Projects/Cura/resources/qml/Dialogs/AskOpenAsProjectOrModelsDialog.qml:20
 msgctxt "@title:window"
 msgid "Open project file"
-msgstr "แฟ้มโครงการเปิด"
+msgstr "เปิดไฟล์งาน"
 
 #: /home/ruben/Projects/Cura/resources/qml/Dialogs/AskOpenAsProjectOrModelsDialog.qml:93
 msgctxt "@text:window"
@@ -3543,8 +3546,8 @@ msgid ""
 "This is a Cura project file. Would you like to open it as a project or "
 "import the models from it?"
 msgstr ""
-"นี้เป็นไฟล์โครงการ Cura "
-"คุณต้องการที่จะเปิดเป็นโครงการหรือนำเข้ารุ่นจากมันได้หรือไม่"
+"นี้เป็นไฟล์งาน Cura "
+"คุณต้องการที่จะเปิดเป็นงานหรือนำเข้าโมเดลจากมัน"
 
 #: /home/ruben/Projects/Cura/resources/qml/Dialogs/AskOpenAsProjectOrModelsDialog.qml:103
 msgctxt "@text:window"
@@ -3554,23 +3557,23 @@ msgstr "จดจำตัวเลือกของฉัน"
 #: /home/ruben/Projects/Cura/resources/qml/Dialogs/AskOpenAsProjectOrModelsDialog.qml:122
 msgctxt "@action:button"
 msgid "Open as project"
-msgstr "เปิดเป็นโครงการ"
+msgstr "เปิดเป็นไฟล์งาน"
 
 #: /home/ruben/Projects/Cura/resources/qml/Dialogs/AskOpenAsProjectOrModelsDialog.qml:131
 msgctxt "@action:button"
 msgid "Import models"
-msgstr "นำเข้ารุ่น"
+msgstr "นำเข้าโมเดล"
 
 #: /home/ruben/Projects/Cura/resources/qml/Dialogs/WorkspaceSummaryDialog.qml:15
 msgctxt "@title:window"
 msgid "Save Project"
-msgstr "บันทึกโครงการ"
+msgstr "บันทึกไฟล์งาน"
 
 #: /home/ruben/Projects/Cura/resources/qml/Dialogs/WorkspaceSummaryDialog.qml:73
 #: /home/ruben/Projects/Cura/plugins/3MFReader/WorkspaceDialog.qml:70
 msgctxt "@action:title"
 msgid "Summary - Cura Project"
-msgstr "ข้อมูลอย่างย่อ - Cura โครงการ"
+msgstr "ข้อมูลอย่างย่อ - ไฟล์งาน Cura"
 
 #: /home/ruben/Projects/Cura/resources/qml/Dialogs/WorkspaceSummaryDialog.qml:97
 #: /home/ruben/Projects/Cura/plugins/3MFReader/WorkspaceDialog.qml:92
@@ -3601,12 +3604,12 @@ msgstr "ชื่อ"
 #: /home/ruben/Projects/Cura/resources/qml/Dialogs/WorkspaceSummaryDialog.qml:177
 msgctxt "@action:label"
 msgid "Extruder %1"
-msgstr "Extruder% 1"
+msgstr "Extruder %1"
 
 #: /home/ruben/Projects/Cura/resources/qml/Dialogs/WorkspaceSummaryDialog.qml:193
 msgctxt "@action:label"
 msgid "%1 & material"
-msgstr "% 1 และวัสดุ"
+msgstr "วัสดุ %1"
 
 #: /home/ruben/Projects/Cura/resources/qml/Dialogs/WorkspaceSummaryDialog.qml:195
 msgctxt "@action:label"
@@ -3617,21 +3620,21 @@ msgstr "วัสดุ"
 #: /home/ruben/Projects/Cura/plugins/3MFReader/WorkspaceDialog.qml:180
 msgctxt "@action:label"
 msgid "Profile settings"
-msgstr "การตั้งค่าโปรไฟล์"
+msgstr "ค่าโปรไฟล์"
 
 #: /home/ruben/Projects/Cura/resources/qml/Dialogs/WorkspaceSummaryDialog.qml:230
 #: /home/ruben/Projects/Cura/plugins/3MFReader/WorkspaceDialog.qml:246
 msgctxt "@action:label"
 msgid "Not in profile"
-msgstr "ไม่ได้อยู่ในรายละเอียด"
+msgstr "ไม่อยู่ในโปรไฟล์"
 
 #: /home/ruben/Projects/Cura/resources/qml/Dialogs/WorkspaceSummaryDialog.qml:235
 #: /home/ruben/Projects/Cura/plugins/3MFReader/WorkspaceDialog.qml:251
 msgctxt "@action:label"
 msgid "%1 override"
 msgid_plural "%1 overrides"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "ค่าเขียนแทนเอง %1 ค่า"
+msgstr[1] "ค่าเขียนแทนเอง %1 ค่า"
 
 #: /home/ruben/Projects/Cura/resources/qml/Dialogs/WorkspaceSummaryDialog.qml:263
 #: /home/ruben/Projects/Cura/plugins/3MFReader/WorkspaceDialog.qml:231
@@ -3642,7 +3645,7 @@ msgstr "เจตนา"
 #: /home/ruben/Projects/Cura/resources/qml/Dialogs/WorkspaceSummaryDialog.qml:285
 msgctxt "@action:label"
 msgid "Don't show project summary on save again"
-msgstr "ไม่ต้องแสดงสรุปโครงการประหยัดอีกครั้ง"
+msgstr "ไม่ต้องแสดงสรุปตอนบันทึกอีก"
 
 #: /home/ruben/Projects/Cura/resources/qml/Dialogs/WorkspaceSummaryDialog.qml:304
 msgctxt "@action:button"
@@ -3657,27 +3660,27 @@ msgstr "ตลาด"
 #: /home/ruben/Projects/Cura/resources/qml/MainWindow/ApplicationMenu.qml:31
 msgctxt "@title:menu menubar:toplevel"
 msgid "&Edit"
-msgstr "และแก้ไข"
+msgstr "&แก้ไข"
 
 #: /home/ruben/Projects/Cura/resources/qml/MainWindow/ApplicationMenu.qml:55
 msgctxt "@title:menu menubar:toplevel"
 msgid "E&xtensions"
-msgstr "E & XTensions"
+msgstr "&ส่วนขยาย"
 
 #: /home/ruben/Projects/Cura/resources/qml/MainWindow/ApplicationMenu.qml:89
 msgctxt "@title:menu menubar:toplevel"
 msgid "P&references"
-msgstr "P & อ้างอิง"
+msgstr "&การตั้งค่าส่วนตัว"
 
 #: /home/ruben/Projects/Cura/resources/qml/MainWindow/ApplicationMenu.qml:97
 msgctxt "@title:menu menubar:toplevel"
 msgid "&Help"
-msgstr "&ช่วยด้วย"
+msgstr "&ช่วย"
 
 #: /home/ruben/Projects/Cura/resources/qml/MainWindow/ApplicationMenu.qml:124
 msgctxt "@title:window"
 msgid "New project"
-msgstr "โครงการใหม่"
+msgstr "งานใหม่"
 
 #: /home/ruben/Projects/Cura/resources/qml/MainWindow/ApplicationMenu.qml:125
 msgctxt "@info:question"
@@ -3685,8 +3688,8 @@ msgid ""
 "Are you sure you want to start a new project? This will clear the build "
 "plate and any unsaved settings."
 msgstr ""
-"คุณแน่ใจหรือไม่ว่าต้องการที่จะเริ่มโครงการใหม่หรือไม่? "
-"นี้จะล้างจานสร้างและการตั้งค่าใด ๆ ที่ไม่ได้บันทึก"
+"คุณแน่ใจหรือไม่ว่าต้องการที่จะเริ่มงานใหม่? "
+"การกระทำนี้จะล้างแผ่นสร้างและการตั้งค่าใด ๆ ที่ไม่ได้บันทึกไว้"
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:82
 msgctxt "@action:inmenu"
@@ -3696,22 +3699,22 @@ msgstr "แสดงคู่มือการแก้ไขปัญหาอ
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:89
 msgctxt "@action:inmenu"
 msgid "Toggle Full Screen"
-msgstr "หน้าจอสลับเต็ม"
+msgstr "เปิดหน้าจอเต็ม"
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:97
 msgctxt "@action:inmenu"
 msgid "Exit Full Screen"
-msgstr "ออกจากเต็มหน้าจอ"
+msgstr "ออกจากหน้าจอเต็ม"
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:104
 msgctxt "@action:inmenu menubar:edit"
 msgid "&Undo"
-msgstr "และเลิกทำ"
+msgstr "&ย้อนกลับ"
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:114
 msgctxt "@action:inmenu menubar:edit"
 msgid "&Redo"
-msgstr "และพร้อม"
+msgstr "&ทำใหม่"
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:124
 msgctxt "@action:inmenu menubar:file"
@@ -3736,12 +3739,12 @@ msgstr "มุมมองด้านบน"
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:153
 msgctxt "@action:inmenu menubar:view"
 msgid "Left Side View"
-msgstr "ซ้ายมุมมองด้านข้าง"
+msgstr "มุมมองด้านซ้าย"
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:160
 msgctxt "@action:inmenu menubar:view"
 msgid "Right Side View"
-msgstr "ด้านขวาดู"
+msgstr "มุมมองด้านขวา"
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:167
 msgctxt "@action:inmenu"
@@ -3751,12 +3754,12 @@ msgstr "กำหนดค่า Cura ..."
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:174
 msgctxt "@action:inmenu menubar:printer"
 msgid "&Add Printer..."
-msgstr "และเพิ่มเครื่องพิมพ์ ..."
+msgstr "&เพิ่มเครื่องพิมพ์ ..."
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:180
 msgctxt "@action:inmenu menubar:printer"
 msgid "Manage Pr&inters..."
-msgstr "และการจัดการ Interac ..."
+msgstr "จัดการเครื่องพิมพ์ ..."
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:187
 msgctxt "@action:inmenu"
@@ -3771,22 +3774,22 @@ msgstr "เพิ่มวัสดุอื่น ๆ จากตลาด"
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:202
 msgctxt "@action:inmenu menubar:profile"
 msgid "&Update profile with current settings/overrides"
-msgstr "และรายละเอียดการปรับปรุงด้วยการตั้งค่าปัจจุบัน / แทนที่"
+msgstr "&ปรับปรุงโปรไฟล์ด้วยการตั้งค่าปัจจุบัน / เขียนแทนเอง"
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:210
 msgctxt "@action:inmenu menubar:profile"
 msgid "&Discard current changes"
-msgstr "และเปลี่ยนแปลงในปัจจุบันยกเลิก"
+msgstr "&ยกเลิกการตั้งค่าที่เขียนแทนเอง"
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:222
 msgctxt "@action:inmenu menubar:profile"
 msgid "&Create profile from current settings/overrides..."
-msgstr "และสร้างรายได้จากการตั้งค่าปัจจุบัน / แทนที่ ..."
+msgstr "&สร้างโปรไฟล์ด้วยการตั้งค่าปัจจุบัน / เขียนแทนเอง ..."
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:228
 msgctxt "@action:inmenu menubar:profile"
 msgid "Manage Profiles..."
-msgstr "จัดการส่วนกำหนดค่า ..."
+msgstr "จัดการโปรไฟล์ ..."
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:236
 msgctxt "@action:inmenu menubar:help"
@@ -3819,105 +3822,105 @@ msgstr[1] ""
 msgctxt "@action:inmenu menubar:edit"
 msgid "Center Selected Model"
 msgid_plural "Center Selected Models"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "วางโมเดลตรงกลาง"
+msgstr[1] "วางโมเดลตรงกลาง"
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:284
 msgctxt "@action:inmenu menubar:edit"
 msgid "Multiply Selected Model"
 msgid_plural "Multiply Selected Models"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "เพิ่มโมเดล"
+msgstr[1] "เพิ่มโมเดล"
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:293
 msgctxt "@action:inmenu"
 msgid "Delete Model"
-msgstr "ลบรุ่น"
+msgstr "ลบโมเดล"
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:301
 msgctxt "@action:inmenu"
 msgid "Ce&nter Model on Platform"
-msgstr "ศูนย์กลางการหมุนรุ่นบนแพลทฟอร์ม"
+msgstr "วางโมเดลตรงกลางแผ่นสร้าง"
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:307
 msgctxt "@action:inmenu menubar:edit"
 msgid "&Group Models"
-msgstr "และกลุ่มรุ่น"
+msgstr "&จัดกลุ่มโมเดล"
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:327
 msgctxt "@action:inmenu menubar:edit"
 msgid "Ungroup Models"
-msgstr "ยกเลิกการจัดกลุ่มรุ่น"
+msgstr "ยกเลิกการจัดกลุ่มโมเดล"
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:337
 msgctxt "@action:inmenu menubar:edit"
 msgid "&Merge Models"
-msgstr "และผสานรุ่น"
+msgstr "&ผสานโมเดล"
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:347
 msgctxt "@action:inmenu"
 msgid "&Multiply Model..."
-msgstr "และคูณรุ่น ..."
+msgstr "&เพิ่มโมเดล ..."
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:354
 msgctxt "@action:inmenu menubar:edit"
 msgid "Select All Models"
-msgstr "เลือกทุกรุ่น"
+msgstr "เลือกทุกโมเดล"
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:364
 msgctxt "@action:inmenu menubar:edit"
 msgid "Clear Build Plate"
-msgstr "จานรูปร่างที่ชัดเจน"
+msgstr "ลบทุกโมเดล"
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:374
 msgctxt "@action:inmenu menubar:file"
 msgid "Reload All Models"
-msgstr "รุ่นโหลดทั้งหมด"
+msgstr "โหลดโมเดลทั้งหมดใหม่"
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:383
 msgctxt "@action:inmenu menubar:edit"
 msgid "Arrange All Models To All Build Plates"
-msgstr "จัดทุกรุ่นเพื่อแผ่นรูปร่างทั้งหมด"
+msgstr "จัดทุกโมเดลเพื่อแผ่นสร้างทั้งหมด"
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:390
 msgctxt "@action:inmenu menubar:edit"
 msgid "Arrange All Models"
-msgstr "จัดทุกรุ่น"
+msgstr "จัดทุกโมเดล"
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:398
 msgctxt "@action:inmenu menubar:edit"
 msgid "Arrange Selection"
-msgstr "จัดให้มีการคัดเลือก"
+msgstr "จัดที่ถูกเลือก"
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:405
 msgctxt "@action:inmenu menubar:edit"
 msgid "Reset All Model Positions"
-msgstr "รีเซ็ตทุกรุ่นตำแหน่ง"
+msgstr "รีเซ็ตตำแหน่งทุกโมเดล"
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:412
 msgctxt "@action:inmenu menubar:edit"
 msgid "Reset All Model Transformations"
-msgstr "รีเซ็ตทุกรุ่นแปลง"
+msgstr "รีเซ็ตที่ทุกโมเดล"
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:419
 msgctxt "@action:inmenu menubar:file"
 msgid "&Open File(s)..."
-msgstr "และเปิดไฟล์ (s) ..."
+msgstr "&เปิดไฟล์ ..."
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:427
 msgctxt "@action:inmenu menubar:file"
 msgid "&New Project..."
-msgstr "&โครงการใหม่..."
+msgstr "&งานใหม่..."
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:434
 msgctxt "@action:inmenu menubar:help"
 msgid "Show Configuration Folder"
-msgstr "แสดงการกำหนดค่าโฟลเดอร์"
+msgstr "แสดงโฟลเดอร์ค่ากำหนด"
 
 #: /home/ruben/Projects/Cura/resources/qml/Actions.qml:448
 msgctxt "@action:menu"
 msgid "&Marketplace"
-msgstr "และตลาด"
+msgstr "&ตลาด"
 
 #: /home/ruben/Projects/Cura/plugins/SliceInfoPlugin/MoreInfoWindow.qml:17
 msgctxt "@title:window"
@@ -3930,19 +3933,18 @@ msgid ""
 "Ultimaker Cura collects anonymous data in order to improve the print quality"
 " and user experience. Below is an example of all the data that is shared:"
 msgstr ""
-"Ultimaker Cura "
-"เก็บรวบรวมข้อมูลที่ไม่ระบุชื่อเพื่อปรับปรุงคุณภาพการพิมพ์และประสบการณ์ของผู้ใช้"
-" ด้านล่างเป็นตัวอย่างของข้อมูลทั้งหมดที่ใช้ร่วมกัน:"
+"Ultimaker Cura เก็บรวบรวมข้อมูลที่ไม่ระบุชื่อเพื่อปรับปรุงคุณภาพการพิมพ์และประสบการณ์ของผู้ใช้"
+" ด้านล่างเป็นตัวอย่างของข้อมูลทั้งหมดที่ถูกเผยแพร่:"
 
 #: /home/ruben/Projects/Cura/plugins/SliceInfoPlugin/MoreInfoWindow.qml:110
 msgctxt "@text:window"
 msgid "I don't want to send anonymous data"
-msgstr "ฉันไม่ต้องการที่จะส่งข้อมูลที่ไม่ระบุชื่อ"
+msgstr "ฉันไม่ต้องการที่จะส่งข้อมูลไม่ระบุชื่อ"
 
 #: /home/ruben/Projects/Cura/plugins/SliceInfoPlugin/MoreInfoWindow.qml:119
 msgctxt "@text:window"
 msgid "Allow sending anonymous data"
-msgstr "อนุญาตให้ส่งข้อมูลที่ไม่ระบุชื่อ"
+msgstr "อนุญาตให้ส่งข้อมูลไม่ระบุชื่อ"
 
 #: /home/ruben/Projects/Cura/plugins/SliceInfoPlugin/MoreInfoWindow.qml:139
 #: /home/ruben/Projects/Cura/plugins/ImageReader/ConfigUI.qml:227
@@ -3959,42 +3961,42 @@ msgstr "แปลงภาพ ..."
 #: /home/ruben/Projects/Cura/plugins/ImageReader/ConfigUI.qml:33
 msgctxt "@info:tooltip"
 msgid "The maximum distance of each pixel from \"Base.\""
-msgstr "ระยะทางสูงสุดของแต่ละพิกเซลจาก \"ฐาน\"."
+msgstr "ระยะทางสูงสุดของแต่ละพิกเซลจาก \"ฐาน\""
 
 #: /home/ruben/Projects/Cura/plugins/ImageReader/ConfigUI.qml:38
 msgctxt "@action:label"
 msgid "Height (mm)"
-msgstr "ความสูง (mm)"
+msgstr "ความสูง (มม)"
 
 #: /home/ruben/Projects/Cura/plugins/ImageReader/ConfigUI.qml:56
 msgctxt "@info:tooltip"
 msgid "The base height from the build plate in millimeters."
-msgstr "ความสูงจากฐานการสร้างแผ่นมิลลิเมตร"
+msgstr "ความสูงจากแผ่นสร้างในหน่วยมิลลิเมตร"
 
 #: /home/ruben/Projects/Cura/plugins/ImageReader/ConfigUI.qml:61
 msgctxt "@action:label"
 msgid "Base (mm)"
-msgstr "ฐาน (mm)"
+msgstr "ฐาน (มม)"
 
 #: /home/ruben/Projects/Cura/plugins/ImageReader/ConfigUI.qml:79
 msgctxt "@info:tooltip"
 msgid "The width in millimeters on the build plate."
-msgstr "ความกว้างในหน่วยมิลลิเมตรในการสร้างแผ่น"
+msgstr "ความกว้างแผ่นสร้างในหน่วยมิลลิเมตร"
 
 #: /home/ruben/Projects/Cura/plugins/ImageReader/ConfigUI.qml:84
 msgctxt "@action:label"
 msgid "Width (mm)"
-msgstr "ความกว้าง (mm)"
+msgstr "ความกว้าง (มม)"
 
 #: /home/ruben/Projects/Cura/plugins/ImageReader/ConfigUI.qml:103
 msgctxt "@info:tooltip"
 msgid "The depth in millimeters on the build plate"
-msgstr "ความลึกในหน่วยมิลลิเมตรในการสร้างแผ่น"
+msgstr "ความลึกแผ่นสร้างในหน่วยมิลลิเมตร"
 
 #: /home/ruben/Projects/Cura/plugins/ImageReader/ConfigUI.qml:108
 msgctxt "@action:label"
 msgid "Depth (mm)"
-msgstr "ความลึก (mm)"
+msgstr "ความลึก (มม)"
 
 #: /home/ruben/Projects/Cura/plugins/ImageReader/ConfigUI.qml:126
 msgctxt "@info:tooltip"
@@ -4004,20 +4006,19 @@ msgid ""
 "higher terrain, so lighter pixels should correspond to thicker locations in "
 "the generated 3D model."
 msgstr ""
-"สำหรับ lithophanes "
-"พิกเซลสีเข้มควรตรงไปยังสถานที่หนาเพื่อป้องกันแสงมากขึ้นที่ผ่านมาทาง "
-"สำหรับความสูงของแผนที่พิกเซลน้ำหนักเบามีความหมายภูมิประเทศที่สูงขึ้นพิกเซลเพื่อให้มีน้ำหนักเบาควรตรงไปยังสถานที่หนาในรูปแบบ"
-" 3 มิติที่สร้างขึ้น"
+"สำหรับลิโทเพ็น พิกเซลสีเข้มจะถูกแปรเป็นส่วนที่หนา เพื่อป้องกันแสงที่ผ่านได้มากขึ้น"
+"สำหรับแผนที่แสดงความสูง พิกเซลสีอ่อนจะถูกแปรเป็นส่วนที่หนา เพราะพื้นที่สีจางในแผนที่หมายถึงภูมิประเทศที่สูงขึ้น"
+""
 
 #: /home/ruben/Projects/Cura/plugins/ImageReader/ConfigUI.qml:139
 msgctxt "@item:inlistbox"
 msgid "Darker is higher"
-msgstr "เข้มเป็นที่สูงขึ้น"
+msgstr "สีเข้มเป็นส่วนที่หนา"
 
 #: /home/ruben/Projects/Cura/plugins/ImageReader/ConfigUI.qml:139
 msgctxt "@item:inlistbox"
 msgid "Lighter is higher"
-msgstr "เบาจะสูงกว่า"
+msgstr "สีอ่อนเป็นส่วนที่หนา"
 
 #: /home/ruben/Projects/Cura/plugins/ImageReader/ConfigUI.qml:149
 msgctxt "@info:tooltip"
@@ -4025,8 +4026,8 @@ msgid ""
 "For lithophanes a simple logarithmic model for translucency is available. "
 "For height maps the pixel values correspond to heights linearly."
 msgstr ""
-"สำหรับ lithophanes รูปแบบลอการิทึมง่ายสำหรับ translucency ใช้ได้ "
-"สำหรับความสูงของแผนที่ค่าพิกเซลสอดคล้องกับความสูงเป็นเส้นตรง"
+"สำหรับลิโทเพ็น แนะนำให้ใช้สมการลอการิทึมสำหรับการคำนวณความโปร่งแสง"
+"สำหรับแผนที่แสดงความสูง ความสูงของแผนที่สอดคล้องกับความสูงค่าพิกเซลเป็นสมการเชิงเส้น"
 
 #: /home/ruben/Projects/Cura/plugins/ImageReader/ConfigUI.qml:161
 msgctxt "@item:inlistbox"
@@ -4037,7 +4038,7 @@ msgstr "เชิงเส้น"
 #: /home/ruben/Projects/Cura/plugins/ImageReader/ConfigUI.qml:172
 msgctxt "@item:inlistbox"
 msgid "Translucency"
-msgstr "translucency"
+msgstr "ความโปร่งแสง"
 
 #: /home/ruben/Projects/Cura/plugins/ImageReader/ConfigUI.qml:171
 msgctxt "@info:tooltip"
@@ -4046,23 +4047,23 @@ msgid ""
 "millimeter. Lowering this value increases the contrast in dark regions and "
 "decreases the contrast in light regions of the image."
 msgstr ""
-"ร้อยละของแสงเจาะพิมพ์ที่มีความหนา 1 มิลลิเมตร "
-"ลดค่านี้เพิ่มความคมชัดในภูมิภาคที่มืดและลดความคมชัดในภูมิภาคแสงของภาพ"
+"ค่าร้อยละของแสงที่ทะลุส่วนพิมพ์ที่มีความหนา 1 มิลลิเมตร "
+"การลดค่านี้จะเพิ่มความคมชัดในภูมิภาคที่มืดและลดความคมชัดในภูมิภาคที่สว่าง"
 
 #: /home/ruben/Projects/Cura/plugins/ImageReader/ConfigUI.qml:177
 msgctxt "@action:label"
 msgid "1mm Transmittance (%)"
-msgstr "1mm ส่งผ่าน (%)"
+msgstr "ค่าร้อยละของแสงที่ทะลุ 1 มม. (%)"
 
 #: /home/ruben/Projects/Cura/plugins/ImageReader/ConfigUI.qml:195
 msgctxt "@info:tooltip"
 msgid "The amount of smoothing to apply to the image."
-msgstr "จำนวนเงินที่ราบเรียบที่จะนำไปใช้กับภาพ"
+msgstr "ค่าความเรียบที่จะนำไปใช้กับภาพ"
 
 #: /home/ruben/Projects/Cura/plugins/ImageReader/ConfigUI.qml:200
 msgctxt "@action:label"
 msgid "Smoothing"
-msgstr "การขจัดอุปสรรค"
+msgstr "ความเรียบ"
 
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsAction.qml:42
 msgctxt "@title:tab"
@@ -4072,12 +4073,12 @@ msgstr "เครื่องพิมพ์"
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsExtruderTab.qml:63
 msgctxt "@title:label"
 msgid "Nozzle Settings"
-msgstr "การตั้งค่าหัวฉีด"
+msgstr "การตั้งค่าหัวรีด"
 
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsExtruderTab.qml:75
 msgctxt "@label"
 msgid "Nozzle size"
-msgstr "ขนาดหัวฉีด"
+msgstr "ขนาดหัวรีด"
 
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsExtruderTab.qml:79
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsExtruderTab.qml:93
@@ -4093,7 +4094,7 @@ msgstr "ขนาดหัวฉีด"
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsPrinterTab.qml:285
 msgctxt "@label"
 msgid "mm"
-msgstr "มิลลิเมตร"
+msgstr "มม."
 
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsExtruderTab.qml:89
 msgctxt "@label"
@@ -4103,27 +4104,27 @@ msgstr "เส้นผ่าศูนย์กลางวัสดุที่
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsExtruderTab.qml:105
 msgctxt "@label"
 msgid "Nozzle offset X"
-msgstr "หัวฉีดชดเชย X"
+msgstr "ออฟเซตทาง X ของหัวรีด"
 
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsExtruderTab.qml:120
 msgctxt "@label"
 msgid "Nozzle offset Y"
-msgstr "หัวฉีดชดเชย Y"
+msgstr "ออฟเซตทาง Y ของหัวรีด"
 
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsExtruderTab.qml:135
 msgctxt "@label"
 msgid "Cooling Fan Number"
-msgstr "คูลลิ่งจำนวนพัดลม"
+msgstr "จำนวนพัดลม"
 
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsExtruderTab.qml:162
 msgctxt "@title:label"
 msgid "Extruder Start G-code"
-msgstr "Extruder เริ่มต้น G-รหัส"
+msgstr "G-code เริ่มหัวรีด"
 
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsExtruderTab.qml:176
 msgctxt "@title:label"
 msgid "Extruder End G-code"
-msgstr "Extruder End G-รหัส"
+msgstr "G-code หยุดหัวรีด"
 
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsPrinterTab.qml:56
 msgctxt "@title:label"
@@ -4138,52 +4139,52 @@ msgstr "X (ความกว้าง)"
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsPrinterTab.qml:84
 msgctxt "@label"
 msgid "Y (Depth)"
-msgstr "และ (ความลึก)"
+msgstr "Y (ความลึก)"
 
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsPrinterTab.qml:98
 msgctxt "@label"
 msgid "Z (Height)"
-msgstr "Z (สูง)"
+msgstr "Z (ความสูง)"
 
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsPrinterTab.qml:112
 msgctxt "@label"
 msgid "Build plate shape"
-msgstr "รูปร่างแผ่นรูปร่าง"
+msgstr "รูปร่างแผ่นสร้าง"
 
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsPrinterTab.qml:125
 msgctxt "@label"
 msgid "Origin at center"
-msgstr "แหล่งที่มาที่ศูนย์"
+msgstr "จุดเริ่มที่ศูนย์"
 
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsPrinterTab.qml:137
 msgctxt "@label"
 msgid "Heated bed"
-msgstr "เตียงอุ่น"
+msgstr "ฐานสร้างอุ่น"
 
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsPrinterTab.qml:149
 msgctxt "@label"
 msgid "Heated build volume"
-msgstr "ปริมาณการสร้างความร้อน"
+msgstr "ปริมาณฐานสร้างอุ่น"
 
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsPrinterTab.qml:161
 msgctxt "@label"
 msgid "G-code flavor"
-msgstr "G-รหัสรสชาติ"
+msgstr "รส G-code"
 
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsPrinterTab.qml:185
 msgctxt "@title:label"
 msgid "Printhead Settings"
-msgstr "การตั้งค่าสุงสุด"
+msgstr "การตั้งค่าหัวรีด"
 
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsPrinterTab.qml:199
 msgctxt "@label"
 msgid "X min"
-msgstr "X นาที"
+msgstr "X เล็กสุด"
 
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsPrinterTab.qml:219
 msgctxt "@label"
 msgid "Y min"
-msgstr "Y นาที"
+msgstr "Y เล็กสุด"
 
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsPrinterTab.qml:239
 msgctxt "@label"
@@ -4193,32 +4194,32 @@ msgstr "X สูงสุด"
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsPrinterTab.qml:261
 msgctxt "@label"
 msgid "Y max"
-msgstr "และแม็กซ์"
+msgstr "Y สูงสุด"
 
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsPrinterTab.qml:281
 msgctxt "@label"
 msgid "Gantry Height"
-msgstr "Gantry สูง"
+msgstr "ความสูงโครง"
 
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsPrinterTab.qml:295
 msgctxt "@label"
 msgid "Number of Extruders"
-msgstr "จำนวน Extruders"
+msgstr "จำนวนเครื่องอัดรีด"
 
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsPrinterTab.qml:341
 msgctxt "@label"
 msgid "Shared Heater"
-msgstr "เครื่องทำน้ำอุ่นที่ใช้ร่วมกัน"
+msgstr "เครื่องทำความอุ่นที่ใช้ร่วมกัน"
 
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsPrinterTab.qml:367
 msgctxt "@title:label"
 msgid "Start G-code"
-msgstr "เริ่มต้น G-รหัส"
+msgstr "เริ่ม G-code"
 
 #: /home/ruben/Projects/Cura/plugins/MachineSettingsAction/MachineSettingsPrinterTab.qml:378
 msgctxt "@title:label"
 msgid "End G-code"
-msgstr "End G-รหัส"
+msgstr "หยุด G-code"
 
 #: /home/ruben/Projects/Cura/plugins/Toolbox/resources/qml/Toolbox.qml:19
 msgctxt "@title"
@@ -4238,12 +4239,12 @@ msgstr "เครื่อง"
 #: /home/ruben/Projects/Cura/plugins/Toolbox/resources/qml/components/ToolboxCompatibilityChart.qml:137
 msgctxt "@label:table_header"
 msgid "Build Plate"
-msgstr "จานรูปร่าง"
+msgstr "แผ่นสร้าง"
 
 #: /home/ruben/Projects/Cura/plugins/Toolbox/resources/qml/components/ToolboxCompatibilityChart.qml:143
 msgctxt "@label:table_header"
 msgid "Support"
-msgstr "สนับสนุน"
+msgstr "นั่งร้าน"
 
 #: /home/ruben/Projects/Cura/plugins/Toolbox/resources/qml/components/ToolboxCompatibilityChart.qml:149
 msgctxt "@label:table_header"
@@ -4278,35 +4279,35 @@ msgstr "การจัดอันดับ"
 #: /home/ruben/Projects/Cura/plugins/Toolbox/resources/qml/components/ToolboxInstalledTileActions.qml:22
 msgctxt "@label"
 msgid "Will install upon restarting"
-msgstr "จะติดตั้งอยู่กับการเริ่มต้นใหม่"
+msgstr "จะติดตั้งตอนรีสตาร์ท"
 
 #: /home/ruben/Projects/Cura/plugins/Toolbox/resources/qml/components/ToolboxInstalledTileActions.qml:34
 #: /home/ruben/Projects/Cura/plugins/Toolbox/resources/qml/components/ToolboxDetailTileActions.qml:96
 msgctxt "@action:button"
 msgid "Update"
-msgstr "ปรับปรุง"
+msgstr "อัปเดต"
 
 #: /home/ruben/Projects/Cura/plugins/Toolbox/resources/qml/components/ToolboxInstalledTileActions.qml:35
 #: /home/ruben/Projects/Cura/plugins/Toolbox/resources/qml/components/ToolboxDetailTileActions.qml:97
 msgctxt "@action:button"
 msgid "Updating"
-msgstr "อัปเดต"
+msgstr "กำลังอัปเดต"
 
 #: /home/ruben/Projects/Cura/plugins/Toolbox/resources/qml/components/ToolboxInstalledTileActions.qml:36
 #: /home/ruben/Projects/Cura/plugins/Toolbox/resources/qml/components/ToolboxDetailTileActions.qml:98
 msgctxt "@action:button"
 msgid "Updated"
-msgstr "Updated"
+msgstr "อัปเดตสำเร็จ"
 
 #: /home/ruben/Projects/Cura/plugins/Toolbox/resources/qml/components/ToolboxInstalledTileActions.qml:53
 msgctxt "@label:The string between <a href=> and </a> is the highlighted link"
 msgid "<a href='%1'>Log in</a> is required to update"
-msgstr "<a href='%1'> เข้าสู่ระบบ </a> จำเป็นต้องมีการปรับปรุง"
+msgstr "จำเป็นต้อง <a href='%1'> เข้าสู่ระบบ </a> เพื่ออัปเดต"
 
 #: /home/ruben/Projects/Cura/plugins/Toolbox/resources/qml/components/ToolboxInstalledTileActions.qml:71
 msgctxt "@action:button"
 msgid "Downgrade"
-msgstr "มือตก"
+msgstr "ลดรุ่น"
 
 #: /home/ruben/Projects/Cura/plugins/Toolbox/resources/qml/components/ToolboxInstalledTileActions.qml:71
 msgctxt "@action:button"
@@ -4316,17 +4317,17 @@ msgstr "ถอนการติดตั้ง"
 #: /home/ruben/Projects/Cura/plugins/Toolbox/resources/qml/components/ToolboxFooter.qml:19
 msgctxt "@info"
 msgid "You will need to restart Cura before changes in packages have effect."
-msgstr "คุณจะต้องเริ่มต้นใหม่ Cura ก่อนการเปลี่ยนแปลงในแพคเกจที่มีผลกระทบ"
+msgstr "คุณจะต้องเริ่ม Cura ใหม่ ก่อนการเปลี่ยนแปลงในแพคเกจที่มีผลกระทบ"
 
 #: /home/ruben/Projects/Cura/plugins/Toolbox/resources/qml/components/ToolboxFooter.qml:45
 msgctxt "@info:button"
 msgid "Quit Cura"
-msgstr "คอเลสเตอรอลออกจาก"
+msgstr "ออกจาก Cura"
 
 #: /home/ruben/Projects/Cura/plugins/Toolbox/resources/qml/components/RatingWidget.qml:54
 msgctxt "@label"
 msgid "You need to login first before you can rate"
-msgstr "คุณจำเป็นต้องเข้าสู่ระบบก่อนจึงจะสามารถประเมิน"
+msgstr "คุณจำเป็นต้องเข้าสู่ระบบก่อนจึงจะสามารถให้คะแนน"
 
 #: /home/ruben/Projects/Cura/plugins/Toolbox/resources/qml/components/RatingWidget.qml:54
 msgctxt "@label"
@@ -4347,23 +4348,23 @@ msgstr "ไปที่ตลาดเว็บ"
 #: /home/ruben/Projects/Cura/plugins/Toolbox/resources/qml/components/ToolboxDownloadsShowcase.qml:42
 msgctxt "@label"
 msgid "Search materials"
-msgstr "วัสดุที่ค้นหา"
+msgstr "ค้นหาวัสดุ"
 
 #: /home/ruben/Projects/Cura/plugins/Toolbox/resources/qml/components/ToolboxDetailTileActions.qml:46
 #: /home/ruben/Projects/Cura/plugins/Toolbox/resources/qml/components/ToolboxProgressButton.qml:20
 msgctxt "@action:button"
 msgid "Installed"
-msgstr "การติดตั้ง"
+msgstr "ติดตั้งสำเร็จ"
 
 #: /home/ruben/Projects/Cura/plugins/Toolbox/resources/qml/components/ToolboxDetailTileActions.qml:56
 msgctxt "@label:The string between <a href=> and </a> is the highlighted link"
 msgid "<a href='%1'>Log in</a> is required to install or update"
-msgstr "<a href='%1'> เข้าสู่ระบบ </a> จำเป็นต้องมีการติดตั้งหรือปรับปรุง"
+msgstr "จำเป็นต้อง <a href='%1'> เข้าสู่ระบบ </a> เพื่ออติดตั้งหรือปรับปรุง"
 
 #: /home/ruben/Projects/Cura/plugins/Toolbox/resources/qml/components/ToolboxDetailTileActions.qml:80
 msgctxt "@label:The string between <a href=> and </a> is the highlighted link"
 msgid "<a href='%1'>Buy material spools</a>"
-msgstr "<a href='%1'> ซื้อหลอดวัสดุ </a>"
+msgstr "<a href='%1'> ซื้อวัสดุ </a>"
 
 #: /home/ruben/Projects/Cura/plugins/Toolbox/resources/qml/components/ToolboxBackColumn.qml:25
 msgctxt "@action:button"
@@ -4384,7 +4385,7 @@ msgstr "ปลั๊กอิน"
 #: /home/ruben/Projects/Cura/plugins/Toolbox/resources/qml/components/ToolboxHeader.qml:58
 msgctxt "@title:tab"
 msgid "Installed"
-msgstr "การติดตั้ง"
+msgstr "ติดตั้งสำเร็จ"
 
 #: /home/ruben/Projects/Cura/plugins/Toolbox/resources/qml/dialogs/CompatibilityDialog.qml:14
 msgctxt "@title"
@@ -4399,14 +4400,14 @@ msgstr "ยกเลิก"
 #: /home/ruben/Projects/Cura/plugins/Toolbox/resources/qml/dialogs/CompatibilityDialog.qml:52
 msgctxt "@label"
 msgid "The following packages will be added:"
-msgstr "แพคเกจต่อไปนี้จะเพิ่ม:"
+msgstr "ต่อไปนี้จะเพิ่มแพคเกจนี้:"
 
 #: /home/ruben/Projects/Cura/plugins/Toolbox/resources/qml/dialogs/CompatibilityDialog.qml:95
 msgctxt "@label"
 msgid ""
 "The following packages can not be installed because of an incompatible Cura "
 "version:"
-msgstr "แพคเกจดังต่อไปนี้ไม่สามารถติดตั้งเพราะรุ่น Cura เข้ากันไม่ได้:"
+msgstr "แพคเกจดังต่อไปนี้ไม่สามารถติดตั้งเพราะมันไม่เข้ากันกับรุ่น Cura:"
 
 #: /home/ruben/Projects/Cura/plugins/Toolbox/resources/qml/dialogs/ToolboxLicenseDialog.qml:36
 msgctxt "@label"
@@ -4416,7 +4417,7 @@ msgstr "คุณต้องยอมรับใบอนุญาตในก
 #: /home/ruben/Projects/Cura/plugins/Toolbox/resources/qml/dialogs/ToolboxConfirmUninstallResetDialog.qml:20
 msgctxt "@title:window"
 msgid "Confirm uninstall"
-msgstr "ถอนการติดตั้งการยืนยัน"
+msgstr "ยืนยันการถอนการติดตั้ง"
 
 #: /home/ruben/Projects/Cura/plugins/Toolbox/resources/qml/dialogs/ToolboxConfirmUninstallResetDialog.qml:50
 msgctxt "@text:window"
@@ -4424,8 +4425,8 @@ msgid ""
 "You are uninstalling materials and/or profiles that are still in use. "
 "Confirming will reset the following materials/profiles to their defaults."
 msgstr ""
-"คุณถอนการติดตั้งวัสดุและ / หรือ profiles ที่ยังใช้งานอยู่ "
-"ยืนยันจะตั้งค่าดังต่อไปนี้ / วัสดุโปรไฟล์เป็นค่าเริ่มต้นของพวกเขา"
+"คุณถอนการติดตั้งวัสดุและ / หรือโปรไฟล์ที่ยังใช้งานอยู่ "
+"ถ้ายืนยัน ค่าดังต่อไปนี้จะถูกเปลี่ยนกลับเป็นค่าเริ่มต้น"
 
 #: /home/ruben/Projects/Cura/plugins/Toolbox/resources/qml/dialogs/ToolboxConfirmUninstallResetDialog.qml:51
 msgctxt "@text:window"
@@ -4470,7 +4471,7 @@ msgstr "ดาวน์โหลด"
 #: /home/ruben/Projects/Cura/plugins/Toolbox/resources/qml/pages/WelcomePage.qml:31
 msgctxt "@description"
 msgid "Get plugins and materials verified by Ultimaker"
-msgstr "รับปลั๊กอินและวัสดุการตรวจสอบโดย Ultimaker"
+msgstr "รับปลั๊กอินและวัสดุที่ถูกตรวจสอบโดย Ultimaker"
 
 #: /home/ruben/Projects/Cura/plugins/Toolbox/resources/qml/pages/ToolboxDownloadsPage.qml:33
 msgctxt "@label"
@@ -4493,7 +4494,7 @@ msgid ""
 "Could not connect to the Cura Package database. Please check your "
 "connection."
 msgstr ""
-"ไม่สามารถเชื่อมต่อกับฐานข้อมูล Cura แพคเกจ กรุณาตรวจสอบการเชื่อมต่อของคุณ"
+"ไม่สามารถเชื่อมต่อกับฐานข้อมูลแพคเกจ Cura กรุณาตรวจสอบการเชื่อมต่อของคุณ"
 
 #: /home/ruben/Projects/Cura/plugins/Toolbox/resources/qml/pages/ToolboxAuthorPage.qml:93
 msgctxt "@label"
@@ -4508,12 +4509,12 @@ msgstr "อีเมล์"
 #: /home/ruben/Projects/Cura/plugins/Toolbox/resources/qml/pages/ToolboxLoadingPage.qml:16
 msgctxt "@info"
 msgid "Fetching packages..."
-msgstr "แพคเกจการดึงข้อมูล ..."
+msgstr "ดึงข้อมูลแพคเกจ ..."
 
 #: /home/ruben/Projects/Cura/plugins/UltimakerMachineActions/BedLevelMachineAction.qml:30
 msgctxt "@title"
 msgid "Build Plate Leveling"
-msgstr "Leveling รูปร่างจาน"
+msgstr "ปรับระดับแผ่นสร้าง"
 
 #: /home/ruben/Projects/Cura/plugins/UltimakerMachineActions/BedLevelMachineAction.qml:44
 msgctxt "@label"
@@ -4522,9 +4523,9 @@ msgid ""
 "buildplate. When you click 'Move to Next Position' the nozzle will move to "
 "the different positions that can be adjusted."
 msgstr ""
-"เพื่อให้แน่ใจว่าการพิมพ์ของคุณจะออกมาดีตอนนี้คุณสามารถปรับ buildplate ของคุณ"
-" เมื่อคุณคลิก 'ย้ายไปยังตำแหน่งถัดไป' "
-"หัวฉีดจะย้ายไปตำแหน่งที่แตกต่างที่สามารถปรับเปลี่ยนได้"
+"ตอนนี้คุณสามารถปรับแผ่นสร้างของคุณเพื่อให้แน่ใจว่าการพิมพ์ของคุณจะออกมาดี"
+"เมื่อคุณกด 'ย้ายไปยังตำแหน่งถัดไป' "
+"หัวรีดจะย้ายไปตำแหน่งที่สามารถปรับเปลี่ยนได้"
 
 #: /home/ruben/Projects/Cura/plugins/UltimakerMachineActions/BedLevelMachineAction.qml:57
 msgctxt "@label"
@@ -4533,14 +4534,14 @@ msgid ""
 "print build plate height. The print build plate height is right when the "
 "paper is slightly gripped by the tip of the nozzle."
 msgstr ""
-"สำหรับทุกตำแหน่ง; "
-"ใส่ชิ้นส่วนของกระดาษภายใต้หัวฉีดและปรับความสูงพิมพ์สร้างแผ่น "
-"ความสูงพิมพ์สร้างแผ่นที่ถูกต้องเมื่อกระดาษถูกจับเล็กน้อยปลายของหัวฉีด"
+"สำหรับทุกตำแหน่ง "
+"สอดกระดาษไว้ใต้หัวฉีดและปรับความสูงแผ่นสร้าง "
+"ความสูงพิมพ์สร้างแผ่นที่ถูกต้องเมื่อกระดาษถูกปลายของหัวรีดหนีบเบาเบา"
 
 #: /home/ruben/Projects/Cura/plugins/UltimakerMachineActions/BedLevelMachineAction.qml:75
 msgctxt "@action:button"
 msgid "Start Build Plate Leveling"
-msgstr "Leveling เริ่มต้นการสร้างแผ่น"
+msgstr "เริ่มปรับระดับแผ่นสร้าง"
 
 #: /home/ruben/Projects/Cura/plugins/UltimakerMachineActions/BedLevelMachineAction.qml:87
 msgctxt "@action:button"
@@ -4550,17 +4551,17 @@ msgstr "ย้ายไปยังตำแหน่งถัดไป"
 #: /home/ruben/Projects/Cura/plugins/UltimakerMachineActions/UMOUpgradeSelectionMachineAction.qml:30
 msgctxt "@label"
 msgid "Please select any upgrades made to this Ultimaker Original"
-msgstr "กรุณาเลือกอัพเกรดใด ๆ ที่ทำนี้ Ultimaker ต้นฉบับ"
+msgstr "กรุณาเลือกทุกอัพเกรดที่ทำกับ Ultimaker ตัวนี้"
 
 #: /home/ruben/Projects/Cura/plugins/UltimakerMachineActions/UMOUpgradeSelectionMachineAction.qml:41
 msgctxt "@label"
 msgid "Heated Build Plate (official kit or self-built)"
-msgstr "อุ่นรูปร่างแผ่น (ชุดอย่างเป็นทางการหรือสร้างขึ้นด้วยตนเอง)"
+msgstr "ฐานสร้างอุ่น (ชุดอย่างเป็นทางการ หรือสร้างด้วยตนเอง)"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/resources/qml/DiscoverUM3Action.qml:45
 msgctxt "@title:window"
 msgid "Connect to Networked Printer"
-msgstr "เชื่อมต่อกับเครือข่ายเครื่องพิมพ์"
+msgstr "เชื่อมต่อกับเครื่องพิมพ์บนเครือข่าย"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/resources/qml/DiscoverUM3Action.qml:57
 msgctxt "@label"
@@ -4571,10 +4572,11 @@ msgid ""
 "printer, you can still use a USB drive to transfer g-code files to your "
 "printer."
 msgstr ""
-"หากต้องการพิมพ์โดยตรงไปยังเครื่องพิมพ์ของคุณผ่านเครือข่ายโปรดให้แน่ใจว่าเครื่องพิมพ์ของคุณเชื่อมต่อกับเครือข่ายโดยใช้สายเคเบิลเครือข่ายหรือโดยการเชื่อมต่อเครื่องพิมพ์เข้ากับเครือข่าย"
-" WIFI ของคุณ หากคุณไม่ได้เชื่อมต่อ Cura "
-"กับเครื่องพิมพ์ของคุณคุณยังสามารถใช้ไดรฟ์ USB "
-"เพื่อการถ่ายโอนไฟล์กรัมรหัสกับเครื่องพิมพ์ของคุณ"
+"หากต้องการพิมพ์โดยตรงไปยังเครื่องพิมพ์บนเครือข่ายของคุณ"
+"โปรดให้แน่ใจว่าเครื่องพิมพ์ของคุณเชื่อมต่อกับเครือข่ายโดยใช้สายเคเบิลเครือข่าย"
+"หรือโดยการเชื่อมต่อเครื่องพิมพ์เข้ากับเครือข่ายWIFI"
+"หากคุณไม่ได้เชื่อมต่อ Cura กับเครื่องพิมพ์ของคุณ คุณยังสามารถใช้ไดรฟ์ USB "
+"เพื่อการถ่ายโอนไฟล์ G-code กับเครื่องพิมพ์ของคุณ"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/resources/qml/DiscoverUM3Action.qml:57
 msgctxt "@label"
@@ -4597,8 +4599,8 @@ msgid ""
 "If your printer is not listed, read the <a href='%1'>network printing "
 "troubleshooting guide</a>"
 msgstr ""
-"หากเครื่องพิมพ์ของคุณไม่อยู่ในรายการเครือข่ายอ่าน <a href='%1'> "
-"พิมพ์คู่มือการแก้ปัญหา </a>"
+"หากเครื่องพิมพ์ของคุณไม่อยู่ในรายการ โปรดอ่าน "
+"<a href='%1'> คู่มือการแก้ปัญหาเครือข่ายพิมพ์ </a>"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/resources/qml/DiscoverUM3Action.qml:263
 msgctxt "@label"
@@ -4608,7 +4610,7 @@ msgstr "เครื่องพิมพ์นี้ไม่ได้ตั้
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/resources/qml/DiscoverUM3Action.qml:267
 msgctxt "@label"
 msgid "This printer is the host for a group of %1 printers."
-msgstr "เครื่องพิมพ์นี้เป็นเจ้าภาพสำหรับกลุ่มของเครื่องพิมพ์% 1"
+msgstr "เครื่องพิมพ์นี้เป็นเจ้าภาพสำหรับกลุ่มของเครื่องพิมพ์ %1 เครื่อง"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/resources/qml/DiscoverUM3Action.qml:278
 msgctxt "@label"
@@ -4633,26 +4635,26 @@ msgstr "ที่อยู่เครื่องพิมพ์"
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/resources/qml/MonitorPrintJobCard.qml:132
 msgctxt "@label"
 msgid "Unavailable printer"
-msgstr "เครื่องพิมพ์สามารถใช้งานได้"
+msgstr "เครื่องพิมพ์ไม่สามารถใช้งานได้"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/resources/qml/MonitorPrintJobCard.qml:134
 msgctxt "@label"
 msgid "First available"
-msgstr "เป็นครั้งแรกที่มีอยู่"
+msgstr "อันแรกที่ใช้ได้"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/resources/qml/MonitorPrintJobCard.qml:183
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/resources/qml/MonitorConfigOverrideDialog.qml:153
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/resources/qml/MonitorPrinterCard.qml:192
 msgctxt "@label"
 msgid "Glass"
-msgstr "กระจก"
+msgstr "แก้ว"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/resources/qml/MonitorPrintJobCard.qml:248
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/resources/qml/MonitorPrinterCard.qml:256
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/resources/qml/MonitorPrinterCard.qml:514
 msgctxt "@info"
 msgid "Please update your printer's firmware to manage the queue remotely."
-msgstr "โปรดอัปเดตเฟิร์มแวเครื่องพิมพ์ของคุณในการจัดการคิวระยะไกล"
+msgstr "โปรดอัปเดตเฟิร์มแวเครื่องพิมพ์ของคุณเพื่อจัดการคิวพิมพ์ผ่านเครือข่าย"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/resources/qml/MonitorConfigOverrideDialog.qml:20
 msgctxt "@title:window"
@@ -4662,42 +4664,42 @@ msgstr "เปลี่ยนแปลงการกำหนดค่า"
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/resources/qml/MonitorConfigOverrideDialog.qml:27
 msgctxt "@action:button"
 msgid "Override"
-msgstr "แทนที่"
+msgstr "เขียนแทนเอง"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/resources/qml/MonitorConfigOverrideDialog.qml:85
 msgctxt "@label"
 msgid "The assigned printer, %1, requires the following configuration change:"
 msgid_plural ""
 "The assigned printer, %1, requires the following configuration changes:"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "เครื่องพิมพ์ที่ %1 ต้องการการเปลี่ยนแปลงค่าต่อไปนี้:"
+msgstr[1] "เครื่องพิมพ์ที่ %1 ต้องการการเปลี่ยนแปลงค่าต่อไปนี้:"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/resources/qml/MonitorConfigOverrideDialog.qml:89
 msgctxt "@label"
 msgid ""
 "The printer %1 is assigned, but the job contains an unknown material "
 "configuration."
-msgstr "เครื่องพิมพ์% 1 ได้รับมอบหมาย แต่งานมีการกำหนดค่าวัสดุที่ไม่รู้จัก"
+msgstr "เครื่องพิมพ์ %1 ได้รับมอบหมาย แต่งานพิมพ์มีการกำหนดค่าวัสดุที่ไม่รู้จัก"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/resources/qml/MonitorConfigOverrideDialog.qml:99
 msgctxt "@label"
 msgid "Change material %1 from %2 to %3."
-msgstr "เปลี่ยนวัสดุ% 1 จาก% 2 ถึง 3%"
+msgstr "เปลี่ยนวัสดุ %1 จาก %2 เป็น %3"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/resources/qml/MonitorConfigOverrideDialog.qml:102
 msgctxt "@label"
 msgid "Load %3 as material %1 (This cannot be overridden)."
-msgstr "โหลด% 3% เป็นวัสดุที่ 1 (นี้ไม่สามารถแทนที่)"
+msgstr "โหลด %3 เป็นวัสดุที่ %1 (ไม่สามารถเขียนแทนเองได้)"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/resources/qml/MonitorConfigOverrideDialog.qml:105
 msgctxt "@label"
 msgid "Change print core %1 from %2 to %3."
-msgstr "เปลี่ยนแกนพิมพ์% 1 จาก% 2 ถึง 3%"
+msgstr "เปลี่ยนแกนพิมพ์ %1 จาก %2 เป็น %3"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/resources/qml/MonitorConfigOverrideDialog.qml:108
 msgctxt "@label"
 msgid "Change build plate to %1 (This cannot be overridden)."
-msgstr "เปลี่ยนการสร้างแผ่น% 1 (นี้ไม่สามารถแทนที่)"
+msgstr "เปลี่ยนแผ่นสร้างเป็น %1 (ไม่สามารถเขียนแทนเองได้)"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/resources/qml/MonitorConfigOverrideDialog.qml:115
 msgctxt "@label"
@@ -4705,8 +4707,8 @@ msgid ""
 "Override will use the specified settings with the existing printer "
 "configuration. This may result in a failed print."
 msgstr ""
-"แทนที่จะใช้การตั้งค่าที่ระบุไว้กับการกำหนดค่าเครื่องพิมพ์ที่มีอยู่ "
-"ซึ่งอาจส่งผลในการพิมพ์ล้มเหลว"
+"ค่าเขียนแทนจะใช้การตั้งค่าที่ระบุไว้กับค่าเครื่องพิมพ์ที่มีอยู่ "
+"ซึ่งอาจส่งผลในการพิมพ์ที่ล้มเหลว"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/resources/qml/MonitorConfigOverrideDialog.qml:156
 msgctxt "@label"
@@ -4729,7 +4731,7 @@ msgstr "เสร็จ"
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/resources/qml/MonitorPrintJobProgressBar.qml:86
 msgctxt "@label:status"
 msgid "Preparing..."
-msgstr "การเตรียม..."
+msgstr "เตรียม..."
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/resources/qml/MonitorPrintJobProgressBar.qml:88
 msgctxt "@label:status"
@@ -4739,7 +4741,7 @@ msgstr "ยกเลิก ..."
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/resources/qml/MonitorPrintJobProgressBar.qml:92
 msgctxt "@label:status"
 msgid "Pausing..."
-msgstr "หยุด ..."
+msgstr "หยุดชั่วคราว ..."
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/resources/qml/MonitorPrintJobProgressBar.qml:94
 msgctxt "@label:status"
@@ -4759,7 +4761,7 @@ msgstr "ดำเนินการที่จำเป็น"
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/resources/qml/MonitorPrintJobProgressBar.qml:100
 msgctxt "@label:status"
 msgid "Finishes %1 at %2"
-msgstr "เสร็จสิ้น% 1% 2"
+msgstr "%1 เสร็จตอน %2"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/resources/qml/MonitorPrinterCard.qml:155
 msgctxt "@label link to Connect and Cloud interfaces"
@@ -4770,12 +4772,12 @@ msgstr "จัดการเครื่องพิมพ์"
 msgctxt "@info"
 msgid ""
 "The webcam is not available because you are monitoring a cloud printer."
-msgstr "เว็บแคมไม่สามารถใช้ได้เนื่องจากคุณกำลังตรวจสอบเครื่องพิมพ์เมฆ"
+msgstr "เว็บแคมไม่สามารถใช้ได้เนื่องจากคุณกำลังตรวจสอบเครื่องพิมพ์ cloud"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/resources/qml/MonitorPrinterCard.qml:348
 msgctxt "@label:status"
 msgid "Loading..."
-msgstr "กำลังโหลด ..."
+msgstr "โหลด ..."
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/resources/qml/MonitorPrinterCard.qml:352
 msgctxt "@label:status"
@@ -4840,12 +4842,12 @@ msgstr "ยกเลิก ..."
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/resources/qml/MonitorContextMenu.qml:124
 msgctxt "@label"
 msgid "Abort"
-msgstr "การแท้ง"
+msgstr "ยกเลิก"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/resources/qml/MonitorContextMenu.qml:143
 msgctxt "@label %1 is the name of a print job."
 msgid "Are you sure you want to move %1 to the top of the queue?"
-msgstr "คุณแน่ใจหรือว่าต้องการย้าย% 1 ไปด้านบนของคิว?"
+msgstr "คุณแน่ใจหรือว่าต้องการย้าย %1 ไปด้านบนของคิว?"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/resources/qml/MonitorContextMenu.qml:144
 msgctxt "@window:title"
@@ -4855,17 +4857,17 @@ msgstr "ย้ายงานพิมพ์ไปด้านบน"
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/resources/qml/MonitorContextMenu.qml:153
 msgctxt "@label %1 is the name of a print job."
 msgid "Are you sure you want to delete %1?"
-msgstr "คุณแน่ใจหรือว่าต้องการลบ% 1?"
+msgstr "คุณแน่ใจหรือว่าต้องการลบ %1?"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/resources/qml/MonitorContextMenu.qml:154
 msgctxt "@window:title"
 msgid "Delete print job"
-msgstr "งานพิมพ์ลบ"
+msgstr "ลบงานพิมพ์"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/resources/qml/MonitorContextMenu.qml:163
 msgctxt "@label %1 is the name of a print job."
 msgid "Are you sure you want to abort %1?"
-msgstr "คุณแน่ใจหรือไม่ว่าคุณต้องการที่จะยกเลิก% 1?"
+msgstr "คุณแน่ใจหรือไม่ว่าคุณต้องการที่จะยกเลิก %1?"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/resources/qml/PrintWindow.qml:11
 msgctxt "@title:window"
@@ -4885,7 +4887,7 @@ msgstr "เลือกเครื่องพิมพ์"
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/resources/qml/MonitorQueue.qml:31
 msgctxt "@label"
 msgid "Queued"
-msgstr "จัดคิว"
+msgstr "ลงคิว"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/resources/qml/MonitorQueue.qml:67
 msgctxt "@label link to connect manager"
@@ -4895,7 +4897,7 @@ msgstr "จัดการในเบราว์เซอร์"
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/resources/qml/MonitorQueue.qml:100
 msgctxt "@label"
 msgid "There are no print jobs in the queue. Slice and send a job to add one."
-msgstr "ไม่มีงานพิมพ์ในคิวอยู่ ฝานและส่งงานให้เพิ่มอีกหนึ่ง"
+msgstr "ไม่มีงานพิมพ์ในคิว ซอยโมเดลและส่งงานให้เพิ่มงานพิมพ์ในคิว"
 
 #: /home/ruben/Projects/Cura/plugins/UM3NetworkPrinting/resources/qml/MonitorQueue.qml:115
 msgctxt "@label"
@@ -4915,12 +4917,12 @@ msgstr "กำลังรอ"
 #: /home/ruben/Projects/Cura/plugins/3MFReader/WorkspaceDialog.qml:14
 msgctxt "@title:window"
 msgid "Open Project"
-msgstr "เปิดโครงการ"
+msgstr "เปิดไฟล์งาน"
 
 #: /home/ruben/Projects/Cura/plugins/3MFReader/WorkspaceDialog.qml:58
 msgctxt "@action:ComboBox Update/override existing profile"
 msgid "Update existing"
-msgstr "การปรับปรุงที่มีอยู่"
+msgstr "ปรับปรุงปัจจุบัน"
 
 #: /home/ruben/Projects/Cura/plugins/3MFReader/WorkspaceDialog.qml:59
 msgctxt "@action:ComboBox Save settings in a new profile"
@@ -4930,7 +4932,7 @@ msgstr "สร้างใหม่"
 #: /home/ruben/Projects/Cura/plugins/3MFReader/WorkspaceDialog.qml:108
 msgctxt "@info:tooltip"
 msgid "How should the conflict in the machine be resolved?"
-msgstr "ควรมีความขัดแย้งในตัวเครื่องได้รับการแก้ไข?"
+msgstr "ความขัดแย้งในตัวเครื่องควรได้รับการแก้ไขอย่างไร?"
 
 #: /home/ruben/Projects/Cura/plugins/3MFReader/WorkspaceDialog.qml:115
 #: /home/ruben/Projects/Cura/plugins/3MFReader/WorkspaceDialog.qml:124
@@ -4946,19 +4948,19 @@ msgstr "สร้างใหม่"
 #: /home/ruben/Projects/Cura/plugins/3MFReader/WorkspaceDialog.qml:196
 msgctxt "@info:tooltip"
 msgid "How should the conflict in the profile be resolved?"
-msgstr "วิธีควรขัดแย้งในรายละเอียดที่ได้รับการแก้ไข?"
+msgstr "ความขัดแย้งในโปรไฟล์ควรได้รับการแก้ไขอย่างไร?"
 
 #: /home/ruben/Projects/Cura/plugins/3MFReader/WorkspaceDialog.qml:262
 msgctxt "@action:label"
 msgid "Derivative from"
-msgstr "จากอนุพันธ์"
+msgstr "สืบทอดมาจาก"
 
 #: /home/ruben/Projects/Cura/plugins/3MFReader/WorkspaceDialog.qml:267
 msgctxt "@action:label"
 msgid "%1, %2 override"
 msgid_plural "%1, %2 overrides"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%2 เขียนแทน  %1"
+msgstr[1] "%2 เขียนแทน  %1"
 
 #: /home/ruben/Projects/Cura/plugins/3MFReader/WorkspaceDialog.qml:283
 msgctxt "@action:label"
@@ -4968,7 +4970,7 @@ msgstr "การตั้งค่าวัสดุ"
 #: /home/ruben/Projects/Cura/plugins/3MFReader/WorkspaceDialog.qml:299
 msgctxt "@info:tooltip"
 msgid "How should the conflict in the material be resolved?"
-msgstr "วิธีควรขัดแย้งในวัสดุที่ได้รับการแก้ไข?"
+msgstr "ความขัดแย้งในวัสดุควรได้รับการแก้ไขอย่างไร?"
 
 #: /home/ruben/Projects/Cura/plugins/3MFReader/WorkspaceDialog.qml:342
 msgctxt "@action:label"
@@ -4988,12 +4990,12 @@ msgstr "การตั้งค่าที่แสดง:"
 #: /home/ruben/Projects/Cura/plugins/3MFReader/WorkspaceDialog.qml:372
 msgctxt "@action:label"
 msgid "%1 out of %2"
-msgstr "1% จาก 2%"
+msgstr "%1 จาก %2"
 
 #: /home/ruben/Projects/Cura/plugins/3MFReader/WorkspaceDialog.qml:398
 msgctxt "@action:warning"
 msgid "Loading a project will clear all models on the build plate."
-msgstr "โหลดโครงการจะล้างทุกรูปแบบในการสร้างแผ่น"
+msgstr "การโหลดไฟล์งานจะล้างทุกโมเดลบนแผ่นสร้าง"
 
 #: /home/ruben/Projects/Cura/plugins/3MFReader/WorkspaceDialog.qml:416
 msgctxt "@action:button"
@@ -5008,17 +5010,17 @@ msgstr "ประเภทตาข่าย"
 #: /home/ruben/Projects/Cura/plugins/PerObjectSettingsTool/PerObjectSettingsPanel.qml:87
 msgctxt "@label"
 msgid "Normal model"
-msgstr "รูปแบบปกติ"
+msgstr "โมเดลปกติ"
 
 #: /home/ruben/Projects/Cura/plugins/PerObjectSettingsTool/PerObjectSettingsPanel.qml:99
 msgctxt "@label"
 msgid "Print as support"
-msgstr "พิมพ์การสนับสนุน"
+msgstr "พิมพ์เป็นนั่งร้าน"
 
 #: /home/ruben/Projects/Cura/plugins/PerObjectSettingsTool/PerObjectSettingsPanel.qml:111
 msgctxt "@label"
 msgid "Modify settings for overlaps"
-msgstr "การตั้งค่าสำหรับการปรับเปลี่ยนการทับซ้อน"
+msgstr "ปรับเปลี่ยนการตั้งค่าเพื่อรับมือการทับซ้อน"
 
 #: /home/ruben/Projects/Cura/plugins/PerObjectSettingsTool/PerObjectSettingsPanel.qml:123
 msgctxt "@label"
@@ -5028,7 +5030,7 @@ msgstr "ไม่สนับสนุนการทับซ้อน"
 #: /home/ruben/Projects/Cura/plugins/PerObjectSettingsTool/PerObjectSettingsPanel.qml:147
 msgctxt "@action:checkbox"
 msgid "Infill only"
-msgstr "infill เท่านั้น"
+msgstr "โครงในเท่านั้น"
 
 #: /home/ruben/Projects/Cura/plugins/PerObjectSettingsTool/PerObjectSettingsPanel.qml:368
 msgctxt "@action:button"
@@ -5038,7 +5040,7 @@ msgstr "เลือกการตั้งค่า"
 #: /home/ruben/Projects/Cura/plugins/PerObjectSettingsTool/SettingPickDialog.qml:13
 msgctxt "@title:window"
 msgid "Select Settings to Customize for this model"
-msgstr "เลือกการตั้งค่าเพื่อปรับแต่งสำหรับรุ่นนี้"
+msgstr "เลือกการตั้งค่าเป็นแบบกำหนดเองสำหรับโมเดลนี้"
 
 #: /home/ruben/Projects/Cura/plugins/PerObjectSettingsTool/SettingPickDialog.qml:70
 msgctxt "@label:checkbox"
@@ -5048,12 +5050,12 @@ msgstr "แสดงทั้งหมด"
 #: /home/ruben/Projects/Cura/plugins/PostProcessingPlugin/PostProcessingPlugin.qml:18
 msgctxt "@title:window"
 msgid "Post Processing Plugin"
-msgstr "โพสต์ปลั๊กอินการประมวลผล"
+msgstr "ปลั๊กอินการประมวลผล"
 
 #: /home/ruben/Projects/Cura/plugins/PostProcessingPlugin/PostProcessingPlugin.qml:57
 msgctxt "@label"
 msgid "Post Processing Scripts"
-msgstr "สคริปโพสต์การประมวลผล"
+msgstr "สคริปการประมวลผล"
 
 #: /home/ruben/Projects/Cura/plugins/PostProcessingPlugin/PostProcessingPlugin.qml:233
 msgctxt "@action"
@@ -5068,7 +5070,7 @@ msgstr "การตั้งค่า"
 #: /home/ruben/Projects/Cura/plugins/PostProcessingPlugin/PostProcessingPlugin.qml:493
 msgctxt "@info:tooltip"
 msgid "Change active post-processing scripts"
-msgstr "เปลี่ยนการใช้งานสคริปต์การโพสต์"
+msgstr "เปลี่ยนการใช้งานสคริปต์การประมวลผล"
 
 #: /home/ruben/Projects/Cura/plugins/FirmwareUpdater/FirmwareUpdaterMachineAction.qml:31
 msgctxt "@title"
@@ -5083,7 +5085,7 @@ msgid ""
 "makes your printer work."
 msgstr ""
 "เฟิร์มแวเป็นชิ้นส่วนของซอฟต์แวร์ที่ทำงานโดยตรงบนเครื่องพิมพ์ 3D ของคุณ "
-"เฟิร์มแวนี้ควบคุมมอเตอร์ขั้นตอนการควบคุมอุณหภูมิและในที่สุดทำให้การทำงานของเครื่องพิมพ์ของคุณ"
+"เฟิร์มแวนี้ควบคุมมอเตอร์ ควบคุมอุณหภูมิ และทำให้เครื่องพิมพ์ของคุณทำงานได้ตามปกติ"
 
 #: /home/ruben/Projects/Cura/plugins/FirmwareUpdater/FirmwareUpdaterMachineAction.qml:46
 msgctxt "@label"
@@ -5091,8 +5093,8 @@ msgid ""
 "The firmware shipping with new printers works, but new versions tend to have"
 " more features and improvements."
 msgstr ""
-"เฟิร์มการจัดส่งสินค้าที่มีผลงานเครื่องพิมพ์ใหม่ "
-"แต่รุ่นใหม่มีแนวโน้มที่จะมีคุณสมบัติที่มากขึ้นและการปรับปรุง"
+"เฟิร์มแวที่มาพร้อมกับเครื่องพิมพ์ใหม่ใช้งานได้"
+"แต่รเฟิร์มแวุ่นใหม่มีแนวโน้มที่จะมีคุณสมบัติและการปรับปรุงที่ดีขึ้น"
 
 #: /home/ruben/Projects/Cura/plugins/FirmwareUpdater/FirmwareUpdaterMachineAction.qml:58
 msgctxt "@action:button"
@@ -5108,7 +5110,7 @@ msgstr "อัปโหลดเฟิร์มแวกำหนดเอง"
 msgctxt "@label"
 msgid ""
 "Firmware can not be updated because there is no connection with the printer."
-msgstr "เฟิร์มแวไม่สามารถอัปเดตเพราะมีการเชื่อมต่อกับเครื่องพิมพ์ไม่มี"
+msgstr "เฟิร์มแวไม่สามารถอัปเดตเพราะไม่มีการเชื่อมต่อกับเครื่องพิมพ์"
 
 #: /home/ruben/Projects/Cura/plugins/FirmwareUpdater/FirmwareUpdaterMachineAction.qml:91
 msgctxt "@label"
@@ -5116,12 +5118,12 @@ msgid ""
 "Firmware can not be updated because the connection with the printer does not"
 " support upgrading firmware."
 msgstr ""
-"เฟิร์มแวไม่สามารถอัปเดตเพราะการเชื่อมต่อกับเครื่องพิมพ์ไม่สนับสนุนการอัพเกรดเฟิร์มแว"
+"เฟิร์มแวไม่สามารถอัปเดตเพราะเครื่องพิมพ์ที่เชื่อมอยู่ไม่สนับสนุนการอัพเกรดเฟิร์มแว"
 
 #: /home/ruben/Projects/Cura/plugins/FirmwareUpdater/FirmwareUpdaterMachineAction.qml:98
 msgctxt "@title:window"
 msgid "Select custom firmware"
-msgstr "เลือก firmware เอง"
+msgstr "เลือกเฟิร์มแวกำหนดเอง"
 
 #: /home/ruben/Projects/Cura/plugins/FirmwareUpdater/FirmwareUpdaterMachineAction.qml:119
 msgctxt "@title:window"
@@ -5131,32 +5133,32 @@ msgstr "อัปเดตเฟิร์มแว"
 #: /home/ruben/Projects/Cura/plugins/FirmwareUpdater/FirmwareUpdaterMachineAction.qml:143
 msgctxt "@label"
 msgid "Updating firmware."
-msgstr "เฟิร์มแวปรับปรุง"
+msgstr "ปรับปรุงเฟิร์มแว"
 
 #: /home/ruben/Projects/Cura/plugins/FirmwareUpdater/FirmwareUpdaterMachineAction.qml:145
 msgctxt "@label"
 msgid "Firmware update completed."
-msgstr "อัปเดตเฟิร์มแวเสร็จสมบูรณ์"
+msgstr "ปรับปรุงเฟิร์มแวเสร็จสมบูรณ์"
 
 #: /home/ruben/Projects/Cura/plugins/FirmwareUpdater/FirmwareUpdaterMachineAction.qml:147
 msgctxt "@label"
 msgid "Firmware update failed due to an unknown error."
-msgstr "อัปเดตเฟิร์มแวล้มเหลวเนื่องจากข้อผิดพลาดที่ไม่รู้จัก"
+msgstr "ปรับปรุงเฟิร์มแวล้มเหลวเนื่องจากข้อผิดพลาดที่ไม่รู้จัก"
 
 #: /home/ruben/Projects/Cura/plugins/FirmwareUpdater/FirmwareUpdaterMachineAction.qml:149
 msgctxt "@label"
 msgid "Firmware update failed due to an communication error."
-msgstr "อัปเดตเฟิร์มแวล้มเหลวเนื่องจากข้อผิดพลาดในการสื่อสาร"
+msgstr "ปรับปรุงเฟิร์มแวล้มเหลวเนื่องจากข้อผิดพลาดในการสื่อสาร"
 
 #: /home/ruben/Projects/Cura/plugins/FirmwareUpdater/FirmwareUpdaterMachineAction.qml:151
 msgctxt "@label"
 msgid "Firmware update failed due to an input/output error."
-msgstr "อัปเดตเฟิร์มแวล้มเหลวเนื่องจากข้อผิดพลาดอินพุต / เอาต์พุต"
+msgstr "ปรับปรุงเฟิร์มแวล้มเหลวเนื่องจากข้อผิดพลาดอินพุต / เอาต์พุต"
 
 #: /home/ruben/Projects/Cura/plugins/FirmwareUpdater/FirmwareUpdaterMachineAction.qml:153
 msgctxt "@label"
 msgid "Firmware update failed due to missing firmware."
-msgstr "อัปเดตเฟิร์มแวล้มเหลวเนื่องจากเฟิร์มที่ขาดหายไป"
+msgstr "ปรับปรุงเฟิร์มแวล้มเหลวเนื่องจากเฟิร์มแวที่ขาดหายไป"
 
 #: /home/ruben/Projects/Cura/plugins/MonitorStage/MonitorMain.qml:100
 msgctxt "@info"
@@ -5168,8 +5170,8 @@ msgid ""
 msgstr ""
 "กรุณาตรวจสอบให้แน่ใจว่าเครื่องพิมพ์ของคุณมีการเชื่อมต่อ:\n"
 "- ตรวจสอบว่าเครื่องพิมพ์เปิดอยู่\n"
-"- ตรวจสอบว่าเครื่องพิมพ์ที่เชื่อมต่อกับเครือข่าย\n"
-"- ตรวจสอบว่าคุณลงชื่อเข้าใช้ในการค้นพบเครื่องพิมพ์ระบบคลาวด์ที่เชื่อมต่อ"
+"- ตรวจสอบว่าเครื่องพิมพ์เชื่อมต่อกับเครือข่าย\n"
+"- ตรวจสอบว่าคุณลงชื่อเข้าใช้ในการค้นพบเครื่องพิมพ์ที่เชื่อมต่อ cloud"
 
 #: /home/ruben/Projects/Cura/plugins/MonitorStage/MonitorMain.qml:117
 msgctxt "@info"
@@ -5179,7 +5181,7 @@ msgstr "โปรดเชื่อมต่อเครื่องพิมพ
 #: /home/ruben/Projects/Cura/plugins/MonitorStage/MonitorMain.qml:156
 msgctxt "@label link to technical assistance"
 msgid "View user manuals online"
-msgstr "คู่มือผู้ใช้ดูออนไลน์"
+msgstr "ดูคู่มือผู้ใช้ออนไลน์"
 
 #: /home/ruben/Projects/Cura/plugins/CuraDrive/src/qml/components/BackupListFooter.qml:22
 msgctxt "@button"
@@ -5189,22 +5191,22 @@ msgstr "ต้องการมากขึ้น?"
 #: /home/ruben/Projects/Cura/plugins/CuraDrive/src/qml/components/BackupListFooter.qml:31
 msgctxt "@button"
 msgid "Backup Now"
-msgstr "การสำรองข้อมูลในขณะนี้"
+msgstr "สำรองข้อมูลตอนนี้"
 
 #: /home/ruben/Projects/Cura/plugins/CuraDrive/src/qml/components/BackupListFooter.qml:43
 msgctxt "@checkbox:description"
 msgid "Auto Backup"
-msgstr "การสำรองข้อมูลอัตโนมัติ"
+msgstr "สำรองข้อมูลอัตโนมัติ"
 
 #: /home/ruben/Projects/Cura/plugins/CuraDrive/src/qml/components/BackupListFooter.qml:44
 msgctxt "@checkbox:description"
 msgid "Automatically create a backup each day that Cura is started."
-msgstr "โดยอัตโนมัติสร้างการสำรองข้อมูลในแต่ละวันที่จะเริ่มต้น Cura"
+msgstr "สร้างการสำรองข้อมูลโดยอัตโนมัติในแต่ละวันที่ Cura ถูกเริ่ม"
 
 #: /home/ruben/Projects/Cura/plugins/CuraDrive/src/qml/components/BackupListItemDetails.qml:21
 msgctxt "@backuplist:label"
 msgid "Cura Version"
-msgstr "การดูแลรุ่น"
+msgstr "รุ่น Cura"
 
 #: /home/ruben/Projects/Cura/plugins/CuraDrive/src/qml/components/BackupListItemDetails.qml:29
 msgctxt "@backuplist:label"
@@ -5234,12 +5236,12 @@ msgstr "ฟื้นฟู"
 #: /home/ruben/Projects/Cura/plugins/CuraDrive/src/qml/components/BackupListItem.qml:99
 msgctxt "@dialog:title"
 msgid "Delete Backup"
-msgstr "การสำรองข้อมูลลบ"
+msgstr "ลบการสำรองข้อมูล"
 
 #: /home/ruben/Projects/Cura/plugins/CuraDrive/src/qml/components/BackupListItem.qml:100
 msgctxt "@dialog:info"
 msgid "Are you sure you want to delete this backup? This cannot be undone."
-msgstr "คุณแน่ใจหรือไม่ว่าต้องการลบการสำรองข้อมูลนี้? นี้ไม่สามารถยกเลิกได้"
+msgstr "คุณแน่ใจหรือไม่ว่าต้องการลบการสำรองข้อมูลนี้? การกระทำนี้ไม่สามารถยกเลิกได้"
 
 #: /home/ruben/Projects/Cura/plugins/CuraDrive/src/qml/components/BackupListItem.qml:108
 msgctxt "@dialog:title"
@@ -5252,8 +5254,8 @@ msgid ""
 "You will need to restart Cura before your backup is restored. Do you want to"
 " close Cura now?"
 msgstr ""
-"คุณจะต้องเริ่มต้นใหม่ Cura ก่อนสำรองของคุณจะถูกเรียกคืน คุณต้องการที่จะปิด "
-"Cura ตอนนี้หรือไม่"
+"คุณจะต้องเริ่ม Cura ใหม่ ก่อนการสำรองข้อมูลของคุณจะถูกเรียกคืน"
+" คุณต้องการที่จะปิด Cura ตอนนี้หรือไม่?"
 
 #: /home/ruben/Projects/Cura/plugins/CuraDrive/src/qml/main.qml:25
 msgctxt "@title:window"
@@ -5271,8 +5273,8 @@ msgid ""
 "You don't have any backups currently. Use the 'Backup Now' button to create "
 "one."
 msgstr ""
-"คุณไม่จำเป็นต้องสำรองข้อมูลใด ๆ ในขณะนี้ ใช้ปุ่ม 'Backup Now' "
-"เพื่อสร้างหนึ่ง"
+"คุณไม่มีการสำรองข้อมูลใด ๆ ในขณะนี้ "
+"ใช้ปุ่ม 'สำรองข้อมูลตอนนี้' เพื่อสร้างการสำรองข้อมูล"
 
 #: /home/ruben/Projects/Cura/plugins/CuraDrive/src/qml/pages/BackupsPage.qml:60
 msgctxt "@backup_limit_info"
@@ -5280,13 +5282,13 @@ msgid ""
 "During the preview phase, you'll be limited to 5 visible backups. Remove a "
 "backup to see older ones."
 msgstr ""
-"ในระหว่างขั้นตอนการแสดงตัวอย่างของคุณจะถูก จำกัด ให้ 5 "
-"การสำรองข้อมูลที่มองเห็นได้ นำการสำรองข้อมูลเพื่อดูว่าคนที่มีอายุมากกว่า"
+"ในระหว่างขั้นตอนการแสดงตัวอย่าง คุณจะถูกจำกัดการสำรองข้อมูลที่มองเห็นได้ไว้ที่ 5 ตัว"
+"นำการสำรองข้อมูลออกเพื่อดูการสำรองข้อมูลก่อนก่อน"
 
 #: /home/ruben/Projects/Cura/plugins/CuraDrive/src/qml/pages/WelcomePage.qml:34
 msgctxt "@description"
 msgid "Backup and synchronize your Cura settings."
-msgstr "การสำรองข้อมูลและประสานการตั้งค่า Cura ของคุณ"
+msgstr "สำรองข้อมูลและประสานการตั้งค่า Cura ของคุณ"
 
 #: /home/ruben/Projects/Cura/plugins/SimulationView/SimulationViewMenuComponent.qml:20
 #: /home/ruben/Projects/Cura/plugins/SimulationView/SimulationViewMenuComponent.qml:49
@@ -5297,7 +5299,7 @@ msgstr "โทนสี"
 #: /home/ruben/Projects/Cura/plugins/SimulationView/SimulationViewMenuComponent.qml:107
 msgctxt "@label:listbox"
 msgid "Material Color"
-msgstr "วัสดุสี"
+msgstr "สีวัสดุ"
 
 #: /home/ruben/Projects/Cura/plugins/SimulationView/SimulationViewMenuComponent.qml:111
 msgctxt "@label:listbox"
@@ -5307,7 +5309,7 @@ msgstr "ประเภทสาย"
 #: /home/ruben/Projects/Cura/plugins/SimulationView/SimulationViewMenuComponent.qml:115
 msgctxt "@label:listbox"
 msgid "Feedrate"
-msgstr "Feedrate"
+msgstr "ความเร็วการรีด"
 
 #: /home/ruben/Projects/Cura/plugins/SimulationView/SimulationViewMenuComponent.qml:119
 msgctxt "@label:listbox"
@@ -5317,7 +5319,7 @@ msgstr "ความหนาของชั้น"
 #: /home/ruben/Projects/Cura/plugins/SimulationView/SimulationViewMenuComponent.qml:156
 msgctxt "@label"
 msgid "Compatibility Mode"
-msgstr "โหมดที่เข้ากัน"
+msgstr "โหมดคอมแพทติบิลิตี"
 
 #: /home/ruben/Projects/Cura/plugins/SimulationView/SimulationViewMenuComponent.qml:230
 msgctxt "@label"
@@ -5337,12 +5339,12 @@ msgstr "เปลือก"
 #: /home/ruben/Projects/Cura/plugins/SimulationView/SimulationViewMenuComponent.qml:298
 msgctxt "@label"
 msgid "Only Show Top Layers"
-msgstr "เฉพาะเลเยอร์แสดงยอดนิยม"
+msgstr "แสดงเฉพาะชั้นบนสุด"
 
 #: /home/ruben/Projects/Cura/plugins/SimulationView/SimulationViewMenuComponent.qml:308
 msgctxt "@label"
 msgid "Show 5 Detailed Layers On Top"
-msgstr "แสดง 5 ชั้นรายละเอียดด้านบน"
+msgstr "แสดงรายละเอียด5 ชั้นบนสุด"
 
 #: /home/ruben/Projects/Cura/plugins/SimulationView/SimulationViewMenuComponent.qml:322
 msgctxt "@label"
@@ -5352,12 +5354,12 @@ msgstr "ด้านบน / ล่าง"
 #: /home/ruben/Projects/Cura/plugins/SimulationView/SimulationViewMenuComponent.qml:326
 msgctxt "@label"
 msgid "Inner Wall"
-msgstr "ภายในกำแพง"
+msgstr "ภายในผนัง"
 
 #: /home/ruben/Projects/Cura/plugins/SimulationView/SimulationViewMenuComponent.qml:384
 msgctxt "@label"
 msgid "min"
-msgstr "ผม"
+msgstr "ขั้นต่ำ"
 
 #: /home/ruben/Projects/Cura/plugins/SimulationView/SimulationViewMenuComponent.qml:433
 msgctxt "@label"
@@ -5375,27 +5377,27 @@ msgstr ""
 #: CuraProfileReader/plugin.json
 msgctxt "description"
 msgid "Provides support for importing Cura profiles."
-msgstr "ให้การสนับสนุนสำหรับการนำเข้าโปรไฟล์ Cura"
+msgstr "ช่วยให้การสนับสนุนสำหรับการนำเข้าโปรไฟล์ Cura"
 
 #: CuraProfileReader/plugin.json
 msgctxt "name"
 msgid "Cura Profile Reader"
-msgstr "Cura ข้อมูลส่วนตัวของผู้อ่าน"
+msgstr "ตัวอ่านโปรไฟล์ Cura"
 
 #: SliceInfoPlugin/plugin.json
 msgctxt "description"
 msgid "Submits anonymous slice info. Can be disabled through preferences."
-msgstr "ส่งข้อมูลชิ้นที่ไม่ระบุชื่อ สามารถใช้งานผ่านการตั้งค่า"
+msgstr "ส่งข้อมูลซอยโมเดลที่ไม่ระบุชื่อ สามารถปิดผ่านการตั้งค่า"
 
 #: SliceInfoPlugin/plugin.json
 msgctxt "name"
 msgid "Slice info"
-msgstr "ข้อมูลชิ้น"
+msgstr "ข้อมูลการซอยโมเดล"
 
 #: ImageReader/plugin.json
 msgctxt "description"
 msgid "Enables ability to generate printable geometry from 2D image files."
-msgstr "ช่วยให้ความสามารถในการสร้างรูปทรงเรขาคณิตที่พิมพ์จากไฟล์ภาพ 2D"
+msgstr "ช่วยให้สามารถสร้างโมเดลเพื่อการพิมพ์จากไฟล์ภาพ 2D"
 
 #: ImageReader/plugin.json
 msgctxt "name"
@@ -5408,7 +5410,7 @@ msgid ""
 "Provides a way to change machine settings (such as build volume, nozzle "
 "size, etc.)."
 msgstr ""
-"มีวิธีการตั้งค่าเครื่องการเปลี่ยนแปลง (เช่นการสร้างปริมาณขนาดหัวฉีด ฯลฯ )"
+"ช่วยให้วิธีตั้งค่าเครื่อง (เช่นปริมาณการสร้าง ขนาดหัวฉีด ฯลฯ )"
 
 #: MachineSettingsAction/plugin.json
 msgctxt "name"
@@ -5418,17 +5420,17 @@ msgstr "การดำเนินการตั้งค่าเครื่
 #: RemovableDriveOutputDevice/plugin.json
 msgctxt "description"
 msgid "Provides removable drive hotplugging and writing support."
-msgstr "ให้ hotplugging ไดรฟ์แบบถอดได้และการเขียนการสนับสนุน"
+msgstr "ช่วยให้การรองรับการเปลี่ยนไดรฟ์ในขณะที่ระบบกำลังทำงานและการสนับสนุนการเขียน"
 
 #: RemovableDriveOutputDevice/plugin.json
 msgctxt "name"
 msgid "Removable Drive Output Device Plugin"
-msgstr "ปลั๊กอินที่ถอดออกได้อุปกรณ์ไดรฟ์เอาท์พุท"
+msgstr "ปลั๊กอินเอาท์พุทอุปกรณ์ไดรฟ์ที่ถอดออกได้"
 
 #: Toolbox/plugin.json
 msgctxt "description"
 msgid "Find, manage and install new Cura packages."
-msgstr "ค้นหาจัดการและติดตั้งแพคเกจ Cura ใหม่"
+msgstr "ค้นหา จัดการ และติดตั้งแพคเกจ Cura ใหม่"
 
 #: Toolbox/plugin.json
 msgctxt "name"
@@ -5438,22 +5440,22 @@ msgstr "กล่องเครื่องมือ"
 #: AMFReader/plugin.json
 msgctxt "description"
 msgid "Provides support for reading AMF files."
-msgstr "ให้การสนับสนุนสำหรับการอ่านไฟล์สารเลว"
+msgstr "ช่วยให้การสนับสนุนสำหรับการอ่านไฟล์ AMF"
 
 #: AMFReader/plugin.json
 msgctxt "name"
 msgid "AMF Reader"
-msgstr "AMF อ่าน"
+msgstr "ตัวอ่าน AMF"
 
 #: SolidView/plugin.json
 msgctxt "description"
 msgid "Provides a normal solid mesh view."
-msgstr "ให้มุมมองที่เป็นของแข็งตาข่ายปกติ"
+msgstr "ให้วิธีมองตาข่ายทึบปกติ"
 
 #: SolidView/plugin.json
 msgctxt "name"
 msgid "Solid View"
-msgstr "ดูแข็ง"
+msgstr "มุมมองทึบ"
 
 #: UltimakerMachineActions/plugin.json
 msgctxt "description"
@@ -5461,31 +5463,31 @@ msgid ""
 "Provides machine actions for Ultimaker machines (such as bed leveling "
 "wizard, selecting upgrades, etc.)."
 msgstr ""
-"ให้การกระทำของเครื่องสำหรับเครื่อง Ultimaker "
-"(เช่นตัวช่วยสร้างเตียงปรับระดับการอัพเกรดเลือกอื่น ๆ )"
+"ช่วยให้พฤติกรรมของเครื่องสำหรับเครื่อง Ultimaker "
+"(เช่นตัวช่วยปรับระดับแผ่นสร้าง การเลือกอัพเกรด ฯลฯ )"
 
 #: UltimakerMachineActions/plugin.json
 msgctxt "name"
 msgid "Ultimaker machine actions"
-msgstr "การกระทำของเครื่อง Ultimaker"
+msgstr "พฤติกรรมของเครื่อง Ultimaker"
 
 #: USBPrinting/plugin.json
 msgctxt "description"
 msgid ""
 "Accepts G-Code and sends them to a printer. Plugin can also update firmware."
 msgstr ""
-"ยอมรับ G-Code และส่งพวกเขาไปยังเครื่องพิมพ์ ปลั๊กอินยังสามารถอัปเดตเฟิร์มแว"
+"รับและส่ง G-Code ไปยังเครื่องพิมพ์ ปลั๊กอินสามารถอัปเดตเฟิร์มแวได้ด้วย"
 
 #: USBPrinting/plugin.json
 msgctxt "name"
 msgid "USB printing"
-msgstr "พิมพ์ USB"
+msgstr "พิมพ์ผ่าน USB"
 
 #: UM3NetworkPrinting/plugin.json
 msgctxt "description"
 msgid "Manages network connections to Ultimaker networked printers."
 msgstr ""
-"การบริหารจัดการการเชื่อมต่อเครือข่ายไปยังเครื่องพิมพ์ Ultimaker เครือข่าย"
+"บริหารจัดการการเชื่อมต่อเครือข่ายไปยังเครื่องพิมพ์ Ultimaker บนเครือข่าย"
 
 #: UM3NetworkPrinting/plugin.json
 msgctxt "name"
@@ -5495,288 +5497,288 @@ msgstr "การเชื่อมต่อเครือข่าย Ultimake
 #: 3MFReader/plugin.json
 msgctxt "description"
 msgid "Provides support for reading 3MF files."
-msgstr "ให้การสนับสนุนสำหรับการอ่านไฟล์ 3MF"
+msgstr "ช่วยให้การสนับสนุนสำหรับการอ่านไฟล์ 3MF"
 
 #: 3MFReader/plugin.json
 msgctxt "name"
 msgid "3MF Reader"
-msgstr "3MF อ่าน"
+msgstr "ตัวอ่าน 3MF"
 
 #: SupportEraser/plugin.json
 msgctxt "description"
 msgid ""
 "Creates an eraser mesh to block the printing of support in certain places"
-msgstr "สร้างยางลบตาข่ายเพื่อป้องกันการพิมพ์ของการสนับสนุนในสถานที่บางอย่าง"
+msgstr "ช่วยสร้างตาข่ายยางลบเพื่อป้องกันการพิมพ์นั่งร้านในที่บางที่"
 
 #: SupportEraser/plugin.json
 msgctxt "name"
 msgid "Support Eraser"
-msgstr "สนับสนุนยางลบ"
+msgstr "ยางลบนั่งร้าน"
 
 #: PerObjectSettingsTool/plugin.json
 msgctxt "description"
 msgid "Provides the Per Model Settings."
-msgstr "ให้การตั้งค่าต่อรุ่น"
+msgstr "ช่วยให้การตั้งค่าต่อโมเดล"
 
 #: PerObjectSettingsTool/plugin.json
 msgctxt "name"
 msgid "Per Model Settings Tool"
-msgstr "ต่อรุ่นเครื่องมือการตั้งค่า"
+msgstr "เครื่องมือการตั้งค่าต่อโมเดล"
 
 #: PreviewStage/plugin.json
 msgctxt "description"
 msgid "Provides a preview stage in Cura."
-msgstr "ให้เป็นเวทีการแสดงตัวอย่างใน Cura"
+msgstr "ช่วยให้เวทีการแสดงตัวอย่างใน Cura"
 
 #: PreviewStage/plugin.json
 msgctxt "name"
 msgid "Preview Stage"
-msgstr "ดูตัวอย่างเวที"
+msgstr "เวทีแสดงตัวอย่าง"
 
 #: XRayView/plugin.json
 msgctxt "description"
 msgid "Provides the X-Ray view."
-msgstr "ให้มุมมอง X-Ray"
+msgstr "ช่วยให้มุมมอง X-Ray"
 
 #: XRayView/plugin.json
 msgctxt "name"
 msgid "X-Ray View"
-msgstr "X-Ray ดู"
+msgstr "มุมมอง X-Ray"
 
 #: VersionUpgrade/VersionUpgrade35to40/plugin.json
 msgctxt "description"
 msgid "Upgrades configurations from Cura 3.5 to Cura 4.0."
-msgstr "การกำหนดค่าการอัพเกรดจาก Cura 3.5 ถึง 4.0 Cura"
+msgstr "อัพเกรดการกำหนดค่าจาก Cura 3.5 เป็น Cura 4.0"
 
 #: VersionUpgrade/VersionUpgrade35to40/plugin.json
 msgctxt "name"
 msgid "Version Upgrade 3.5 to 4.0"
-msgstr "เวอร์ชันอัพเกรด 3.5-4.0"
+msgstr "อัพเกรด 3.5 เป็น 4.0"
 
 #: VersionUpgrade/VersionUpgrade26to27/plugin.json
 msgctxt "description"
 msgid "Upgrades configurations from Cura 2.6 to Cura 2.7."
-msgstr "การกำหนดค่าการอัพเกรดจาก Cura 2.6 Cura 2.7"
+msgstr "อัพเกรดการกำหนดค่าจาก Cura 2.6 เป็น Cura 2.7"
 
 #: VersionUpgrade/VersionUpgrade26to27/plugin.json
 msgctxt "name"
 msgid "Version Upgrade 2.6 to 2.7"
-msgstr "เวอร์ชันอัพเกรด 2.6-2.7"
+msgstr "อัพเกรด 2.6 เป็น 2.7"
 
 #: VersionUpgrade/VersionUpgrade21to22/plugin.json
 msgctxt "description"
 msgid "Upgrades configurations from Cura 2.1 to Cura 2.2."
-msgstr "การกำหนดค่าการอัพเกรดจาก Cura 2.1 Cura 2.2"
+msgstr "อัพเกรดการกำหนดค่าจาก Cura 2.1 เป็น  Cura 2.2"
 
 #: VersionUpgrade/VersionUpgrade21to22/plugin.json
 msgctxt "name"
 msgid "Version Upgrade 2.1 to 2.2"
-msgstr "เวอร์ชันอัพเกรด 2.1-2.2"
+msgstr "อัพเกรด 2.1 เป็น 2.2"
 
 #: VersionUpgrade/VersionUpgrade34to35/plugin.json
 msgctxt "description"
 msgid "Upgrades configurations from Cura 3.4 to Cura 3.5."
-msgstr "การกำหนดค่าการอัพเกรดจาก Cura 3.4 Cura 3.5"
+msgstr "อัพเกรดการกำหนดค่าจาก Cura 3.4 เป็น Cura 3.5"
 
 #: VersionUpgrade/VersionUpgrade34to35/plugin.json
 msgctxt "name"
 msgid "Version Upgrade 3.4 to 3.5"
-msgstr "เวอร์ชันอัพเกรด 3.4-3.5"
+msgstr "อัพเกรด 3.4 เป็น 3.5"
 
 #: VersionUpgrade/VersionUpgrade44to45/plugin.json
 msgctxt "description"
 msgid "Upgrades configurations from Cura 4.4 to Cura 4.5."
-msgstr "การกำหนดค่าการอัพเกรดจาก Cura 4.4 Cura 4.5"
+msgstr "อัพเกรดการกำหนดค่าจาก Cura 4.4 เป็น Cura 4.5"
 
 #: VersionUpgrade/VersionUpgrade44to45/plugin.json
 msgctxt "name"
 msgid "Version Upgrade 4.4 to 4.5"
-msgstr "เวอร์ชันอัพเกรด 4.4-4.5"
+msgstr "อัพเกรด 4.4 เป็น 4.5"
 
 #: VersionUpgrade/VersionUpgrade33to34/plugin.json
 msgctxt "description"
 msgid "Upgrades configurations from Cura 3.3 to Cura 3.4."
-msgstr "การกำหนดค่าการอัพเกรดจาก Cura 3.3 ถึง 3.4 Cura"
+msgstr "อัพเกรดการกำหนดค่าจาก Cura 3.3 เป็น 3.4 Cura"
 
 #: VersionUpgrade/VersionUpgrade33to34/plugin.json
 msgctxt "name"
 msgid "Version Upgrade 3.3 to 3.4"
-msgstr "เวอร์ชันอัพเกรด 3.3-3.4"
+msgstr "อัพเกรด 3.3 เป็น 3.4"
 
 #: VersionUpgrade/VersionUpgrade30to31/plugin.json
 msgctxt "description"
 msgid "Upgrades configurations from Cura 3.0 to Cura 3.1."
-msgstr "การกำหนดค่าการอัพเกรดจาก Cura 3.0 Cura 3.1"
+msgstr "อัพเกรดการกำหนดค่าจาก Cura 3.0 เป็น Cura 3.1"
 
 #: VersionUpgrade/VersionUpgrade30to31/plugin.json
 msgctxt "name"
 msgid "Version Upgrade 3.0 to 3.1"
-msgstr "เวอร์ชันอัพเกรด 3.0-3.1"
+msgstr "อัพเกรด 3.0 เป็น 3.1"
 
 #: VersionUpgrade/VersionUpgrade32to33/plugin.json
 msgctxt "description"
 msgid "Upgrades configurations from Cura 3.2 to Cura 3.3."
-msgstr "การกำหนดค่าการอัพเกรดจาก Cura 3.2 Cura 3.3"
+msgstr "อัพเกรดการกำหนดค่าจาก Cura 3.2 เป็น Cura 3.3"
 
 #: VersionUpgrade/VersionUpgrade32to33/plugin.json
 msgctxt "name"
 msgid "Version Upgrade 3.2 to 3.3"
-msgstr "เวอร์ชันอัพเกรด 3.2-3.3"
+msgstr "อัพเกรด 3.2 เป็น 3.3"
 
 #: VersionUpgrade/VersionUpgrade22to24/plugin.json
 msgctxt "description"
 msgid "Upgrades configurations from Cura 2.2 to Cura 2.4."
-msgstr "การกำหนดค่าการอัพเกรดจาก Cura 2.2 Cura 2.4"
+msgstr "อัพเกรดการกำหนดค่าจาก Cura 2.2 เป็น Cura 2.4"
 
 #: VersionUpgrade/VersionUpgrade22to24/plugin.json
 msgctxt "name"
 msgid "Version Upgrade 2.2 to 2.4"
-msgstr "เวอร์ชันอัพเกรด 2.2-2.4"
+msgstr "อัพเกรด 2.2 เป็น 2.4"
 
 #: VersionUpgrade/VersionUpgrade25to26/plugin.json
 msgctxt "description"
 msgid "Upgrades configurations from Cura 2.5 to Cura 2.6."
-msgstr "การกำหนดค่าการอัพเกรดจาก Cura 2.5 ถึง 2.6 Cura"
+msgstr "อัพเกรดการกำหนดค่าจาก Cura 2.5 เป็น 2.6 Cura"
 
 #: VersionUpgrade/VersionUpgrade25to26/plugin.json
 msgctxt "name"
 msgid "Version Upgrade 2.5 to 2.6"
-msgstr "เวอร์ชันอัพเกรด 2.5-2.6"
+msgstr "อัพเกรด 2.5 เป็น 2.6"
 
 #: VersionUpgrade/VersionUpgrade43to44/plugin.json
 msgctxt "description"
 msgid "Upgrades configurations from Cura 4.3 to Cura 4.4."
-msgstr "การกำหนดค่าการอัพเกรดจาก Cura 4.3 Cura 4.4"
+msgstr "อัพเกรดการกำหนดค่าจาก Cura 4.3 เป็น Cura 4.4"
 
 #: VersionUpgrade/VersionUpgrade43to44/plugin.json
 msgctxt "name"
 msgid "Version Upgrade 4.3 to 4.4"
-msgstr "เวอร์ชันอัพเกรด 4.3-4.4"
+msgstr "อัพเกรด 4.3 เป็น 4.4"
 
 #: VersionUpgrade/VersionUpgrade27to30/plugin.json
 msgctxt "description"
 msgid "Upgrades configurations from Cura 2.7 to Cura 3.0."
-msgstr "การกำหนดค่าการอัพเกรดจาก Cura 2.7 Cura 3.0"
+msgstr "อัพเกรดการกำหนดค่าจาก Cura 2.7 เป็น Cura 3.0"
 
 #: VersionUpgrade/VersionUpgrade27to30/plugin.json
 msgctxt "name"
 msgid "Version Upgrade 2.7 to 3.0"
-msgstr "เวอร์ชันอัพเกรด 2.7-3.0"
+msgstr "อัพเกรด 2.7 เป็น 3.0"
 
 #: VersionUpgrade/VersionUpgrade40to41/plugin.json
 msgctxt "description"
 msgid "Upgrades configurations from Cura 4.0 to Cura 4.1."
-msgstr "การกำหนดค่าการอัพเกรดจาก Cura 4.0 Cura 4.1"
+msgstr "อัพเกรดการกำหนดค่าจาก Cura 4.0 เป็น Cura 4.1"
 
 #: VersionUpgrade/VersionUpgrade40to41/plugin.json
 msgctxt "name"
 msgid "Version Upgrade 4.0 to 4.1"
-msgstr "เวอร์ชันอัพเกรด 4.0-4.1"
+msgstr "อัพเกรด 4.0 เป็น 4.1"
 
 #: VersionUpgrade/VersionUpgrade42to43/plugin.json
 msgctxt "description"
 msgid "Upgrades configurations from Cura 4.2 to Cura 4.3."
-msgstr "การกำหนดค่าการอัพเกรดจาก Cura 4.2 Cura 4.3"
+msgstr "อัพเกรดการกำหนดค่าจาก Cura 4.2 เป็น Cura 4.3"
 
 #: VersionUpgrade/VersionUpgrade42to43/plugin.json
 msgctxt "name"
 msgid "Version Upgrade 4.2 to 4.3"
-msgstr "เวอร์ชันอัพเกรด 4.2-4.3"
+msgstr "อัพเกรด 4.2 เป็น 4.3"
 
 #: VersionUpgrade/VersionUpgrade41to42/plugin.json
 msgctxt "description"
 msgid "Upgrades configurations from Cura 4.1 to Cura 4.2."
-msgstr "การกำหนดค่าการอัพเกรดจาก Cura 4.1 ถึง 4.2 Cura"
+msgstr "อัพเกรดการกำหนดค่าจาก Cura 4.1 เป็น 4.2 Cura"
 
 #: VersionUpgrade/VersionUpgrade41to42/plugin.json
 msgctxt "name"
 msgid "Version Upgrade 4.1 to 4.2"
-msgstr "เวอร์ชันอัพเกรด 4.1-4.2"
+msgstr "อัพเกรด 4.1 เป็น 4.2"
 
 #: GCodeReader/plugin.json
 msgctxt "description"
 msgid "Allows loading and displaying G-code files."
-msgstr "ช่วยให้การโหลดและการแสดงไฟล์ G-รหัส"
+msgstr "ช่วยในการโหลดและการแสดงไฟล์ G-code"
 
 #: GCodeReader/plugin.json
 msgctxt "name"
 msgid "G-code Reader"
-msgstr "G-Code Reader"
+msgstr "ตัวอ่าน G-Code"
 
 #: PostProcessingPlugin/plugin.json
 msgctxt "description"
 msgid "Extension that allows for user created scripts for post processing"
-msgstr "ส่วนต่อขยายที่ช่วยให้การสร้างผู้ใช้สคริปต์สำหรับการประมวลผลการโพสต์"
+msgstr "ส่วนต่อขยายที่ช่วยให้ใช้สคริปต์สำหรับการประมวลผลการโพสต์"
 
 #: PostProcessingPlugin/plugin.json
 msgctxt "name"
 msgid "Post Processing"
-msgstr "โพสต์การประมวลผล"
+msgstr "การประมวลผล"
 
 #: CuraEngineBackend/plugin.json
 msgctxt "description"
 msgid "Provides the link to the CuraEngine slicing backend."
-msgstr "ให้เชื่อมโยงไปยังแบ็กเอนด์ CuraEngine หั่น"
+msgstr "ช่วยให้เชื่อมโยงไปยังแบ็กเอนด์ CuraEngine สำหรับการซอยโมเดล"
 
 #: CuraEngineBackend/plugin.json
 msgctxt "name"
 msgid "CuraEngine Backend"
-msgstr "CuraEngine Backend"
+msgstr "แบ็กเอนด์  CuraEngine"
 
 #: LegacyProfileReader/plugin.json
 msgctxt "description"
 msgid "Provides support for importing profiles from legacy Cura versions."
-msgstr "ให้การสนับสนุนสำหรับการนำเข้าจากโปรไฟล์มรดกรุ่น Cura"
+msgstr "ช่วยให้การสนับสนุนสำหรับการนำเข้าจากโปรไฟล์จาก Cura รุ่นก่อนก่อน"
 
 #: LegacyProfileReader/plugin.json
 msgctxt "name"
 msgid "Legacy Cura Profile Reader"
-msgstr "มรดก Cura โปรไฟล์อ่าน"
+msgstr "ตัวอ่านโปรไฟล์จาก Cura รุ่นก่อนก่อน"
 
 #: UFPReader/plugin.json
 msgctxt "description"
 msgid "Provides support for reading Ultimaker Format Packages."
-msgstr "ให้การสนับสนุนสำหรับการอ่าน Ultimaker แพคเกจรูปแบบ"
+msgstr "ช่วยให้การสนับสนุนสำหรับการอ่านแพคเกจรูปแบบ Ultimaker หรือเรียกสั้น ๆ ว่า UFP"
 
 #: UFPReader/plugin.json
 msgctxt "name"
 msgid "UFP Reader"
-msgstr "UFP อ่าน"
+msgstr "ตัวอ่าน UFP"
 
 #: GCodeProfileReader/plugin.json
 msgctxt "description"
 msgid "Provides support for importing profiles from g-code files."
-msgstr "ให้การสนับสนุนสำหรับการนำเข้าโปรไฟล์จากไฟล์กรัมรหัส"
+msgstr "ช่วยให้การสนับสนุนสำหรับการนำเข้าโปรไฟล์จากไฟล์ G-code"
 
 #: GCodeProfileReader/plugin.json
 msgctxt "name"
 msgid "G-code Profile Reader"
-msgstr "G-Code Reader เครื่องอ่านข้อมูลส่วนตัว"
+msgstr "ตัวอ่านโปรไฟล์จากไฟล์ G-Code"
 
 #: CuraProfileWriter/plugin.json
 msgctxt "description"
 msgid "Provides support for exporting Cura profiles."
-msgstr "ให้การสนับสนุนสำหรับการส่งออกโปรไฟล์ Cura"
+msgstr "ช่วยให้การสนับสนุนสำหรับการส่งออกโปรไฟล์ Cura"
 
 #: CuraProfileWriter/plugin.json
 msgctxt "name"
 msgid "Cura Profile Writer"
-msgstr "Cura ข้อมูลส่วนตัวของนักเขียน"
+msgstr "ตัวเขียนโปรไฟล์ Cura"
 
 #: FirmwareUpdater/plugin.json
 msgctxt "description"
 msgid "Provides a machine actions for updating firmware."
-msgstr "ให้การกระทำของเครื่องสำหรับการปรับปรุงเฟิร์มแว"
+msgstr "ช่วยให้พฤติกรรมของเครื่องสำหรับการปรับปรุงเฟิร์มแว"
 
 #: FirmwareUpdater/plugin.json
 msgctxt "name"
 msgid "Firmware Updater"
-msgstr "อัพเดตเฟิร์มแว"
+msgstr "ตัวอัพเดตเฟิร์มแว"
 
 #: PrepareStage/plugin.json
 msgctxt "description"
 msgid "Provides a prepare stage in Cura."
-msgstr "ให้เตรียมความพร้อมในเวที Cura"
+msgstr "ช่วยเตรียมความพร้อมเวที Cura"
 
 #: PrepareStage/plugin.json
 msgctxt "name"
@@ -5786,57 +5788,57 @@ msgstr "เตรียมเวที"
 #: TrimeshReader/plugin.json
 msgctxt "description"
 msgid "Provides support for reading model files."
-msgstr "ให้การสนับสนุนสำหรับการอ่านไฟล์รูปแบบ"
+msgstr "ช่วยให้การสนับสนุนสำหรับการอ่านไฟล์โมเดล"
 
 #: TrimeshReader/plugin.json
 msgctxt "name"
 msgid "Trimesh Reader"
-msgstr "Trimesh อ่าน"
+msgstr "ตัวอ่านโมเดลตาข่ายสามเหลี่ยม"
 
 #: 3MFWriter/plugin.json
 msgctxt "description"
 msgid "Provides support for writing 3MF files."
-msgstr "ให้การสนับสนุนสำหรับการเขียนไฟล์ 3MF"
+msgstr "ช่วยให้การสนับสนุนสำหรับการเขียนไฟล์ 3MF"
 
 #: 3MFWriter/plugin.json
 msgctxt "name"
 msgid "3MF Writer"
-msgstr "3MF นักเขียน"
+msgstr "ตัวเขียน 3MF"
 
 #: GCodeWriter/plugin.json
 msgctxt "description"
 msgid "Writes g-code to a file."
-msgstr "เขียนกรัมรหัสไปยังแฟ้ม"
+msgstr "ช่วยเขียน G-code ไปยังแฟ้ม"
 
 #: GCodeWriter/plugin.json
 msgctxt "name"
 msgid "G-code Writer"
-msgstr "G-รหัสนักเขียน"
+msgstr "ตัวเขียน G-code"
 
 #: MonitorStage/plugin.json
 msgctxt "description"
 msgid "Provides a monitor stage in Cura."
-msgstr "มีขั้นตอนการตรวจสอบใน Cura"
+msgstr "ช่วยให้มีเวทีการตรวจสอบใน Cura"
 
 #: MonitorStage/plugin.json
 msgctxt "name"
 msgid "Monitor Stage"
-msgstr "การตรวจสอบขั้นตอน"
+msgstr "เวทีการตรวจสอบ"
 
 #: XmlMaterialProfile/plugin.json
 msgctxt "description"
 msgid "Provides capabilities to read and write XML-based material profiles."
-msgstr "มีความสามารถในการอ่านและการเขียน XML-based โปรไฟล์วัสดุ"
+msgstr "ช่วยให้มีความสามารถในการอ่านและการเขียนโปรไฟล์วัสดุแบบ XML"
 
 #: XmlMaterialProfile/plugin.json
 msgctxt "name"
 msgid "Material Profiles"
-msgstr "วัสดุโปรไฟล์"
+msgstr "โปรไฟล์วัสดุ"
 
 #: CuraDrive/plugin.json
 msgctxt "description"
 msgid "Backup and restore your configuration."
-msgstr "สำรองและเรียกคืนการตั้งค่าของคุณ"
+msgstr "ช่วยสำรองและเรียกคืนการตั้งค่าของคุณ"
 
 #: CuraDrive/plugin.json
 msgctxt "name"
@@ -5846,42 +5848,42 @@ msgstr "การสำรองข้อมูล Cura"
 #: X3DReader/plugin.json
 msgctxt "description"
 msgid "Provides support for reading X3D files."
-msgstr "ให้การสนับสนุนสำหรับการอ่านไฟล์ X3D"
+msgstr "ช่วยให้การสนับสนุนสำหรับการอ่านไฟล์ X3D"
 
 #: X3DReader/plugin.json
 msgctxt "name"
 msgid "X3D Reader"
-msgstr "X3D อ่าน"
+msgstr "ตัวอ่าน X3D"
 
 #: SimulationView/plugin.json
 msgctxt "description"
 msgid "Provides the Simulation view."
-msgstr "ให้มุมมองการจำลอง"
+msgstr "ช่วยให้มุมมองจำลอง"
 
 #: SimulationView/plugin.json
 msgctxt "name"
 msgid "Simulation View"
-msgstr "จำลองดู"
+msgstr "มุมมองจำลอง"
 
 #: GCodeGzReader/plugin.json
 msgctxt "description"
 msgid "Reads g-code from a compressed archive."
-msgstr "อ่านกรัมรหัสจากที่เก็บบีบอัด"
+msgstr "ช่วยอ่าน G-code จากที่เก็บบีบอัด"
 
 #: GCodeGzReader/plugin.json
 msgctxt "name"
 msgid "Compressed G-code Reader"
-msgstr "การบีบอัด G-Code Reader"
+msgstr "ตัวอ่าน G-Code จากที่เก็บบีบอัด"
 
 #: UFPWriter/plugin.json
 msgctxt "description"
 msgid "Provides support for writing Ultimaker Format Packages."
-msgstr "ให้การสนับสนุนสำหรับการเขียน Ultimaker แพคเกจรูปแบบ"
+msgstr "ช่วยให้การสนับสนุนสำหรับการเขียนแพคเกจรูปแบบ Ultimaker หรือเรียกสั้น ๆ ว่า UFP"
 
 #: UFPWriter/plugin.json
 msgctxt "name"
 msgid "UFP Writer"
-msgstr "UFP นักเขียน"
+msgstr "ตัวเขียน UFP"
 
 #: ModelChecker/plugin.json
 msgctxt "description"
@@ -5889,40 +5891,40 @@ msgid ""
 "Checks models and print configuration for possible printing issues and give "
 "suggestions."
 msgstr ""
-"แบบจำลองการตรวจสอบและการกำหนดค่าการพิมพ์สำหรับปัญหาการพิมพ์ที่เป็นไปได้และให้ข้อเสนอแนะ"
+"ช่วยตรวจสอบโมเดลและการกำหนดค่าการพิมพ์ สำหรับการหาปัญหาการพิมพ์ที่เป็นไปได้ และให้ข้อเสนอแนะ"
 
 #: ModelChecker/plugin.json
 msgctxt "name"
 msgid "Model Checker"
-msgstr "ตรวจสอบรุ่น"
+msgstr "ตัวตรวจสอบโมเดล"
 
 #: SentryLogger/plugin.json
 msgctxt "description"
 msgid "Logs certain events so that they can be used by the crash reporter"
 msgstr ""
-"แฟ้มบันทึกเหตุการณ์บางอย่างเพื่อให้พวกเขาสามารถนำมาใช้โดยนักข่าวผิดพลาด"
+"ช่วยบันทึกเหตุการณ์เพื่อนำมาใช้รายงานความผิดพลาด"
 
 #: SentryLogger/plugin.json
 msgctxt "name"
 msgid "Sentry Logger"
-msgstr "ยาม Logger"
+msgstr "ยามช่วยบันทึก"
 
 #: GCodeGzWriter/plugin.json
 msgctxt "description"
 msgid "Writes g-code to a compressed archive."
-msgstr "เขียนกรัมรหัสที่เก็บบีบอัด"
+msgstr "ช่วยเขียน G-code ไปที่ที่เก็บบีบอัด"
 
 #: GCodeGzWriter/plugin.json
 msgctxt "name"
 msgid "Compressed G-code Writer"
-msgstr "การบีบอัด G-รหัสนักเขียน"
+msgstr "ตัวเขียน G-code ไปที่ที่เก็บบีบอัด"
 
 #: FirmwareUpdateChecker/plugin.json
 msgctxt "description"
 msgid "Checks for firmware updates."
-msgstr "ตรวจสอบการอัปเดตเฟิร์มแว"
+msgstr "ช่วยตรวจสอบการอัปเดตเฟิร์มแว"
 
 #: FirmwareUpdateChecker/plugin.json
 msgctxt "name"
 msgid "Firmware Update Checker"
-msgstr "Firmware Update ตรวจสอบ"
+msgstr "ตัวตรวจสอบการอัปเดตเฟิร์มแว"

@@ -20,7 +20,7 @@ msgstr "เครื่อง"
 #: fdmprinter.def.json
 msgctxt "machine_settings description"
 msgid "Machine specific settings"
-msgstr "การตั้งค่าเครื่องที่เฉพาะเจาะจง"
+msgstr "การตั้งค่าเฉพาะเครื่อง"
 
 #: fdmprinter.def.json
 msgctxt "machine_name label"
@@ -30,12 +30,12 @@ msgstr "ประเภทเครื่อง"
 #: fdmprinter.def.json
 msgctxt "machine_name description"
 msgid "The name of your 3D printer model."
-msgstr "ชื่อของรุ่นเครื่องพิมพ์ 3 มิติของคุณ"
+msgstr "ชื่อของเครื่องพิมพ์ 3 มิติของคุณ"
 
 #: fdmprinter.def.json
 msgctxt "machine_show_variants label"
 msgid "Show Machine Variants"
-msgstr "แสดงเครื่องที่แตกต่าง"
+msgstr "แสดงเครื่องที่คล้ายคลึงกัน"
 
 #: fdmprinter.def.json
 msgctxt "machine_show_variants description"
@@ -43,13 +43,13 @@ msgid ""
 "Whether to show the different variants of this machine, which are described "
 "in separate json files."
 msgstr ""
-"ว่าจะแสดงสายพันธุ์ที่แตกต่างกันของเครื่องนี้ซึ่งจะมีการอธิบายไว้ในไฟล์ JSON "
-"แยกต่างหาก"
+"แสดงเครื่องที่คล้ายคลึงกัน"
+"ซึ่งจะมีการอธิบายไว้ในไฟล์ JSON แยกต่างหาก"
 
 #: fdmprinter.def.json
 msgctxt "machine_start_gcode label"
 msgid "Start G-code"
-msgstr "เริ่มต้น G-รหัส"
+msgstr "G-code เริ่มต้น "
 
 #: fdmprinter.def.json
 msgctxt "machine_start_gcode description"
@@ -57,13 +57,13 @@ msgid ""
 "G-code commands to be executed at the very start - separated by \n"
 "."
 msgstr ""
-"คำสั่ง G-รหัสที่จะดำเนินการที่เริ่มต้นมาก - แยกจากกันโดย\n"
+"คำสั่ง G-code ที่จะดำเนินการตอนเริ่มต้น- แยกจากกันโดย\n"
 "."
 
 #: fdmprinter.def.json
 msgctxt "machine_end_gcode label"
 msgid "End G-code"
-msgstr "End G-รหัส"
+msgstr "G-code หยุด"
 
 #: fdmprinter.def.json
 msgctxt "machine_end_gcode description"
@@ -71,18 +71,18 @@ msgid ""
 "G-code commands to be executed at the very end - separated by \n"
 "."
 msgstr ""
-"คำสั่ง G-รหัสที่จะดำเนินการที่ส่วนท้ายสุด - แยกจากกันโดย\n"
+"คำสั่ง G-code ที่จะดำเนินการตอนหยุด- แยกจากกันโดย\n"
 "."
 
 #: fdmprinter.def.json
 msgctxt "material_guid label"
 msgid "Material GUID"
-msgstr "GUID วัสดุ"
+msgstr "รหัสวัสดุ"
 
 #: fdmprinter.def.json
 msgctxt "material_guid description"
 msgid "GUID of the material. This is set automatically. "
-msgstr "GUID ของวัสดุ แห่งนี้ตั้งโดยอัตโนมัติ"
+msgstr "รหัสของวัสดุ ตั้งโดยอัตโนมัติ"
 
 #: fdmprinter.def.json
 msgctxt "material_diameter label"
@@ -95,13 +95,13 @@ msgid ""
 "Adjusts the diameter of the filament used. Match this value with the "
 "diameter of the used filament."
 msgstr ""
-"ปรับขนาดเส้นผ่าศูนย์กลางของเส้นใยที่ใช้ "
-"ตรงกับค่านี้มีขนาดเส้นผ่าศูนย์กลางของเส้นใยที่ใช้"
+"ปรับขนาดเส้นผ่าศูนย์กลางของพลาสติกที่ใช้ "
+"ปรับค่านี้ให้ตรงขนาดเส้นผ่าศูนย์กลางของพลาสติกที่ใช้"
 
 #: fdmprinter.def.json
 msgctxt "material_bed_temp_wait label"
 msgid "Wait for Build Plate Heatup"
-msgstr "รอให้รูปร่างแผ่นความร้อนขึ้น"
+msgstr "รอให้แผ่นสร้างร้อนขึ้น"
 
 #: fdmprinter.def.json
 msgctxt "material_bed_temp_wait description"

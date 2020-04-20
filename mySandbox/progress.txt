@@ -1,6 +1,8 @@
 cura
-2410
+ fin
 fdmextruder
+ fin
 fdmprinter
+ 104
 uranium
 

@@ -3,7 +3,7 @@ nozzle,หัวรีด
 model,โมเดล
 support,นั่งร้าน
 slice,ซอยโมเดล
-prime tower,หอเตรียมหัวฉีด
+prime tower,หอเตรียมหัวรีด
 extruder,เครื่องอัดรีด
 layer,เลเยอร์
 triangle mesh,โมเดลตาข่ายสามเหลี่ยม
@@ -27,3 +27,6 @@ quality type,ประเภทคุณภาพ
 hot end,หัวร้อน
 heated bed,ฐานสร้างอุ่น
 orthographic,ออโธกราฟฟิค
+viewport,วิวพอร์ต
+overhang,ส่วนลอย
+compatiibility,คอมแพทติบิลิตี
