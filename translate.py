@@ -90,9 +90,10 @@ for _file in files:
             # nothing got translated, so just end program
             input('Press enter to end.')
             exit()
-    except:
+    except Exception as e:
         # this is for some other error
-        print('Some error with googletrans. Check internet?')
+        print('Some error with googletrans:')
+        print(e)
         if len(enToDestLang) == 0:
             # nothing got translated, so just end program
             input('Press enter to end.')
